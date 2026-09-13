@@ -1,0 +1,5891 @@
+[
+  {
+    "id": "arith-01",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "prompt": "A shirt originally priced $40 is discounted by 25%. What is the sale price?",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "$10"
+      },
+      {
+        "id": "c1",
+        "text": "$25"
+      },
+      {
+        "id": "c2",
+        "text": "$30"
+      },
+      {
+        "id": "c3",
+        "text": "$32"
+      },
+      {
+        "id": "c4",
+        "text": "$35"
+      }
+    ],
+    "correctChoiceId": "c2",
+    "solutionSteps": [
+      "Discount amount = 25% of $40 = 0.25 × 40 = $10.",
+      "Sale price = original price − discount = $40 − $10 = $30."
+    ],
+    "formula": "Sale price = original × (1 − discount rate)",
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "arith-02",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is 35% of 60?",
+    "correctValue": 21,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Convert 35% to a decimal: 0.35.",
+      "Multiply: 0.35 × 60 = 21."
+    ],
+    "formula": "part = percent × whole",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "arith-03",
+    "topic": "arithmetic",
+    "subtopic": "Ratios & Proportions",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "The ratio of boys to girls in a class is 3:5. If there are 24 students total, how many girls are there?",
+    "correctValue": 15,
+    "tolerance": 0,
+    "unit": "girls",
+    "solutionSteps": [
+      "Total ratio parts = 3 + 5 = 8.",
+      "Each part represents 24 ÷ 8 = 3 students.",
+      "Girls = 5 parts × 3 = 15."
+    ],
+    "formula": "part value = total ÷ sum of ratio parts",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "arith-04",
+    "topic": "arithmetic",
+    "subtopic": "Fractions",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "prompt": "What is 3/4 + 5/6?",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "8/10"
+      },
+      {
+        "id": "c1",
+        "text": "19/12"
+      },
+      {
+        "id": "c2",
+        "text": "7/6"
+      },
+      {
+        "id": "c3",
+        "text": "19/24"
+      },
+      {
+        "id": "c4",
+        "text": "3/2"
+      }
+    ],
+    "correctChoiceId": "c1",
+    "solutionSteps": [
+      "Find a common denominator: LCD of 4 and 6 is 12.",
+      "3/4 = 9/12 and 5/6 = 10/12.",
+      "9/12 + 10/12 = 19/12."
+    ],
+    "formula": "Common denominator addition",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "arith-05",
+    "topic": "arithmetic",
+    "subtopic": "Exponents & Roots",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is 2^5 × 2^3?",
+    "correctValue": 256,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "When multiplying powers with the same base, add the exponents: 2^5 × 2^3 = 2^8.",
+      "2^8 = 256."
+    ],
+    "formula": "a^m × a^n = a^(m+n)",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "arith-06",
+    "topic": "arithmetic",
+    "subtopic": "Exponents & Roots",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is √144 + √81?",
+    "correctValue": 21,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "√144 = 12.",
+      "√81 = 9.",
+      "12 + 9 = 21."
+    ],
+    "formula": "Perfect square roots",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "arith-07",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the least common multiple (LCM) of 12 and 18?",
+    "correctValue": 36,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Prime factorize: 12 = 2² × 3, 18 = 2 × 3².",
+      "LCM takes the highest power of each prime: 2² × 3² = 4 × 9 = 36."
+    ],
+    "formula": "LCM via prime factorization",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "arith-08",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the greatest common divisor (GCD) of 48 and 60?",
+    "correctValue": 12,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Prime factorize: 48 = 2⁴ × 3, 60 = 2² × 3 × 5.",
+      "GCD takes the lowest power of shared primes: 2² × 3 = 12."
+    ],
+    "formula": "GCD via prime factorization",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "arith-09",
+    "topic": "arithmetic",
+    "subtopic": "Order of Operations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Evaluate: 6 + 4 × (5 − 2) ÷ 2",
+    "correctValue": 12,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Parentheses first: 5 − 2 = 3.",
+      "Multiply/divide left to right: 4 × 3 = 12, then 12 ÷ 2 = 6.",
+      "Add: 6 + 6 = 12."
+    ],
+    "formula": "PEMDAS",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "arith-10",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "prompt": "A price increases by 20% and then decreases by 20%. What is the overall percent change from the original price?",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "No change"
+      },
+      {
+        "id": "c1",
+        "text": "4% increase"
+      },
+      {
+        "id": "c2",
+        "text": "4% decrease"
+      },
+      {
+        "id": "c3",
+        "text": "20% decrease"
+      },
+      {
+        "id": "c4",
+        "text": "40% decrease"
+      }
+    ],
+    "correctChoiceId": "c2",
+    "solutionSteps": [
+      "After a 20% increase, price = 1.20 × original.",
+      "After a 20% decrease from that, price = 1.20 × 0.80 × original = 0.96 × original.",
+      "0.96 × original is a 4% decrease from the original price.",
+      "The two percent changes don't cancel because the second is taken on a different (larger) base."
+    ],
+    "formula": "Sequential percent change ≠ sum of the percents",
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "arith-11",
+    "topic": "arithmetic",
+    "subtopic": "Ratios & Proportions",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "If 5 pencils cost $2, how much do 15 pencils cost (in dollars)?",
+    "correctValue": 6,
+    "tolerance": 0,
+    "unit": "$",
+    "solutionSteps": [
+      "15 pencils is 3 times as many as 5 pencils (15 ÷ 5 = 3).",
+      "Cost scales the same way: 3 × $2 = $6."
+    ],
+    "formula": "Direct proportion",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "arith-12",
+    "topic": "arithmetic",
+    "subtopic": "Fractions",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is 0.25 × 0.4?",
+    "correctValue": 0.1,
+    "tolerance": 0.001,
+    "unit": null,
+    "solutionSteps": [
+      "0.25 × 0.4 = 25/100 × 4/10 = 100/1000 = 0.1."
+    ],
+    "formula": "Decimal multiplication",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "arith-13",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many distinct prime factors does 360 have?",
+    "correctValue": 3,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Prime factorize 360: 360 = 8 × 45 = 2³ × 9 × 5 = 2³ × 3² × 5.",
+      "The distinct primes are 2, 3, and 5 — that's 3 distinct prime factors."
+    ],
+    "formula": "Prime factorization",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "arith-14",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "medium",
+    "type": "quant-comparison",
+    "prompt": "Compare the two quantities.",
+    "quantityA": "40% of 250",
+    "quantityB": "25% of 400",
+    "correctComparison": "equal",
+    "solutionSteps": [
+      "Quantity A: 0.40 × 250 = 100.",
+      "Quantity B: 0.25 × 400 = 100.",
+      "The two quantities are equal."
+    ],
+    "formula": "part = percent × whole",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "arith-15",
+    "topic": "arithmetic",
+    "subtopic": "Weighted Average",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A student's test is worth 30% of their grade and they score 80 on it. Another test worth 70% of the grade earns 90. What is the overall weighted average?",
+    "correctValue": 87,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Weighted average = (0.30 × 80) + (0.70 × 90).",
+      "= 24 + 63 = 87."
+    ],
+    "formula": "weighted average = Σ(weight × value)",
+    "estimatedSeconds": 55,
+    "challengeSet": true
+  },
+  {
+    "id": "alg-01",
+    "topic": "algebra",
+    "subtopic": "Linear Equations",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Solve for x: 3x − 7 = 20",
+    "correctValue": 9,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Add 7 to both sides: 3x = 27.",
+      "Divide by 3: x = 9."
+    ],
+    "formula": "Isolate the variable",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "alg-02",
+    "topic": "algebra",
+    "subtopic": "Systems of Equations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "If x + y = 10 and x − y = 4, what is the value of x × y?",
+    "correctValue": 21,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Add the equations: 2x = 14, so x = 7.",
+      "Substitute back: 7 + y = 10, so y = 3.",
+      "x × y = 7 × 3 = 21."
+    ],
+    "formula": "Elimination method",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "alg-03",
+    "topic": "algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "prompt": "What are the roots of x² − 5x + 6 = 0?",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "x = 1, 6"
+      },
+      {
+        "id": "c1",
+        "text": "x = 2, 3"
+      },
+      {
+        "id": "c2",
+        "text": "x = −2, −3"
+      },
+      {
+        "id": "c3",
+        "text": "x = 6, −1"
+      },
+      {
+        "id": "c4",
+        "text": "x = 5, 1"
+      }
+    ],
+    "correctChoiceId": "c1",
+    "solutionSteps": [
+      "Factor: look for two numbers that multiply to 6 and add to −5: −2 and −3.",
+      "x² − 5x + 6 = (x − 2)(x − 3) = 0.",
+      "So x = 2 or x = 3."
+    ],
+    "formula": "Factoring a quadratic",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "alg-04",
+    "topic": "algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "prompt": "Which of the following is a solution to x² − x − 12 = 0?",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "x = 2"
+      },
+      {
+        "id": "c1",
+        "text": "x = 3"
+      },
+      {
+        "id": "c2",
+        "text": "x = 4"
+      },
+      {
+        "id": "c3",
+        "text": "x = 6"
+      },
+      {
+        "id": "c4",
+        "text": "x = 12"
+      }
+    ],
+    "correctChoiceId": "c2",
+    "solutionSteps": [
+      "Factor: find two numbers multiplying to −12 and adding to −1: 3 and −4.",
+      "x² − x − 12 = (x − 4)(x + 3) = 0.",
+      "So x = 4 or x = −3. Among the choices, x = 4 works."
+    ],
+    "formula": "Factoring a quadratic",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "alg-05",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "prompt": "Solve the inequality: 2x − 3 > 7",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "x > 2"
+      },
+      {
+        "id": "c1",
+        "text": "x > 5"
+      },
+      {
+        "id": "c2",
+        "text": "x < 5"
+      },
+      {
+        "id": "c3",
+        "text": "x > 10"
+      },
+      {
+        "id": "c4",
+        "text": "x < 2"
+      }
+    ],
+    "correctChoiceId": "c1",
+    "solutionSteps": [
+      "Add 3 to both sides: 2x > 10.",
+      "Divide by 2: x > 5."
+    ],
+    "formula": "Isolate the variable (inequality)",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "alg-06",
+    "topic": "algebra",
+    "subtopic": "Exponents",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "prompt": "Simplify: (x³)² ÷ x⁴",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "x²"
+      },
+      {
+        "id": "c1",
+        "text": "x⁴"
+      },
+      {
+        "id": "c2",
+        "text": "x⁶"
+      },
+      {
+        "id": "c3",
+        "text": "x⁸"
+      },
+      {
+        "id": "c4",
+        "text": "x"
+      }
+    ],
+    "correctChoiceId": "c0",
+    "solutionSteps": [
+      "(x³)² = x^(3×2) = x⁶.",
+      "x⁶ ÷ x⁴ = x^(6−4) = x²."
+    ],
+    "formula": "Power rules: (a^m)^n = a^(mn); a^m ÷ a^n = a^(m−n)",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "alg-07",
+    "topic": "algebra",
+    "subtopic": "Functions",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "If f(x) = 2x² − 3x + 1, what is f(3)?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "f(3) = 2(3)² − 3(3) + 1 = 2(9) − 9 + 1.",
+      "= 18 − 9 + 1 = 10."
+    ],
+    "formula": "Function evaluation — substitute and simplify",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "alg-08",
+    "topic": "algebra",
+    "subtopic": "Systems of Equations",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Two numbers have a sum of 15 and a difference of 3. What is the larger number?",
+    "correctValue": 9,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Let the numbers be x and y with x + y = 15 and x − y = 3.",
+      "Adding the equations: 2x = 18, so x = 9 (the larger number)."
+    ],
+    "formula": "Sum & difference → solve for larger = (sum + difference) / 2",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "alg-09",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "medium",
+    "type": "quant-comparison",
+    "prompt": "x is a negative number.",
+    "quantityA": "x²",
+    "quantityB": "x³",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "Since x is negative, x² is always positive (a negative number squared is positive).",
+      "Since x is negative, x³ is always negative (a negative number cubed stays negative).",
+      "A positive number is always greater than a negative number, so Quantity A is greater — this holds for every negative x, so the answer isn't \"cannot be determined.\""
+    ],
+    "formula": "Sign rules for even/odd powers",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "alg-10",
+    "topic": "algebra",
+    "subtopic": "Absolute Value",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "If |2x − 5| = 9, what is the sum of all possible values of x?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Case 1: 2x − 5 = 9 → 2x = 14 → x = 7.",
+      "Case 2: 2x − 5 = −9 → 2x = −4 → x = −2.",
+      "Sum of solutions: 7 + (−2) = 5."
+    ],
+    "formula": "Split into two cases for absolute value equations",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "alg-11",
+    "topic": "algebra",
+    "subtopic": "Algebraic Expressions",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "prompt": "Simplify: (3x²y)(4xy³)",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "7x²y³"
+      },
+      {
+        "id": "c1",
+        "text": "12x³y⁴"
+      },
+      {
+        "id": "c2",
+        "text": "12x²y³"
+      },
+      {
+        "id": "c3",
+        "text": "7x³y⁴"
+      },
+      {
+        "id": "c4",
+        "text": "12x³y³"
+      }
+    ],
+    "correctChoiceId": "c1",
+    "solutionSteps": [
+      "Multiply coefficients: 3 × 4 = 12.",
+      "Multiply x terms: x² × x = x³.",
+      "Multiply y terms: y × y³ = y⁴.",
+      "Result: 12x³y⁴."
+    ],
+    "formula": "Multiply coefficients, add exponents of like bases",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "alg-12",
+    "topic": "algebra",
+    "subtopic": "Rational Expressions",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x = 2 and y = 3.",
+    "quantityA": "1/x + 1/y",
+    "quantityB": "1/(x + y)",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "Quantity A: 1/2 + 1/3 = 3/6 + 2/6 = 5/6 ≈ 0.833.",
+      "Quantity B: 1/(2 + 3) = 1/5 = 0.2.",
+      "5/6 > 1/5, so Quantity A is greater."
+    ],
+    "formula": "Evaluate each expression with the given values",
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "alg-13",
+    "topic": "algebra",
+    "subtopic": "Exponents",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "If 3^(x+1) = 81, what is the value of x?",
+    "correctValue": 3,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Write 81 as a power of 3: 81 = 3⁴.",
+      "So x + 1 = 4, which means x = 3."
+    ],
+    "formula": "Match bases, then equate exponents",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "alg-14",
+    "topic": "algebra",
+    "subtopic": "Systems of Equations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "If 2x + y = 11 and x − y = 1, what is x + y?",
+    "correctValue": 7,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Add the equations: 3x = 12, so x = 4.",
+      "Substitute: 4 − y = 1, so y = 3.",
+      "x + y = 4 + 3 = 7."
+    ],
+    "formula": "Elimination method",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "alg-15",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "prompt": "For which of the following ranges of x is x² < 9 true?",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "x < 3"
+      },
+      {
+        "id": "c1",
+        "text": "x > −3"
+      },
+      {
+        "id": "c2",
+        "text": "−3 < x < 3"
+      },
+      {
+        "id": "c3",
+        "text": "x < −3 or x > 3"
+      },
+      {
+        "id": "c4",
+        "text": "x = 3 only"
+      }
+    ],
+    "correctChoiceId": "c2",
+    "solutionSteps": [
+      "x² < 9 means |x| < 3.",
+      "This is equivalent to −3 < x < 3."
+    ],
+    "formula": "|x| < a  ⟺  −a < x < a",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "geo-01",
+    "topic": "geometry",
+    "subtopic": "Triangles",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "In a triangle, two angles measure 50° and 65°. What is the measure of the third angle?",
+    "correctValue": 65,
+    "tolerance": 0,
+    "unit": "degrees",
+    "solutionSteps": [
+      "The angles of a triangle sum to 180°.",
+      "Third angle = 180 − 50 − 65 = 65°."
+    ],
+    "formula": "Triangle angle sum = 180°",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "geo-02",
+    "topic": "geometry",
+    "subtopic": "Triangles",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "A right triangle has legs of length 6 and 8. What is the length of the hypotenuse?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Use the Pythagorean theorem: c² = 6² + 8² = 36 + 64 = 100.",
+      "c = √100 = 10."
+    ],
+    "formula": "a² + b² = c²",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "geo-03",
+    "topic": "geometry",
+    "subtopic": "Circles",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A circle has a radius of 7. What is its area? (use π ≈ 3.14159)",
+    "correctValue": 153.94,
+    "tolerance": 0.5,
+    "unit": null,
+    "solutionSteps": [
+      "Area = πr² = π × 7² = 49π.",
+      "49π ≈ 49 × 3.14159 ≈ 153.94."
+    ],
+    "formula": "Area = πr²",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "geo-04",
+    "topic": "geometry",
+    "subtopic": "Circles",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "A circle has a radius of 5. What is its circumference? (use π ≈ 3.14159)",
+    "correctValue": 31.42,
+    "tolerance": 0.3,
+    "unit": null,
+    "solutionSteps": [
+      "Circumference = 2πr = 2 × π × 5 = 10π.",
+      "10π ≈ 31.42."
+    ],
+    "formula": "Circumference = 2πr",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "geo-05",
+    "topic": "geometry",
+    "subtopic": "Quadrilaterals",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "A rectangle has length 12 and width 5. What is its perimeter?",
+    "correctValue": 34,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Perimeter = 2(length + width) = 2(12 + 5) = 2(17) = 34."
+    ],
+    "formula": "Perimeter = 2(l + w)",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "geo-06",
+    "topic": "geometry",
+    "subtopic": "Triangles",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "A triangle has a base of 10 and a height of 6. What is its area?",
+    "correctValue": 30,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Area = (1/2) × base × height = (1/2) × 10 × 6 = 30."
+    ],
+    "formula": "Area = ½ × base × height",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "geo-07",
+    "topic": "geometry",
+    "subtopic": "Volume & Surface Area",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is the volume of a cube with side length 4?",
+    "correctValue": 64,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Volume = side³ = 4³ = 64."
+    ],
+    "formula": "Volume of a cube = s³",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "geo-08",
+    "topic": "geometry",
+    "subtopic": "Volume & Surface Area",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A cylinder has radius 3 and height 10. What is its volume? (use π ≈ 3.14159)",
+    "correctValue": 282.74,
+    "tolerance": 1,
+    "unit": null,
+    "solutionSteps": [
+      "Volume = πr²h = π × 3² × 10 = 90π.",
+      "90π ≈ 282.74."
+    ],
+    "formula": "Volume of a cylinder = πr²h",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "geo-09",
+    "topic": "geometry",
+    "subtopic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the distance between the points (1, 2) and (4, 6)?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Distance = √[(4−1)² + (6−2)²] = √[3² + 4²] = √[9 + 16] = √25 = 5."
+    ],
+    "formula": "Distance formula: √[(x₂−x₁)² + (y₂−y₁)²]",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "geo-10",
+    "topic": "geometry",
+    "subtopic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "prompt": "What is the slope of the line through (2, 3) and (5, 11)?",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "3/8"
+      },
+      {
+        "id": "c1",
+        "text": "8/3"
+      },
+      {
+        "id": "c2",
+        "text": "3/2"
+      },
+      {
+        "id": "c3",
+        "text": "11/5"
+      },
+      {
+        "id": "c4",
+        "text": "2/3"
+      }
+    ],
+    "correctChoiceId": "c1",
+    "solutionSteps": [
+      "Slope = (y₂ − y₁) / (x₂ − x₁) = (11 − 3) / (5 − 2) = 8/3."
+    ],
+    "formula": "Slope = rise / run",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "geo-11",
+    "topic": "geometry",
+    "subtopic": "Similar Figures",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Two similar triangles have a side ratio of 2:3. If the smaller triangle's perimeter is 12, what is the larger triangle's perimeter?",
+    "correctValue": 18,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Similar figures scale perimeter by the same ratio as their sides.",
+      "Scale factor from smaller to larger = 3/2.",
+      "Larger perimeter = 12 × (3/2) = 18."
+    ],
+    "formula": "Similar figures: perimeter ratio = side ratio",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "geo-12",
+    "topic": "geometry",
+    "subtopic": "Polygons",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the sum of the interior angles of a hexagon (6 sides)?",
+    "correctValue": 720,
+    "tolerance": 0,
+    "unit": "degrees",
+    "solutionSteps": [
+      "Sum of interior angles = (n − 2) × 180°, where n is the number of sides.",
+      "For a hexagon, n = 6: (6 − 2) × 180 = 4 × 180 = 720°."
+    ],
+    "formula": "Interior angle sum = (n − 2) × 180°",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "geo-13",
+    "topic": "geometry",
+    "subtopic": "Triangles",
+    "difficulty": "medium",
+    "type": "quant-comparison",
+    "prompt": "An isosceles triangle has an apex angle of 40°.",
+    "quantityA": "Each base angle of the triangle",
+    "quantityB": "65°",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "The two base angles of an isosceles triangle are equal, and all three angles sum to 180°.",
+      "Base angles = (180 − 40) / 2 = 140 / 2 = 70°.",
+      "70° > 65°, so Quantity A is greater."
+    ],
+    "formula": "Isosceles triangle: base angles = (180° − apex) / 2",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "geo-14",
+    "topic": "geometry",
+    "subtopic": "Volume & Surface Area",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is the surface area of a cube with side length 5?",
+    "correctValue": 150,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "A cube has 6 faces, each with area s².",
+      "Surface area = 6 × 5² = 6 × 25 = 150."
+    ],
+    "formula": "Surface area of a cube = 6s²",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "geo-15",
+    "topic": "geometry",
+    "subtopic": "Quadrilaterals",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A trapezoid has parallel sides of length 8 and 12, and a height of 5. What is its area?",
+    "correctValue": 50,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Area = (1/2) × (base₁ + base₂) × height.",
+      "= (1/2) × (8 + 12) × 5 = (1/2) × 20 × 5 = 50."
+    ],
+    "formula": "Trapezoid area = ½(b₁ + b₂)h",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "data-01",
+    "topic": "data-analysis",
+    "subtopic": "Mean, Median, Mode",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is the mean of the dataset {4, 8, 6, 10, 12}?",
+    "correctValue": 8,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Sum the values: 4 + 8 + 6 + 10 + 12 = 40.",
+      "Divide by the count: 40 ÷ 5 = 8."
+    ],
+    "formula": "Mean = sum ÷ count",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "data-02",
+    "topic": "data-analysis",
+    "subtopic": "Mean, Median, Mode",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is the median of the dataset {3, 7, 9, 2, 5}?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Sort the values: 2, 3, 5, 7, 9.",
+      "The middle value (3rd of 5) is 5."
+    ],
+    "formula": "Median = middle value of sorted data",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "data-03",
+    "topic": "data-analysis",
+    "subtopic": "Mean, Median, Mode",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is the mode of the dataset {2, 3, 3, 5, 7, 3, 9}?",
+    "correctValue": 3,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Count occurrences: 2 appears once, 3 appears three times, 5, 7, 9 each appear once.",
+      "3 appears most often, so it is the mode."
+    ],
+    "formula": "Mode = most frequent value",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "data-04",
+    "topic": "data-analysis",
+    "subtopic": "Range",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is the range of the dataset {12, 5, 18, 7, 9}?",
+    "correctValue": 13,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Range = maximum − minimum = 18 − 5 = 13."
+    ],
+    "formula": "Range = max − min",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "data-05",
+    "topic": "data-analysis",
+    "subtopic": "Standard Deviation",
+    "difficulty": "medium",
+    "type": "quant-comparison",
+    "prompt": "Compare the two quantities.",
+    "quantityA": "Standard deviation of {5, 5, 5, 5}",
+    "quantityB": "Standard deviation of {1, 2, 3, 4, 5}",
+    "correctComparison": "B",
+    "solutionSteps": [
+      "Quantity A: all values are identical, so there is no spread — standard deviation = 0.",
+      "Quantity B: the values are spread out around the mean, so standard deviation > 0.",
+      "Any positive number is greater than 0, so Quantity B is greater."
+    ],
+    "formula": "Standard deviation measures spread around the mean",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "data-06",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "A fair six-sided die is rolled once. What is the probability of rolling an even number?",
+    "correctValue": 0.5,
+    "tolerance": 0.001,
+    "unit": null,
+    "solutionSteps": [
+      "Even outcomes: 2, 4, 6 — that's 3 out of 6 possible outcomes.",
+      "Probability = 3/6 = 1/2 = 0.5."
+    ],
+    "formula": "P(event) = favorable outcomes ÷ total outcomes",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "data-07",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A card is drawn from a standard 52-card deck. What is the probability it is a heart or a king? (round to 4 decimal places)",
+    "correctValue": 0.3077,
+    "tolerance": 0.001,
+    "unit": null,
+    "solutionSteps": [
+      "Hearts: 13 cards. Kings: 4 cards. The king of hearts is counted in both, so subtract 1 to avoid double-counting.",
+      "Favorable outcomes = 13 + 4 − 1 = 16.",
+      "Probability = 16/52 = 4/13 ≈ 0.3077."
+    ],
+    "formula": "Inclusion-exclusion: P(A or B) = P(A) + P(B) − P(A and B)",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "data-08",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "In how many ways can a committee of 3 be chosen from 7 people (order doesn't matter)?",
+    "correctValue": 35,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "This is a combination: C(7,3) = 7! / (3! × 4!).",
+      "= (7 × 6 × 5) / (3 × 2 × 1) = 210 / 6 = 35."
+    ],
+    "formula": "C(n,r) = n! / (r!(n−r)!)",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "data-09",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "In how many ways can 4 books be arranged on a shelf, chosen from 6 distinct books (order matters)?",
+    "correctValue": 360,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "This is a permutation: P(6,4) = 6 × 5 × 4 × 3.",
+      "= 360."
+    ],
+    "formula": "P(n,r) = n! / (n−r)!",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "data-10",
+    "topic": "data-analysis",
+    "subtopic": "Mean, Median, Mode",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "The average of 5 numbers is 20. If one number is removed, the average of the remaining 4 is 18. What was the removed number?",
+    "correctValue": 28,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Sum of all 5 numbers = 5 × 20 = 100.",
+      "Sum of remaining 4 numbers = 4 × 18 = 72.",
+      "Removed number = 100 − 72 = 28."
+    ],
+    "formula": "sum = average × count",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "data-11",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Two fair coins are flipped. What is the probability that both land on heads?",
+    "correctValue": 0.25,
+    "tolerance": 0.001,
+    "unit": null,
+    "solutionSteps": [
+      "Each coin has a 1/2 chance of heads, and the flips are independent.",
+      "P(both heads) = 1/2 × 1/2 = 1/4 = 0.25."
+    ],
+    "formula": "Independent events: multiply probabilities",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "data-12",
+    "topic": "data-analysis",
+    "subtopic": "Data Interpretation",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "A company had 200 employees in 2020 and 250 employees in 2021. What was the percent increase?",
+    "correctValue": 25,
+    "tolerance": 0,
+    "unit": "%",
+    "solutionSteps": [
+      "Increase = 250 − 200 = 50.",
+      "Percent increase = (increase ÷ original) × 100 = (50 ÷ 200) × 100 = 25%."
+    ],
+    "formula": "Percent change = (change ÷ original) × 100",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "data-13",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "How many ways can 3 letters be chosen from the 5 distinct letters in \"MATHS\" (order doesn't matter)?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "This is a combination: C(5,3) = 5! / (3! × 2!) = 10."
+    ],
+    "formula": "C(n,r) = n! / (r!(n−r)!)",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "data-14",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "A bag contains 4 red marbles and 6 blue marbles (10 total). Two marbles are drawn without replacement.",
+    "quantityA": "Probability both marbles drawn are red",
+    "quantityB": "1/6",
+    "correctComparison": "B",
+    "solutionSteps": [
+      "Quantity A: P(both red) = (4/10) × (3/9) = 12/90 = 2/15 ≈ 0.1333.",
+      "Quantity B: 1/6 ≈ 0.1667.",
+      "0.1333 < 0.1667, so Quantity B is greater."
+    ],
+    "formula": "Dependent events: multiply successive conditional probabilities",
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "data-15",
+    "topic": "data-analysis",
+    "subtopic": "Standard Deviation",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "prompt": "Which change to a dataset would increase its standard deviation the most?",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "Adding a value equal to the mean"
+      },
+      {
+        "id": "c1",
+        "text": "Adding an extreme outlier far from the mean"
+      },
+      {
+        "id": "c2",
+        "text": "Removing the largest value"
+      },
+      {
+        "id": "c3",
+        "text": "Multiplying every value by 1"
+      },
+      {
+        "id": "c4",
+        "text": "Adding a value close to the median"
+      }
+    ],
+    "correctChoiceId": "c1",
+    "solutionSteps": [
+      "Standard deviation measures how spread out values are from the mean.",
+      "Adding a value equal to the mean or close to it barely changes the spread.",
+      "An extreme outlier is far from the mean, which increases the average squared distance from the mean — increasing standard deviation the most."
+    ],
+    "formula": "Standard deviation grows with distance from the mean",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "word-01",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "A car travels 240 miles in 4 hours. What is its average speed in mph?",
+    "correctValue": 60,
+    "tolerance": 0,
+    "unit": "mph",
+    "solutionSteps": [
+      "Average speed = total distance ÷ total time.",
+      "= 240 ÷ 4 = 60 mph."
+    ],
+    "formula": "speed = distance ÷ time",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "word-02",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Worker A can complete a job alone in 6 days; Worker B can complete it alone in 3 days. How many days will it take them working together?",
+    "correctValue": 2,
+    "tolerance": 0,
+    "unit": "days",
+    "solutionSteps": [
+      "A's rate = 1/6 job per day. B's rate = 1/3 job per day.",
+      "Combined rate = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2 job per day.",
+      "Time together = 1 ÷ (1/2) = 2 days."
+    ],
+    "formula": "Combined rate = sum of individual rates; time = 1 ÷ combined rate",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "word-03",
+    "topic": "word-problems",
+    "subtopic": "Mixture Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many liters of a 20% acid solution must be mixed with 10 liters of a 50% acid solution to produce a 30% acid solution?",
+    "correctValue": 20,
+    "tolerance": 0,
+    "unit": "liters",
+    "solutionSteps": [
+      "Let x = liters of the 20% solution needed.",
+      "Acid balance: 0.20x + 0.50(10) = 0.30(x + 10).",
+      "0.20x + 5 = 0.30x + 3 → 2 = 0.10x → x = 20."
+    ],
+    "formula": "Mixture equation: (concentration × volume) summed = final concentration × total volume",
+    "estimatedSeconds": 65,
+    "challengeSet": true
+  },
+  {
+    "id": "word-04",
+    "topic": "word-problems",
+    "subtopic": "Age Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A father is currently 35 years old. In 5 years, he will be twice as old as his son. How old is the son now?",
+    "correctValue": 15,
+    "tolerance": 0,
+    "unit": "years",
+    "solutionSteps": [
+      "In 5 years, the father will be 35 + 5 = 40.",
+      "Let the son's current age be x, so in 5 years he'll be x + 5.",
+      "40 = 2(x + 5) → 40 = 2x + 10 → 2x = 30 → x = 15."
+    ],
+    "formula": "Translate \"in N years\" as adding N to each age, then set up the given ratio",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "word-05",
+    "topic": "word-problems",
+    "subtopic": "Simple Interest",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "A principal of $2000 earns simple interest at an annual rate of 5% for 3 years. What is the interest earned?",
+    "correctValue": 300,
+    "tolerance": 0,
+    "unit": "$",
+    "solutionSteps": [
+      "Simple interest = Principal × rate × time = 2000 × 0.05 × 3.",
+      "= 300."
+    ],
+    "formula": "I = Prt",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "word-06",
+    "topic": "word-problems",
+    "subtopic": "Compound Interest",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "$1000 is invested at 10% annual interest, compounded annually. What is the value after 2 years?",
+    "correctValue": 1210,
+    "tolerance": 1,
+    "unit": "$",
+    "solutionSteps": [
+      "Compound amount = P(1 + r)^t = 1000 × (1.10)².",
+      "1.10² = 1.21, so amount = 1000 × 1.21 = 1210."
+    ],
+    "formula": "A = P(1 + r)^t",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "word-07",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Two trains start 300 miles apart and move toward each other, one at 50 mph and the other at 70 mph. How many hours until they meet?",
+    "correctValue": 2.5,
+    "tolerance": 0,
+    "unit": "hours",
+    "solutionSteps": [
+      "When moving toward each other, their speeds add: combined speed = 50 + 70 = 120 mph.",
+      "Time to meet = distance ÷ combined speed = 300 ÷ 120 = 2.5 hours."
+    ],
+    "formula": "Closing speed = sum of speeds (opposite directions)",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "word-08",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "Worker A completes a job alone at a rate of 1/4 job per hour. Working with Worker B, whose rate is 1/12 job per hour, they complete the job together.",
+    "quantityA": "Time for Worker A to finish the job alone",
+    "quantityB": "Time for A and B to finish the job together",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "Quantity A: Worker A alone takes 1 ÷ (1/4) = 4 hours.",
+      "Quantity B: combined rate = 1/4 + 1/12 = 3/12 + 1/12 = 4/12 = 1/3 job per hour, so together they take 1 ÷ (1/3) = 3 hours.",
+      "4 hours > 3 hours, so Quantity A is greater — working together is always at least as fast as alone."
+    ],
+    "formula": "time = 1 ÷ rate; combined rate = sum of individual rates",
+    "estimatedSeconds": 55,
+    "challengeSet": true
+  },
+  {
+    "id": "word-09",
+    "topic": "word-problems",
+    "subtopic": "Mixture Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A solution is made by mixing water and concentrate in a ratio of 3:2. How many liters of concentrate are needed to make 25 liters of solution?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": "liters",
+    "solutionSteps": [
+      "Total ratio parts = 3 + 2 = 5.",
+      "Concentrate is 2 of the 5 parts: (2/5) × 25 = 10 liters."
+    ],
+    "formula": "part = (part ratio ÷ total ratio) × total amount",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "word-10",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A cyclist rides at 15 mph for 2 hours, then at 10 mph for 3 hours. What is the average speed for the entire trip?",
+    "correctValue": 12,
+    "tolerance": 0,
+    "unit": "mph",
+    "solutionSteps": [
+      "Total distance = (15 × 2) + (10 × 3) = 30 + 30 = 60 miles.",
+      "Total time = 2 + 3 = 5 hours.",
+      "Average speed = total distance ÷ total time = 60 ÷ 5 = 12 mph.",
+      "Note: this is NOT the simple average of 15 and 10 — average speed must be computed from total distance and total time."
+    ],
+    "formula": "average speed = total distance ÷ total time",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "word-11",
+    "topic": "word-problems",
+    "subtopic": "Age Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "The sum of the ages of two siblings is 33. In 6 years, the older sibling will be twice as old as the younger. What is the younger sibling's current age?",
+    "correctValue": 9,
+    "tolerance": 0,
+    "unit": "years",
+    "solutionSteps": [
+      "Let the younger sibling's current age be y; the older is 33 − y.",
+      "In 6 years: (33 − y) + 6 = 2(y + 6).",
+      "39 − y = 2y + 12 → 27 = 3y → y = 9."
+    ],
+    "formula": "Set up two equations (sum, and future ratio) and solve",
+    "estimatedSeconds": 60,
+    "challengeSet": true
+  },
+  {
+    "id": "word-12",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A pipe fills a tank in 5 hours. A drain empties it in 10 hours. If both are open, how many hours does it take to fill the tank?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": "hours",
+    "solutionSteps": [
+      "Fill rate = 1/5 tank per hour. Drain rate = 1/10 tank per hour (working against filling).",
+      "Combined rate = 1/5 − 1/10 = 2/10 − 1/10 = 1/10 tank per hour.",
+      "Time to fill = 1 ÷ (1/10) = 10 hours."
+    ],
+    "formula": "Opposing rates subtract",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "word-13",
+    "topic": "word-problems",
+    "subtopic": "Percent Word Problems",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "prompt": "A merchant marks up the cost of an item by 40%, then offers a 20% discount on the marked price. What is the overall percent change from the original cost to the final price?",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "8% increase"
+      },
+      {
+        "id": "c1",
+        "text": "12% increase"
+      },
+      {
+        "id": "c2",
+        "text": "20% increase"
+      },
+      {
+        "id": "c3",
+        "text": "12% decrease"
+      },
+      {
+        "id": "c4",
+        "text": "No change"
+      }
+    ],
+    "correctChoiceId": "c1",
+    "solutionSteps": [
+      "After the markup, price = 1.40 × cost.",
+      "After the discount, price = 1.40 × 0.80 × cost = 1.12 × cost.",
+      "1.12 × cost represents a 12% increase over the original cost."
+    ],
+    "formula": "Apply percent changes sequentially, each to the current value",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "word-14",
+    "topic": "word-problems",
+    "subtopic": "Consecutive Integers",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "The sum of three consecutive integers is 72. What is the largest of the three?",
+    "correctValue": 25,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Let the integers be n−1, n, n+1. Their sum is 3n = 72, so n = 24.",
+      "The largest integer is n + 1 = 25."
+    ],
+    "formula": "Consecutive integers sum to 3 × the middle value",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "word-15",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "medium",
+    "type": "quant-comparison",
+    "prompt": "Compare the two quantities.",
+    "quantityA": "Time to travel 180 miles at 60 mph",
+    "quantityB": "Time to travel 240 miles at 75 mph",
+    "correctComparison": "B",
+    "solutionSteps": [
+      "Quantity A: 180 ÷ 60 = 3 hours.",
+      "Quantity B: 240 ÷ 75 = 3.2 hours.",
+      "3.2 > 3, so Quantity B is greater."
+    ],
+    "formula": "time = distance ÷ speed",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "hard-01",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "n is an integer greater than 2.",
+    "quantityA": "Remainder when n is divided by 3",
+    "quantityB": "Remainder when n² is divided by 3",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "Possible remainders of n mod 3: 0,1,2.",
+      "If n ≡ 0 → n² ≡ 0.",
+      "If n ≡ 1 → n² ≡ 1.",
+      "If n ≡ 2 → n² ≡ 4 ≡ 1 mod 3.",
+      "When n ≡ 2, A=2 > B=1. When n ≡ 0 or 1, A=B. Relationship cannot be determined."
+    ],
+    "formula": "Squares modulo 3 are only 0 or 1",
+    "estimatedSeconds": 55,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-02",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A price increases by 20% and then decreases by 25%. What is the overall percent change from the original? (enter negative for decrease)",
+    "correctValue": -10,
+    "tolerance": 0,
+    "unit": "%",
+    "solutionSteps": [
+      "Multiplier: 1.20 × 0.75 = 0.90.",
+      "Overall change = -10%."
+    ],
+    "formula": "(1+r1)(1+r2)-1",
+    "estimatedSeconds": 45,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-03",
+    "topic": "algebra",
+    "subtopic": "Absolute Value",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many integers x satisfy |2x-5| ≤ 9?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "-9 ≤ 2x-5 ≤ 9.",
+      "Add 5: -4 ≤ 2x ≤ 14.",
+      "Divide by 2: -2 ≤ x ≤ 7.",
+      "Integers from -2 to 7 inclusive: 10 values."
+    ],
+    "formula": "|A| ≤ B means -B ≤ A ≤ B",
+    "estimatedSeconds": 50,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-04",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x < 0",
+    "quantityA": "x³",
+    "quantityB": "x",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "If x = -1: A = -1, B = -1 → equal.",
+      "If x = -2: A = -8, B = -2 → A < B.",
+      "If x = -0.5: A = -0.125, B = -0.5 → A > B.",
+      "Relationship depends on the value of x."
+    ],
+    "formula": "Test values in different ranges for negative x",
+    "estimatedSeconds": 50,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-05",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A cyclist rides to a destination at 12 mph and returns at 8 mph. The total time for the round trip is 5 hours. What is the one-way distance in miles?",
+    "correctValue": 24,
+    "tolerance": 0,
+    "unit": "miles",
+    "solutionSteps": [
+      "Let d = one-way distance.",
+      "d/12 + d/8 = 5.",
+      "Multiply by 24: 2d + 3d = 120 → 5d = 120 → d = 24."
+    ],
+    "formula": "Total time = sum of times each way",
+    "estimatedSeconds": 55,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-06",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A bag has 5 red, 4 blue and 3 green marbles. Two marbles are drawn without replacement. What is the probability both are the same color? (as decimal to 4 places)",
+    "correctValue": 0.2879,
+    "tolerance": 0.001,
+    "unit": null,
+    "solutionSteps": [
+      "Total ways C(12,2) = 66.",
+      "Same color: C(5,2)+C(4,2)+C(3,2) = 10+6+3 = 19.",
+      "P = 19/66 ≈ 0.2879."
+    ],
+    "formula": "P = favorable combinations / total combinations",
+    "estimatedSeconds": 60,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-07",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "What is the remainder when 3^25 is divided by 5?",
+    "correctValue": 3,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Units digits of powers of 3 cycle every 4: 3,9,7,1.",
+      "25 mod 4 = 1 → units digit 3.",
+      "A number ending in 3 has remainder 3 when divided by 5."
+    ],
+    "formula": "Units digit cycle",
+    "estimatedSeconds": 45,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-08",
+    "topic": "algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "If the equation x² - 5x + k = 0 has two distinct positive integer roots, what is the largest possible value of k?",
+    "correctValue": 6,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Roots positive integers a,b with a+b=5, ab=k, a≠b.",
+      "Possible pairs: (1,4) k=4; (2,3) k=6.",
+      "Largest k=6."
+    ],
+    "formula": "Sum and product of roots",
+    "estimatedSeconds": 50,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-09",
+    "topic": "geometry",
+    "subtopic": "Triangles",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "In triangle ABC, angle A = 40°, angle B = 70°.",
+    "quantityA": "Length of side BC",
+    "quantityB": "Length of side AB",
+    "correctComparison": "B",
+    "solutionSteps": [
+      "Angle C = 70°. Triangle isosceles with AB = AC.",
+      "Side BC opposite 40° (smallest angle) is the shortest side.",
+      "AB opposite 70° is longer than BC. Quantity B is greater."
+    ],
+    "formula": "Larger side opposite larger angle",
+    "estimatedSeconds": 50,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-10",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A and B together can complete a job in 12 days. A alone can do it in 20 days. How many days will B alone take?",
+    "correctValue": 30,
+    "tolerance": 0,
+    "unit": "days",
+    "solutionSteps": [
+      "A's rate = 1/20.",
+      "Combined rate = 1/12.",
+      "B's rate = 1/12 - 1/20 = 5/60 - 3/60 = 2/60 = 1/30.",
+      "B alone takes 30 days."
+    ],
+    "formula": "B rate = combined - A rate",
+    "estimatedSeconds": 45,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-11",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "n is a positive integer.",
+    "quantityA": "The units digit of n^4",
+    "quantityB": "The units digit of n",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "If n ends with 1: both 1.",
+      "If n ends with 2: n^4 ends with 6, n ends with 2 → different.",
+      "If n ends with 5: both 5.",
+      "Relationship depends on n."
+    ],
+    "formula": "Units digit of powers depends on the base's units digit",
+    "estimatedSeconds": 50,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-12",
+    "topic": "algebra",
+    "subtopic": "Exponents",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "If 2^(x+3) = 32, what is the value of 2^(x-1)?",
+    "correctValue": 2,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "2^(x+3) = 2^5 → x+3 = 5 → x = 2.",
+      "2^(x-1) = 2^(1) = 2."
+    ],
+    "formula": "Match bases then equate exponents",
+    "estimatedSeconds": 40,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-13",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many distinct 4-letter words can be formed from the letters of the word 'GREAT' if repetition is not allowed?",
+    "correctValue": 120,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "5 distinct letters. P(5,4) = 5×4×3×2 = 120."
+    ],
+    "formula": "P(n,r) = n!/(n-r)!",
+    "estimatedSeconds": 35,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-14",
+    "topic": "geometry",
+    "subtopic": "Coordinate Geometry",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "The points (0,0), (4,0) and (0,3) form a triangle. What is its area?",
+    "correctValue": 6,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Base = 4, height = 3.",
+      "Area = (1/2)×4×3 = 6."
+    ],
+    "formula": "Area of triangle with legs along axes = (1/2)×base×height",
+    "estimatedSeconds": 30,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-15",
+    "topic": "word-problems",
+    "subtopic": "Mixture Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many liters of a 60% acid solution must be mixed with 10 liters of a 20% acid solution to get a 40% acid solution?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": "liters",
+    "solutionSteps": [
+      "Let x = liters of 60% solution.",
+      "0.60x + 0.20×10 = 0.40(x+10).",
+      "0.60x + 2 = 0.40x + 4 → 0.20x = 2 → x = 10."
+    ],
+    "formula": "Pure acid amount conserved",
+    "estimatedSeconds": 55,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-16",
+    "topic": "algebra",
+    "subtopic": "Systems of Equations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "If x + y = 10 and x - y = 4, what is xy?",
+    "correctValue": 21,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Add: 2x = 14 → x = 7.",
+      "y = 10 - 7 = 3.",
+      "xy = 21."
+    ],
+    "formula": "Elimination",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "hard-17",
+    "topic": "arithmetic",
+    "subtopic": "Fractions",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the value of (3/4) ÷ (1/8)?",
+    "correctValue": 6,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "(3/4) × (8/1) = 6."
+    ],
+    "formula": "Dividing by a fraction is multiplying by its reciprocal",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "hard-18",
+    "topic": "data-analysis",
+    "subtopic": "Mean, Median, Mode",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "The mean of 4 numbers is 20. If a fifth number 30 is added, what is the new mean?",
+    "correctValue": 22,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Sum of 4 = 80.",
+      "Sum of 5 = 110.",
+      "New mean = 110/5 = 22."
+    ],
+    "formula": "New mean = (old sum + new value) / new count",
+    "estimatedSeconds": 30,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-19",
+    "topic": "geometry",
+    "subtopic": "Circles",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A circle has area 36π. What is the length of its diameter?",
+    "correctValue": 12,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "πr² = 36π → r² = 36 → r = 6.",
+      "Diameter = 12."
+    ],
+    "formula": "A = πr² → d = 2r",
+    "estimatedSeconds": 30,
+    "challengeSet": true
+  },
+  {
+    "id": "hard-20",
+    "topic": "word-problems",
+    "subtopic": "Age Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A father is 30 years older than his son. In 10 years the father will be twice as old as the son. How old is the son now?",
+    "correctValue": 20,
+    "tolerance": 0,
+    "unit": "years",
+    "solutionSteps": [
+      "Let son = x, father = x+30.",
+      "In 10 years: x+40 = 2(x+10).",
+      "x+40 = 2x + 20 → 20 = x."
+    ],
+    "formula": "Translate future ages into equation",
+    "estimatedSeconds": 45,
+    "challengeSet": true
+  },
+  {
+    "id": "np-01",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "What is the remainder when 2^30 is divided by 5?",
+    "correctValue": 4,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Units digits of powers of 2 cycle every 4: 2,4,8,6.",
+      "30 mod 4 = 2 → units digit 4.",
+      "Remainder when divided by 5 is 4."
+    ],
+    "formula": "Units digit cycle of 2 is 4 long",
+    "estimatedSeconds": 40,
+    "challengeSet": true
+  },
+  {
+    "id": "np-02",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "n is a positive even integer.",
+    "quantityA": "Remainder when n is divided by 4",
+    "quantityB": "2",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "Even n can be 4k (remainder 0) or 4k+2 (remainder 2).",
+      "A can be 0 or 2. Relationship cannot be determined."
+    ],
+    "formula": "Even numbers are 0 or 2 mod 4",
+    "estimatedSeconds": 40,
+    "challengeSet": true
+  },
+  {
+    "id": "np-03",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many positive integers less than 50 are divisible by either 3 or 5?",
+    "correctValue": 22,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Multiples of 3 below 50: 16 (3 to 48).",
+      "Multiples of 5 below 50: 9 (5 to 45).",
+      "Multiples of 15 below 50: 3 (15,30,45).",
+      "16+9-3=22."
+    ],
+    "formula": "Inclusion-exclusion",
+    "estimatedSeconds": 50,
+    "challengeSet": true
+  },
+  {
+    "id": "np-04",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "What is the greatest common divisor of 84 and 126?",
+    "correctValue": 42,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "84 = 2²×3×7, 126 = 2×3²×7.",
+      "GCD = 2×3×7 = 42."
+    ],
+    "formula": "GCD takes lowest powers of common primes",
+    "estimatedSeconds": 40,
+    "challengeSet": true
+  },
+  {
+    "id": "np-05",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "What is the least common multiple of 12, 18 and 30?",
+    "correctValue": 180,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "12=2²×3, 18=2×3², 30=2×3×5.",
+      "LCM = 2²×3²×5 = 4×9×5 = 180."
+    ],
+    "formula": "LCM takes highest powers of all primes",
+    "estimatedSeconds": 45,
+    "challengeSet": true
+  },
+  {
+    "id": "qc-hard-01",
+    "topic": "algebra",
+    "subtopic": "Exponents",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x > 1",
+    "quantityA": "x^0.5",
+    "quantityB": "x^0.4",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "For x > 1, the function x^a is increasing in a.",
+      "0.5 > 0.4 → x^0.5 > x^0.4."
+    ],
+    "formula": "For base >1, larger exponent gives larger value",
+    "estimatedSeconds": 40,
+    "challengeSet": true
+  },
+  {
+    "id": "qc-hard-02",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "0 < x < 1",
+    "quantityA": "x²",
+    "quantityB": "x³",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "For 0 < x < 1, higher powers become smaller.",
+      "x² > x³."
+    ],
+    "formula": "In (0,1) higher positive powers are smaller",
+    "estimatedSeconds": 35,
+    "challengeSet": true
+  },
+  {
+    "id": "qc-hard-03",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "A price is first increased by 10% and then decreased by 10%.",
+    "quantityA": "The final price",
+    "quantityB": "The original price",
+    "correctComparison": "B",
+    "solutionSteps": [
+      "Final = original × 1.10 × 0.90 = original × 0.99.",
+      "Final is 1% less than original. Quantity B is greater."
+    ],
+    "formula": "Sequential percent change does not cancel",
+    "estimatedSeconds": 40,
+    "challengeSet": true
+  },
+  {
+    "id": "qc-hard-04",
+    "topic": "geometry",
+    "subtopic": "Triangles",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "In a triangle, two sides are 6 and 8. The included angle is 90°.",
+    "quantityA": "The third side",
+    "quantityB": "10",
+    "correctComparison": "equal",
+    "solutionSteps": [
+      "By Pythagorean theorem the third side is √(36+64)=10."
+    ],
+    "formula": "a²+b²=c² for right triangle",
+    "estimatedSeconds": 30,
+    "challengeSet": true
+  },
+  {
+    "id": "qc-hard-05",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "A fair die is rolled twice.",
+    "quantityA": "Probability that the sum is 7",
+    "quantityB": "Probability that the sum is 6",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "Sum 7: (1,6)(2,5)(3,4)(4,3)(5,2)(6,1) → 6 ways.",
+      "Sum 6: (1,5)(2,4)(3,3)(4,2)(5,1) → 5 ways.",
+      "6/36 > 5/36."
+    ],
+    "formula": "Count favorable ordered pairs",
+    "estimatedSeconds": 50,
+    "challengeSet": true
+  },
+  {
+    "id": "wp-hard-01",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Two trains 200 miles apart are moving toward each other at 40 mph and 60 mph. How many hours until they meet?",
+    "correctValue": 2,
+    "tolerance": 0,
+    "unit": "hours",
+    "solutionSteps": [
+      "Relative speed = 100 mph.",
+      "Time = 200/100 = 2 hours."
+    ],
+    "formula": "Closing speed = sum of speeds",
+    "estimatedSeconds": 35,
+    "challengeSet": true
+  },
+  {
+    "id": "wp-hard-02",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A can do a job in 10 days, B in 15 days. They work together for 3 days, then A finishes alone. How many more days does A need?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": "days",
+    "solutionSteps": [
+      "Combined rate = 1/10 + 1/15 = 1/6.",
+      "In 3 days they do 3/6 = 1/2.",
+      "Remaining 1/2 at A's rate 1/10 → 5 days."
+    ],
+    "formula": "Work done = rate × time",
+    "estimatedSeconds": 55,
+    "challengeSet": true
+  },
+  {
+    "id": "wp-hard-03",
+    "topic": "word-problems",
+    "subtopic": "Percent Word Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "After a 20% discount, a shirt costs $48. What was the original price?",
+    "correctValue": 60,
+    "tolerance": 0,
+    "unit": "$",
+    "solutionSteps": [
+      "0.80 × original = 48 → original = 48 / 0.80 = 60."
+    ],
+    "formula": "Discounted price = (1 - discount rate) × original",
+    "estimatedSeconds": 35,
+    "challengeSet": true
+  },
+  {
+    "id": "wp-hard-04",
+    "topic": "word-problems",
+    "subtopic": "Simple Interest",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Simple interest on $2500 at 8% for 3 years is how much?",
+    "correctValue": 600,
+    "tolerance": 0,
+    "unit": "$",
+    "solutionSteps": [
+      "I = 2500 × 0.08 × 3 = 600."
+    ],
+    "formula": "I = Prt",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "wp-hard-05",
+    "topic": "word-problems",
+    "subtopic": "Compound Interest",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "$2000 grows to $2420 in 2 years with annual compound interest. What is the annual rate percent?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": "%",
+    "solutionSteps": [
+      "2000 × (1+r)^2 = 2420 → (1+r)^2 = 1.21 → 1+r = 1.1 → r = 0.10 = 10%."
+    ],
+    "formula": "A = P(1+r)^t",
+    "estimatedSeconds": 50,
+    "challengeSet": true
+  },
+  {
+    "id": "alg-hard-01",
+    "topic": "algebra",
+    "subtopic": "Absolute Value",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Solve |3x - 6| = 12. What is the product of the solutions?",
+    "correctValue": -12,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "3x-6=12 → 3x=18 → x=6.",
+      "3x-6=-12 → 3x=-6 → x=-2.",
+      "Product 6×(-2)=-12."
+    ],
+    "formula": "Two cases for absolute value equation",
+    "estimatedSeconds": 45,
+    "challengeSet": true
+  },
+  {
+    "id": "alg-hard-02",
+    "topic": "algebra",
+    "subtopic": "Functions",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "If f(x) = 2x + 3 and g(x) = x² - 1, what is f(g(2))?",
+    "correctValue": 9,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "g(2) = 4-1=3.",
+      "f(3)=6+3=9."
+    ],
+    "formula": "Compose functions",
+    "estimatedSeconds": 35,
+    "challengeSet": true
+  },
+  {
+    "id": "alg-hard-03",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "multiple-choice",
+    "prompt": "For which values of x is (x-1)(x-4) < 0?",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "x < 1 or x > 4"
+      },
+      {
+        "id": "c1",
+        "text": "1 < x < 4"
+      },
+      {
+        "id": "c2",
+        "text": "x ≤ 1 or x ≥ 4"
+      },
+      {
+        "id": "c3",
+        "text": "x < 1"
+      },
+      {
+        "id": "c4",
+        "text": "x > 4"
+      }
+    ],
+    "correctChoiceId": "c1",
+    "solutionSteps": [
+      "The product is negative between the roots.",
+      "1 < x < 4."
+    ],
+    "formula": "Quadratic inequality sign chart",
+    "estimatedSeconds": 45,
+    "challengeSet": true
+  },
+  {
+    "id": "geo-hard-01",
+    "topic": "geometry",
+    "subtopic": "Triangles",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "An equilateral triangle has side 6. What is its area? (use √3 ≈ 1.732)",
+    "correctValue": 15.588,
+    "tolerance": 0.1,
+    "unit": null,
+    "solutionSteps": [
+      "Area = (√3/4) × side² = (1.732/4)×36 ≈ 0.433×36 ≈ 15.588."
+    ],
+    "formula": "Area of equilateral = (√3/4)s²",
+    "estimatedSeconds": 40,
+    "challengeSet": true
+  },
+  {
+    "id": "geo-hard-02",
+    "topic": "geometry",
+    "subtopic": "Volume & Surface Area",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A cube has surface area 96. What is its volume?",
+    "correctValue": 64,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "6s² = 96 → s² = 16 → s = 4.",
+      "Volume = 64."
+    ],
+    "formula": "SA = 6s², V = s³",
+    "estimatedSeconds": 40,
+    "challengeSet": true
+  },
+  {
+    "id": "geo-hard-03",
+    "topic": "geometry",
+    "subtopic": "Similar Figures",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Two similar triangles have corresponding sides 4 and 10. If the smaller has area 20, what is the area of the larger?",
+    "correctValue": 125,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Area scale factor = (side ratio)² = (10/4)² = 6.25.",
+      "Larger area = 20 × 6.25 = 125."
+    ],
+    "formula": "Area ratio = (side ratio)² for similar figures",
+    "estimatedSeconds": 45,
+    "challengeSet": true
+  },
+  {
+    "id": "da-hard-01",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "From a standard deck of 52 cards, one card is drawn. What is the probability it is a face card (J,Q,K) or a heart? (to 4 decimals)",
+    "correctValue": 0.4231,
+    "tolerance": 0.001,
+    "unit": null,
+    "solutionSteps": [
+      "Face cards: 12. Hearts: 13. Face hearts: 3.",
+      "12+13-3=22.",
+      "22/52 = 11/26 ≈ 0.4231."
+    ],
+    "formula": "Inclusion-exclusion",
+    "estimatedSeconds": 55,
+    "challengeSet": true
+  },
+  {
+    "id": "da-hard-02",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "In how many ways can 5 people be seated in a row of 5 chairs?",
+    "correctValue": 120,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "5! = 120."
+    ],
+    "formula": "n! for distinct permutations",
+    "estimatedSeconds": 25,
+    "challengeSet": true
+  },
+  {
+    "id": "da-hard-03",
+    "topic": "data-analysis",
+    "subtopic": "Mean, Median, Mode",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "The median of the set {3, 7, x, 12, 15} is 9 when arranged in order. What is x if x is between 7 and 12?",
+    "correctValue": 9,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Ordered: 3,7,x,12,15. Middle value is x.",
+      "Median = x = 9."
+    ],
+    "formula": "Median of 5 numbers is the 3rd when ordered",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "np-extra-1",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "What is the remainder when 17×19 is divided by 5?",
+    "correctValue": 3,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "17≡2, 19≡4 mod 5 → 2×4=8≡3 mod 5."
+    ],
+    "formula": "Modular multiplication",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "np-extra-2",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many distinct prime factors does 720 have?",
+    "correctValue": 3,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "720 = 2^4 × 3² × 5. Distinct primes: 2,3,5 → 3."
+    ],
+    "formula": "Prime factorization",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "np-extra-3",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "What is the largest prime factor of 210?",
+    "correctValue": 7,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "210=2×3×5×7 → 7."
+    ],
+    "formula": "Prime factorization",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "np-extra-4",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "If n leaves remainder 4 when divided by 7, what remainder does 2n leave when divided by 7?",
+    "correctValue": 1,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "n=7k+4 → 2n=14k+8=14k+7+1 → remainder 1."
+    ],
+    "formula": "Linear congruence",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "qc-extra-1",
+    "topic": "arithmetic",
+    "subtopic": "Exponents",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x > 0",
+    "quantityA": "√x",
+    "quantityB": "x/2",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "For x=1: √1=1, 1/2=0.5 → A>B. For x=4: 2 vs 2 equal. For x=9: 3 vs 4.5 → B>A. Cannot determine."
+    ],
+    "formula": "Test values or known inequalities",
+    "estimatedSeconds": 50,
+    "challengeSet": true
+  },
+  {
+    "id": "qc-extra-2",
+    "topic": "algebra",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "n is odd integer",
+    "quantityA": "n² mod 8",
+    "quantityB": "1",
+    "correctComparison": "equal",
+    "solutionSteps": [
+      "Odd squares are always 1 mod 8. (2k+1)²=4k(k+1)+1 and k(k+1) even so 4×even= multiple of 8."
+    ],
+    "formula": "Test values or known inequalities",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "qc-extra-3",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "0 < x < y",
+    "quantityA": "x/y",
+    "quantityB": "y/x",
+    "correctComparison": "B",
+    "solutionSteps": [
+      "x/y < 1 < y/x since y > x > 0."
+    ],
+    "formula": "Test values or known inequalities",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "qc-extra-4",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "a and b positive and a ≠ b",
+    "quantityA": "a/b + b/a",
+    "quantityB": "2",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "By AM-GM: (a/b + b/a)/2 ≥ 1 with equality only when a/b = b/a i.e. a=b.",
+      "Since a ≠ b, a/b + b/a > 2. Quantity A is greater."
+    ],
+    "formula": "Test values or known inequalities",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "wp-extra-1",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A tank is filled by pipe A in 8 hours and emptied by pipe B in 12 hours. If both are open, how long to fill the tank?",
+    "correctValue": 24,
+    "tolerance": 0,
+    "unit": "hours",
+    "solutionSteps": [
+      "1/8 - 1/12 = 3/24 - 2/24 = 1/24 → 24 hours."
+    ],
+    "formula": "Opposing rates",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "wp-extra-2",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Two workers A and B can do a job in 6 and 12 days respectively. How many days if they work on alternate days starting with A?",
+    "correctValue": 8,
+    "tolerance": 0,
+    "unit": "days",
+    "solutionSteps": [
+      "In 2 days they do 1/6 + 1/12 = 1/4. 4 such pairs do the whole job → 8 days."
+    ],
+    "formula": "Alternate work",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "wp-extra-3",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A car covers 150 km in 3 hours. What is average speed in km/h?",
+    "correctValue": 50,
+    "tolerance": 0,
+    "unit": "km/h",
+    "solutionSteps": [
+      "150/3=50."
+    ],
+    "formula": "speed = distance/time",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "wp-extra-4",
+    "topic": "word-problems",
+    "subtopic": "Age Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "The sum of ages of 5 children born at intervals of 3 years is 50. What is the age of the youngest?",
+    "correctValue": 4,
+    "tolerance": 0,
+    "unit": "years",
+    "solutionSteps": [
+      "Ages n, n+3, n+6, n+9, n+12. Sum 5n+30=50 → 5n=20 → n=4."
+    ],
+    "formula": "Consecutive with common difference",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "alg-extra-1",
+    "topic": "algebra",
+    "subtopic": "Linear Equations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Solve 2x - 5 = 3x + 7 for x.",
+    "correctValue": -12,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "2x - 3x = 7 + 5 → -x = 12 → x = -12."
+    ],
+    "formula": "Isolate the variable",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "alg-extra-2",
+    "topic": "algebra",
+    "subtopic": "Functions",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "If f(x) = x² - 5x + 6, what is f(4)?",
+    "correctValue": 2,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "16 - 20 + 6 = 2."
+    ],
+    "formula": "Substitute and simplify",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "alg-extra-3",
+    "topic": "algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the sum of the roots of x² - 6x + 8 = 0?",
+    "correctValue": 6,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Sum = 6 (or roots 2+4=6)."
+    ],
+    "formula": "Sum of roots = -b/a",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "geo-extra-1",
+    "topic": "geometry",
+    "subtopic": "Triangles",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A right triangle has legs 5 and 12. Hypotenuse?",
+    "correctValue": 13,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "√(25+144)=√169=13."
+    ],
+    "formula": "Pythagorean theorem",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "geo-extra-2",
+    "topic": "geometry",
+    "subtopic": "Circles",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Circumference of a circle with radius 7 (use π=22/7).",
+    "correctValue": 44,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "2 × (22/7) × 7 = 44."
+    ],
+    "formula": "C=2πr",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "geo-extra-3",
+    "topic": "geometry",
+    "subtopic": "Quadrilaterals",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A parallelogram has base 10 and height 6. Area?",
+    "correctValue": 60,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Area = base × height = 60."
+    ],
+    "formula": "Area of parallelogram = bh",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "da-extra-1",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Probability of drawing an ace from a standard deck?",
+    "correctValue": 0.0769,
+    "tolerance": 0.001,
+    "unit": null,
+    "solutionSteps": [
+      "4/52 = 1/13 ≈ 0.0769."
+    ],
+    "formula": "Favorable/total",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "da-extra-2",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "C(8,3) equals?",
+    "correctValue": 56,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "(8×7×6)/(3×2×1)=56."
+    ],
+    "formula": "C(n,r)=n!/(r!(n-r)!)",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "da-extra-3",
+    "topic": "data-analysis",
+    "subtopic": "Mean, Median, Mode",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Mean of 10, 20, 30, 40, 50?",
+    "correctValue": 30,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "150/5=30."
+    ],
+    "formula": "Mean = sum/count",
+    "estimatedSeconds": 20
+  },
+  {
+    "id": "gen-rem-1",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "When a positive integer n is divided by 3, the remainder is 1. What is the remainder when 2n is divided by 3?",
+    "correctValue": 2,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "n ≡ 1 (mod 3)",
+      "2n ≡ 2 ≡ 2 (mod 3)"
+    ],
+    "formula": "If n ≡ r mod m then cn ≡ cr mod m",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-rem-2",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "When a positive integer n is divided by 4, the remainder is 2. What is the remainder when 2n is divided by 4?",
+    "correctValue": 0,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "n ≡ 2 (mod 4)",
+      "2n ≡ 4 ≡ 0 (mod 4)"
+    ],
+    "formula": "If n ≡ r mod m then cn ≡ cr mod m",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-rem-3",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "When a positive integer n is divided by 5, the remainder is 2. What is the remainder when 2n is divided by 5?",
+    "correctValue": 4,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "n ≡ 2 (mod 5)",
+      "2n ≡ 4 ≡ 4 (mod 5)"
+    ],
+    "formula": "If n ≡ r mod m then cn ≡ cr mod m",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-rem-4",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "When a positive integer n is divided by 6, the remainder is 3. What is the remainder when 2n is divided by 6?",
+    "correctValue": 0,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "n ≡ 3 (mod 6)",
+      "2n ≡ 6 ≡ 0 (mod 6)"
+    ],
+    "formula": "If n ≡ r mod m then cn ≡ cr mod m",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-rem-5",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "When a positive integer n is divided by 7, the remainder is 3. What is the remainder when 2n is divided by 7?",
+    "correctValue": 6,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "n ≡ 3 (mod 7)",
+      "2n ≡ 6 ≡ 6 (mod 7)"
+    ],
+    "formula": "If n ≡ r mod m then cn ≡ cr mod m",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-rem-6",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "When a positive integer n is divided by 8, the remainder is 4. What is the remainder when 2n is divided by 8?",
+    "correctValue": 0,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "n ≡ 4 (mod 8)",
+      "2n ≡ 8 ≡ 0 (mod 8)"
+    ],
+    "formula": "If n ≡ r mod m then cn ≡ cr mod m",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-rem-7",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "When a positive integer n is divided by 9, the remainder is 4. What is the remainder when 2n is divided by 9?",
+    "correctValue": 8,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "n ≡ 4 (mod 9)",
+      "2n ≡ 8 ≡ 8 (mod 9)"
+    ],
+    "formula": "If n ≡ r mod m then cn ≡ cr mod m",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-rem-8",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "When a positive integer n is divided by 10, the remainder is 5. What is the remainder when 2n is divided by 10?",
+    "correctValue": 0,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "n ≡ 5 (mod 10)",
+      "2n ≡ 10 ≡ 0 (mod 10)"
+    ],
+    "formula": "If n ≡ r mod m then cn ≡ cr mod m",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-rem-9",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "When a positive integer n is divided by 11, the remainder is 5. What is the remainder when 2n is divided by 11?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "n ≡ 5 (mod 11)",
+      "2n ≡ 10 ≡ 10 (mod 11)"
+    ],
+    "formula": "If n ≡ r mod m then cn ≡ cr mod m",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-pct-1",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A price increases by 10% and then decreases by 10%. What is the overall percent change from the original? (negative for decrease)",
+    "correctValue": -1.0,
+    "tolerance": 0.1,
+    "unit": "%",
+    "solutionSteps": [
+      "Multiplier = 1.10 × 0.90 = 0.9900",
+      "Overall change = -1.0%"
+    ],
+    "formula": "(1+r1)(1+r2)-1",
+    "estimatedSeconds": 45,
+    "challengeSet": true
+  },
+  {
+    "id": "gen-pct-2",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A price increases by 20% and then decreases by 20%. What is the overall percent change from the original? (negative for decrease)",
+    "correctValue": -4.0,
+    "tolerance": 0.1,
+    "unit": "%",
+    "solutionSteps": [
+      "Multiplier = 1.20 × 0.80 = 0.9600",
+      "Overall change = -4.0%"
+    ],
+    "formula": "(1+r1)(1+r2)-1",
+    "estimatedSeconds": 45,
+    "challengeSet": true
+  },
+  {
+    "id": "gen-pct-3",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A price increases by 25% and then decreases by 20%. What is the overall percent change from the original? (negative for decrease)",
+    "correctValue": 0.0,
+    "tolerance": 0.1,
+    "unit": "%",
+    "solutionSteps": [
+      "Multiplier = 1.25 × 0.80 = 1.0000",
+      "Overall change = 0.0%"
+    ],
+    "formula": "(1+r1)(1+r2)-1",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "gen-pct-4",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A price increases by 15% and then decreases by 10%. What is the overall percent change from the original? (negative for decrease)",
+    "correctValue": 3.5,
+    "tolerance": 0.1,
+    "unit": "%",
+    "solutionSteps": [
+      "Multiplier = 1.15 × 0.90 = 1.0350",
+      "Overall change = 3.5%"
+    ],
+    "formula": "(1+r1)(1+r2)-1",
+    "estimatedSeconds": 45,
+    "challengeSet": true
+  },
+  {
+    "id": "gen-pct-5",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A price increases by 30% and then decreases by 25%. What is the overall percent change from the original? (negative for decrease)",
+    "correctValue": -2.5,
+    "tolerance": 0.1,
+    "unit": "%",
+    "solutionSteps": [
+      "Multiplier = 1.30 × 0.75 = 0.9750",
+      "Overall change = -2.5%"
+    ],
+    "formula": "(1+r1)(1+r2)-1",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "gen-pct-6",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A price increases by 40% and then decreases by 30%. What is the overall percent change from the original? (negative for decrease)",
+    "correctValue": -2.0,
+    "tolerance": 0.1,
+    "unit": "%",
+    "solutionSteps": [
+      "Multiplier = 1.40 × 0.70 = 0.9800",
+      "Overall change = -2.0%"
+    ],
+    "formula": "(1+r1)(1+r2)-1",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "gen-pct-7",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A price increases by 50% and then decreases by 40%. What is the overall percent change from the original? (negative for decrease)",
+    "correctValue": -10.0,
+    "tolerance": 0.1,
+    "unit": "%",
+    "solutionSteps": [
+      "Multiplier = 1.50 × 0.60 = 0.9000",
+      "Overall change = -10.0%"
+    ],
+    "formula": "(1+r1)(1+r2)-1",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "gen-pct-8",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A price increases by 12% and then decreases by 8%. What is the overall percent change from the original? (negative for decrease)",
+    "correctValue": 3.0,
+    "tolerance": 0.1,
+    "unit": "%",
+    "solutionSteps": [
+      "Multiplier = 1.12 × 0.92 = 1.0304",
+      "Overall change = 3.0%"
+    ],
+    "formula": "(1+r1)(1+r2)-1",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "gen-qc-1",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x > 1",
+    "quantityA": "x²",
+    "quantityB": "x³",
+    "correctComparison": "B",
+    "solutionSteps": [
+      "For x>1, x³ > x²."
+    ],
+    "formula": "Analyze based on the range of x",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "gen-qc-2",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "0 < x < 1",
+    "quantityA": "x²",
+    "quantityB": "x³",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "For 0<x<1, x² > x³."
+    ],
+    "formula": "Analyze based on the range of x",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "gen-qc-3",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x < 0",
+    "quantityA": "x²",
+    "quantityB": "x³",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "x² > 0 > x³."
+    ],
+    "formula": "Analyze based on the range of x",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "gen-qc-4",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x > 0",
+    "quantityA": "1/x",
+    "quantityB": "x",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "Depends on whether x>1 or 0<x<1."
+    ],
+    "formula": "Analyze based on the range of x",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "gen-qc-5",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x ≠ 0",
+    "quantityA": "x + 1/x",
+    "quantityB": "2",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "Can be >2, =2 or <-2."
+    ],
+    "formula": "Analyze based on the range of x",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "gen-work-1",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A can finish a job in 6 days, B in 12 days. How many days if they work together?",
+    "correctValue": 4.0,
+    "tolerance": 0.01,
+    "unit": "days",
+    "solutionSteps": [
+      "Combined rate = 1/6 + 1/12 = 0.2500",
+      "Time = 1 / rate = 4.0"
+    ],
+    "formula": "Combined rate = sum of rates",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-work-2",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A can finish a job in 8 days, B in 24 days. How many days if they work together?",
+    "correctValue": 6.0,
+    "tolerance": 0.01,
+    "unit": "days",
+    "solutionSteps": [
+      "Combined rate = 1/8 + 1/24 = 0.1667",
+      "Time = 1 / rate = 6.0"
+    ],
+    "formula": "Combined rate = sum of rates",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-work-3",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A can finish a job in 10 days, B in 15 days. How many days if they work together?",
+    "correctValue": 6.0,
+    "tolerance": 0.01,
+    "unit": "days",
+    "solutionSteps": [
+      "Combined rate = 1/10 + 1/15 = 0.1667",
+      "Time = 1 / rate = 6.0"
+    ],
+    "formula": "Combined rate = sum of rates",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-work-4",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A can finish a job in 4 days, B in 12 days. How many days if they work together?",
+    "correctValue": 3.0,
+    "tolerance": 0.01,
+    "unit": "days",
+    "solutionSteps": [
+      "Combined rate = 1/4 + 1/12 = 0.3333",
+      "Time = 1 / rate = 3.0"
+    ],
+    "formula": "Combined rate = sum of rates",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-work-5",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A can finish a job in 5 days, B in 20 days. How many days if they work together?",
+    "correctValue": 4.0,
+    "tolerance": 0.01,
+    "unit": "days",
+    "solutionSteps": [
+      "Combined rate = 1/5 + 1/20 = 0.2500",
+      "Time = 1 / rate = 4.0"
+    ],
+    "formula": "Combined rate = sum of rates",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-work-6",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A can finish a job in 9 days, B in 18 days. How many days if they work together?",
+    "correctValue": 6.0,
+    "tolerance": 0.01,
+    "unit": "days",
+    "solutionSteps": [
+      "Combined rate = 1/9 + 1/18 = 0.1667",
+      "Time = 1 / rate = 6.0"
+    ],
+    "formula": "Combined rate = sum of rates",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-work-7",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A can finish a job in 7 days, B in 14 days. How many days if they work together?",
+    "correctValue": 4.67,
+    "tolerance": 0.01,
+    "unit": "days",
+    "solutionSteps": [
+      "Combined rate = 1/7 + 1/14 = 0.2143",
+      "Time = 1 / rate = 4.67"
+    ],
+    "formula": "Combined rate = sum of rates",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-work-8",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A can finish a job in 3 days, B in 6 days. How many days if they work together?",
+    "correctValue": 2.0,
+    "tolerance": 0.01,
+    "unit": "days",
+    "solutionSteps": [
+      "Combined rate = 1/3 + 1/6 = 0.5000",
+      "Time = 1 / rate = 2.0"
+    ],
+    "formula": "Combined rate = sum of rates",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-avgspd-1",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A trip is traveled at 40 mph one way and 60 mph on the return. What is the average speed for the round trip?",
+    "correctValue": 48.0,
+    "tolerance": 0.1,
+    "unit": "mph",
+    "solutionSteps": [
+      "Harmonic mean = 2×40×60/(40+60) = 48.0"
+    ],
+    "formula": "Average speed for equal distances = harmonic mean",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "gen-avgspd-2",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A trip is traveled at 30 mph one way and 60 mph on the return. What is the average speed for the round trip?",
+    "correctValue": 40.0,
+    "tolerance": 0.1,
+    "unit": "mph",
+    "solutionSteps": [
+      "Harmonic mean = 2×30×60/(30+60) = 40.0"
+    ],
+    "formula": "Average speed for equal distances = harmonic mean",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "gen-avgspd-3",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A trip is traveled at 20 mph one way and 30 mph on the return. What is the average speed for the round trip?",
+    "correctValue": 24.0,
+    "tolerance": 0.1,
+    "unit": "mph",
+    "solutionSteps": [
+      "Harmonic mean = 2×20×30/(20+30) = 24.0"
+    ],
+    "formula": "Average speed for equal distances = harmonic mean",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "gen-avgspd-4",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A trip is traveled at 50 mph one way and 70 mph on the return. What is the average speed for the round trip?",
+    "correctValue": 58.3,
+    "tolerance": 0.1,
+    "unit": "mph",
+    "solutionSteps": [
+      "Harmonic mean = 2×50×70/(50+70) = 58.3"
+    ],
+    "formula": "Average speed for equal distances = harmonic mean",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "gen-avgspd-5",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A trip is traveled at 25 mph one way and 50 mph on the return. What is the average speed for the round trip?",
+    "correctValue": 33.3,
+    "tolerance": 0.1,
+    "unit": "mph",
+    "solutionSteps": [
+      "Harmonic mean = 2×25×50/(25+50) = 33.3"
+    ],
+    "formula": "Average speed for equal distances = harmonic mean",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "gen-avgspd-6",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A trip is traveled at 15 mph one way and 45 mph on the return. What is the average speed for the round trip?",
+    "correctValue": 22.5,
+    "tolerance": 0.1,
+    "unit": "mph",
+    "solutionSteps": [
+      "Harmonic mean = 2×15×45/(15+45) = 22.5"
+    ],
+    "formula": "Average speed for equal distances = harmonic mean",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "gen-age-1",
+    "topic": "word-problems",
+    "subtopic": "Age Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A is currently 4 times as old as B. In 5 years A will be 3 times as old as B. How old is B now?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": "years",
+    "solutionSteps": [
+      "4x + 5 = 3(x + 5) → 4x + 5 = 3x + 15 → x = 10."
+    ],
+    "formula": "Future ages equation",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "gen-age-2",
+    "topic": "word-problems",
+    "subtopic": "Age Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "The sum of ages of two sisters is 28. In 4 years the older will be twice the younger. How old is the younger now?",
+    "correctValue": 8,
+    "tolerance": 0,
+    "unit": "years",
+    "solutionSteps": [
+      "Let younger = y, older = 28-y.",
+      "(28-y)+4 = 2(y+4) → 32 - y = 2y + 8 → 24 = 3y → y = 8."
+    ],
+    "formula": "Sum + future ratio",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "gen-prob-1",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Two dice are rolled. Probability of sum greater than 9? (as decimal to 3 places)",
+    "correctValue": 0.167,
+    "tolerance": 0.001,
+    "unit": null,
+    "solutionSteps": [
+      "Sums 10,11,12: 3+2+1=6 ways out of 36.",
+      "6/36 = 1/6 ≈ 0.167."
+    ],
+    "formula": "Count favorable outcomes",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "gen-prob-2",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A bag has 3 red and 5 blue. Probability of drawing 2 red without replacement?",
+    "correctValue": 0.1071,
+    "tolerance": 0.001,
+    "unit": null,
+    "solutionSteps": [
+      "(3/8)×(2/7) = 6/56 = 3/28 ≈ 0.1071."
+    ],
+    "formula": "Without replacement multiply conditionals",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "gen-geo-1",
+    "topic": "geometry",
+    "subtopic": "Triangles",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Sides of a triangle are 7, 24, 25. Is it right-angled? If yes, what is the area?",
+    "correctValue": 84,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "7²+24²=49+576=625=25² → right-angled.",
+      "Area = (1/2)×7×24 = 84."
+    ],
+    "formula": "Check Pythagorean then area = (1/2)leg1×leg2",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "gen-geo-2",
+    "topic": "geometry",
+    "subtopic": "Circles",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "A sector of a circle with radius 6 has central angle 60°. What is the arc length? (use π≈3.14)",
+    "correctValue": 6.28,
+    "tolerance": 0.05,
+    "unit": null,
+    "solutionSteps": [
+      "Arc = (θ/360)×2πr = (60/360)×2×3.14×6 = (1/6)×37.68 ≈ 6.28."
+    ],
+    "formula": "Arc length = (θ/360)×2πr",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "quad-1",
+    "topic": "algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the sum of the roots of x² - 7x + 12 = 0?",
+    "correctValue": 7,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Sum of roots = -b/a for ax²+bx+c. Here Sum of roots."
+    ],
+    "formula": "Sum of roots = -b/a",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "quad-2",
+    "topic": "algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the sum of the roots of x² + 5x - 6 = 0?",
+    "correctValue": -5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Sum of roots = -b/a for ax²+bx+c. Here Sum of roots = -b."
+    ],
+    "formula": "Sum of roots = -b/a",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "quad-3",
+    "topic": "algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the sum of the roots of x² - 9 = 0?",
+    "correctValue": 0,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Sum of roots = -b/a for ax²+bx+c. Here Sum of roots of difference of squares."
+    ],
+    "formula": "Sum of roots = -b/a",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "quad-4",
+    "topic": "algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the sum of the roots of x² - 4x - 5 = 0?",
+    "correctValue": 4,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Sum of roots = -b/a for ax²+bx+c. Here Sum."
+    ],
+    "formula": "Sum of roots = -b/a",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "abs-1",
+    "topic": "algebra",
+    "subtopic": "Absolute Value",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many integers satisfy |x| < 5?",
+    "correctValue": 9,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "The solution is the integers in -4 to 4."
+    ],
+    "formula": "|A| ≤ B → -B ≤ A ≤ B",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "abs-2",
+    "topic": "algebra",
+    "subtopic": "Absolute Value",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many integers satisfy |x-3| ≤ 4?",
+    "correctValue": 9,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "The solution is the integers in -1 to 7."
+    ],
+    "formula": "|A| ≤ B → -B ≤ A ≤ B",
+    "estimatedSeconds": 40,
+    "challengeSet": true
+  },
+  {
+    "id": "abs-3",
+    "topic": "algebra",
+    "subtopic": "Absolute Value",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many integers satisfy |2x| ≤ 6?",
+    "correctValue": 7,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "The solution is the integers in -3 to 3."
+    ],
+    "formula": "|A| ≤ B → -B ≤ A ≤ B",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "abs-4",
+    "topic": "algebra",
+    "subtopic": "Absolute Value",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many integers satisfy |x+1| ≤ 2?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "The solution is the integers in -3 to 1 inclusive."
+    ],
+    "formula": "|A| ≤ B → -B ≤ A ≤ B",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "set-1",
+    "topic": "data-analysis",
+    "subtopic": "Overlapping Sets",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "In a group of 100 people, 60 like A, 50 like B, 20 like both. How many like neither?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "At least one = 60+50-20 = 90.",
+      "Neither = 100 - 90 = 10."
+    ],
+    "formula": "Neither = total - (|A|+|B|-|A∩B|)",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "set-2",
+    "topic": "data-analysis",
+    "subtopic": "Overlapping Sets",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "In a group of 80 people, 45 like A, 35 like B, 15 like both. How many like neither?",
+    "correctValue": 15,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "At least one = 45+35-15 = 65.",
+      "Neither = 80 - 65 = 15."
+    ],
+    "formula": "Neither = total - (|A|+|B|-|A∩B|)",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "set-3",
+    "topic": "data-analysis",
+    "subtopic": "Overlapping Sets",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "In a group of 50 people, 30 like A, 25 like B, 10 like both. How many like neither?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "At least one = 30+25-10 = 45.",
+      "Neither = 50 - 45 = 5."
+    ],
+    "formula": "Neither = total - (|A|+|B|-|A∩B|)",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "lcm-1",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "LCM of 12 and 18?",
+    "correctValue": 36,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "LCM(12,18) = 36."
+    ],
+    "formula": "LCM via primes or formula LCM×GCD = a×b",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "gcd-1",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "GCD of 12 and 18?",
+    "correctValue": 6,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "GCD(12,18) = 6."
+    ],
+    "formula": "GCD via primes or Euclidean algorithm",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "lcm-2",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "LCM of 15 and 25?",
+    "correctValue": 75,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "LCM(15,25) = 75."
+    ],
+    "formula": "LCM via primes or formula LCM×GCD = a×b",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "gcd-2",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "GCD of 15 and 25?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "GCD(15,25) = 5."
+    ],
+    "formula": "GCD via primes or Euclidean algorithm",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "lcm-3",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "LCM of 8 and 12?",
+    "correctValue": 24,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "LCM(8,12) = 24."
+    ],
+    "formula": "LCM via primes or formula LCM×GCD = a×b",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "gcd-3",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "GCD of 8 and 12?",
+    "correctValue": 4,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "GCD(8,12) = 4."
+    ],
+    "formula": "GCD via primes or Euclidean algorithm",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "lcm-4",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "LCM of 9 and 15?",
+    "correctValue": 45,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "LCM(9,15) = 45."
+    ],
+    "formula": "LCM via primes or formula LCM×GCD = a×b",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "gcd-4",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "GCD of 9 and 15?",
+    "correctValue": 3,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "GCD(9,15) = 3."
+    ],
+    "formula": "GCD via primes or Euclidean algorithm",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "lcm-5",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "LCM of 16 and 24?",
+    "correctValue": 48,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "LCM(16,24) = 48."
+    ],
+    "formula": "LCM via primes or formula LCM×GCD = a×b",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "gcd-5",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "GCD of 16 and 24?",
+    "correctValue": 8,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "GCD(16,24) = 8."
+    ],
+    "formula": "GCD via primes or Euclidean algorithm",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "comb-1",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "C(6,2) = ?",
+    "correctValue": 15,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "C(6,2) = 15."
+    ],
+    "formula": "C(n,r) = n! / (r!(n-r)!)",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "comb-2",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "C(7,3) = ?",
+    "correctValue": 35,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "C(7,3) = 35."
+    ],
+    "formula": "C(n,r) = n! / (r!(n-r)!)",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "comb-3",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "C(8,2) = ?",
+    "correctValue": 28,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "C(8,2) = 28."
+    ],
+    "formula": "C(n,r) = n! / (r!(n-r)!)",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "comb-4",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "C(9,2) = ?",
+    "correctValue": 36,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "C(9,2) = 36."
+    ],
+    "formula": "C(n,r) = n! / (r!(n-r)!)",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "comb-5",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "C(5,3) = ?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "C(5,3) = 10."
+    ],
+    "formula": "C(n,r) = n! / (r!(n-r)!)",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "comb-6",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "C(10,2) = ?",
+    "correctValue": 45,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "C(10,2) = 45."
+    ],
+    "formula": "C(n,r) = n! / (r!(n-r)!)",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "perm-1",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "P(5,3) = ?",
+    "correctValue": 60,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "P(5,3) = 60."
+    ],
+    "formula": "P(n,r) = n!/(n-r)!",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "perm-2",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "P(6,2) = ?",
+    "correctValue": 30,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "P(6,2) = 30."
+    ],
+    "formula": "P(n,r) = n!/(n-r)!",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "perm-3",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "P(7,2) = ?",
+    "correctValue": 42,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "P(7,2) = 42."
+    ],
+    "formula": "P(n,r) = n!/(n-r)!",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "perm-4",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "P(4,4) = ?",
+    "correctValue": 24,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "P(4,4) = 24."
+    ],
+    "formula": "P(n,r) = n!/(n-r)!",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "perm-5",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "P(8,2) = ?",
+    "correctValue": 56,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "P(8,2) = 56."
+    ],
+    "formula": "P(n,r) = n!/(n-r)!",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "exp-1",
+    "topic": "arithmetic",
+    "subtopic": "Exponents & Roots",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the value of 2^3 × 2^4?",
+    "correctValue": 128,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "2^7=128"
+    ],
+    "formula": "Exponent rules",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "exp-2",
+    "topic": "arithmetic",
+    "subtopic": "Exponents & Roots",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the value of 3^5 ÷ 3^2?",
+    "correctValue": 27,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "3^3=27"
+    ],
+    "formula": "Exponent rules",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "exp-3",
+    "topic": "arithmetic",
+    "subtopic": "Exponents & Roots",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the value of (4^2)^3?",
+    "correctValue": 4096,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "4^6=4096"
+    ],
+    "formula": "Exponent rules",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "exp-4",
+    "topic": "arithmetic",
+    "subtopic": "Exponents & Roots",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the value of 5^0?",
+    "correctValue": 1,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Any non-zero to power 0 is 1"
+    ],
+    "formula": "Exponent rules",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "exp-5",
+    "topic": "arithmetic",
+    "subtopic": "Exponents & Roots",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the value of (-2)^4?",
+    "correctValue": 16,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Even power positive"
+    ],
+    "formula": "Exponent rules",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "exp-6",
+    "topic": "arithmetic",
+    "subtopic": "Exponents & Roots",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "What is the value of (-3)^3?",
+    "correctValue": -27,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Odd power keeps sign"
+    ],
+    "formula": "Exponent rules",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "root-1",
+    "topic": "arithmetic",
+    "subtopic": "Exponents & Roots",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is √64 + √36?",
+    "correctValue": 14,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "8+6=14"
+    ],
+    "formula": "Perfect roots",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "root-2",
+    "topic": "arithmetic",
+    "subtopic": "Exponents & Roots",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is √81 - √16?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "9-4=5"
+    ],
+    "formula": "Perfect roots",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "root-3",
+    "topic": "arithmetic",
+    "subtopic": "Exponents & Roots",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is ∛27 × ∛8?",
+    "correctValue": 6,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "3×2=6"
+    ],
+    "formula": "Perfect roots",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "root-4",
+    "topic": "arithmetic",
+    "subtopic": "Exponents & Roots",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is √(49/121)?",
+    "correctValue": 0.636,
+    "tolerance": 0.01,
+    "unit": null,
+    "solutionSteps": [
+      "7/11≈0.636"
+    ],
+    "formula": "Perfect roots",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "dist-1",
+    "topic": "geometry",
+    "subtopic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Distance between (0, 0) and (3, 4)?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "√[(x2-x1)²+(y2-y1)²] = 5"
+    ],
+    "formula": "Distance formula",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "dist-2",
+    "topic": "geometry",
+    "subtopic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Distance between (1, 1) and (4, 5)?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "√[(x2-x1)²+(y2-y1)²] = 5"
+    ],
+    "formula": "Distance formula",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "dist-3",
+    "topic": "geometry",
+    "subtopic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Distance between (-2, 3) and (4, -5)?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "√[(x2-x1)²+(y2-y1)²] = 10"
+    ],
+    "formula": "Distance formula",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "dist-4",
+    "topic": "geometry",
+    "subtopic": "Coordinate Geometry",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Distance between (2, -1) and (-2, 2)?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "√[(x2-x1)²+(y2-y1)²] = 5"
+    ],
+    "formula": "Distance formula",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "slope-1",
+    "topic": "geometry",
+    "subtopic": "Coordinate Geometry",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Slope of line through (1, 2) and (3, 6)?",
+    "correctValue": 2,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "(y2-y1)/(x2-x1) = 2"
+    ],
+    "formula": "Slope = rise/run",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "slope-2",
+    "topic": "geometry",
+    "subtopic": "Coordinate Geometry",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Slope of line through (0, 0) and (5, 10)?",
+    "correctValue": 2,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "(y2-y1)/(x2-x1) = 2"
+    ],
+    "formula": "Slope = rise/run",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "slope-3",
+    "topic": "geometry",
+    "subtopic": "Coordinate Geometry",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Slope of line through (2, 3) and (6, 3)?",
+    "correctValue": 0,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "(y2-y1)/(x2-x1) = 0"
+    ],
+    "formula": "Slope = rise/run",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "pctof-1",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is 15% of 80?",
+    "correctValue": 12,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "0.15 × 80 = 12"
+    ],
+    "formula": "part = percent × whole",
+    "estimatedSeconds": 20
+  },
+  {
+    "id": "pctof-2",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is 25% of 60?",
+    "correctValue": 15,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "0.25 × 60 = 15"
+    ],
+    "formula": "part = percent × whole",
+    "estimatedSeconds": 20
+  },
+  {
+    "id": "pctof-3",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is 40% of 250?",
+    "correctValue": 100,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "0.4 × 250 = 100"
+    ],
+    "formula": "part = percent × whole",
+    "estimatedSeconds": 20
+  },
+  {
+    "id": "pctof-4",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is 12% of 50?",
+    "correctValue": 6,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "0.12 × 50 = 6"
+    ],
+    "formula": "part = percent × whole",
+    "estimatedSeconds": 20
+  },
+  {
+    "id": "pctof-5",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "What is 8% of 75?",
+    "correctValue": 6,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "0.08 × 75 = 6"
+    ],
+    "formula": "part = percent × whole",
+    "estimatedSeconds": 20
+  },
+  {
+    "id": "ratio-1",
+    "topic": "arithmetic",
+    "subtopic": "Ratios & Proportions",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Ratio 2:3, total 25. How many in the first group?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Parts = 5, each = 5.0, first = 10."
+    ],
+    "formula": "part = (ratio part / total parts) × total",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "ratio-2",
+    "topic": "arithmetic",
+    "subtopic": "Ratios & Proportions",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Ratio 3:5, total 40. How many in the first group?",
+    "correctValue": 15,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Parts = 8, each = 5.0, first = 15."
+    ],
+    "formula": "part = (ratio part / total parts) × total",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "ratio-3",
+    "topic": "arithmetic",
+    "subtopic": "Ratios & Proportions",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Ratio 4:7, total 33. How many in the first group?",
+    "correctValue": 12,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Parts = 11, each = 3.0, first = 12."
+    ],
+    "formula": "part = (ratio part / total parts) × total",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "si-1",
+    "topic": "word-problems",
+    "subtopic": "Simple Interest",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Simple interest on $1000 at 5% for 2 years?",
+    "correctValue": 100,
+    "tolerance": 0,
+    "unit": "$",
+    "solutionSteps": [
+      "I = 1000×0.05×2 = 100"
+    ],
+    "formula": "I=Prt",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "si-2",
+    "topic": "word-problems",
+    "subtopic": "Simple Interest",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Simple interest on $1500 at 6% for 4 years?",
+    "correctValue": 360,
+    "tolerance": 0,
+    "unit": "$",
+    "solutionSteps": [
+      "I = 1500×0.06×4 = 360"
+    ],
+    "formula": "I=Prt",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "si-3",
+    "topic": "word-problems",
+    "subtopic": "Simple Interest",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Simple interest on $2000 at 4% for 5 years?",
+    "correctValue": 400,
+    "tolerance": 0,
+    "unit": "$",
+    "solutionSteps": [
+      "I = 2000×0.04×5 = 400"
+    ],
+    "formula": "I=Prt",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "si-4",
+    "topic": "word-problems",
+    "subtopic": "Simple Interest",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "Simple interest on $800 at 10% for 3 years?",
+    "correctValue": 240,
+    "tolerance": 0,
+    "unit": "$",
+    "solutionSteps": [
+      "I = 800×0.1×3 = 240"
+    ],
+    "formula": "I=Prt",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "hqc-1",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x is an integer.",
+    "quantityA": "x(x+1)",
+    "quantityB": "0",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "x(x+1) is always even and can be positive, negative or zero (when x=0 or -1). Relationship cannot be determined from the information given if we consider all integers."
+    ],
+    "formula": "Test multiple values",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc-2",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "n > 1 integer",
+    "quantityA": "Number of primes less than or equal to n",
+    "quantityB": "n/2",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "For n=2: 1 vs 1. For n=3: 2 vs 1.5. For large n the prime counting function is much smaller than n/2. Cannot always determine."
+    ],
+    "formula": "Test multiple values",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc-3",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "a > b > 0",
+    "quantityA": "a - b",
+    "quantityB": "a/b",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "Depends on specific values. e.g. a=3,b=1: 2 vs 3. a=4,b=1: 3 vs 4. a=5,b=2: 3 vs 2.5."
+    ],
+    "formula": "Test multiple values",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "mix-1",
+    "topic": "word-problems",
+    "subtopic": "Mixture Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many liters of 10% solution must be mixed with 10 liters of 50% solution to get 30% solution?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": "liters",
+    "solutionSteps": [
+      "0.10x + 0.50*10 = 0.30(x+10)",
+      "Solve to get x = 10"
+    ],
+    "formula": "Pure solute conserved",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "mix-3",
+    "topic": "word-problems",
+    "subtopic": "Mixture Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many liters of 20% solution must be mixed with 10 liters of 46% solution to get 33% solution?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": "liters",
+    "solutionSteps": [
+      "0.20x + 0.46*10 = 0.33(x+10)",
+      "Solve to get x = 10"
+    ],
+    "formula": "Pure solute conserved",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "mix-5",
+    "topic": "word-problems",
+    "subtopic": "Mixture Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many liters of 30% solution must be mixed with 10 liters of 42% solution to get 36% solution?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": "liters",
+    "solutionSteps": [
+      "0.30x + 0.42*10 = 0.36(x+10)",
+      "Solve to get x = 10"
+    ],
+    "formula": "Pure solute conserved",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "mix-6",
+    "topic": "word-problems",
+    "subtopic": "Mixture Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many liters of 35% solution must be mixed with 10 liters of 40% solution to get 37% solution?",
+    "correctValue": 15,
+    "tolerance": 0,
+    "unit": "liters",
+    "solutionSteps": [
+      "0.35x + 0.40*10 = 0.37(x+10)",
+      "Solve to get x = 15"
+    ],
+    "formula": "Pure solute conserved",
+    "estimatedSeconds": 55,
+    "challengeSet": true
+  },
+  {
+    "id": "mix-7",
+    "topic": "word-problems",
+    "subtopic": "Mixture Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many liters of 40% solution must be mixed with 10 liters of 38% solution to get 39% solution?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": "liters",
+    "solutionSteps": [
+      "0.40x + 0.38*10 = 0.39(x+10)",
+      "Solve to get x = 10"
+    ],
+    "formula": "Pure solute conserved",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "mix-8",
+    "topic": "word-problems",
+    "subtopic": "Mixture Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many liters of 45% solution must be mixed with 10 liters of 36% solution to get 40% solution?",
+    "correctValue": 8,
+    "tolerance": 0,
+    "unit": "liters",
+    "solutionSteps": [
+      "0.45x + 0.36*10 = 0.40(x+10)",
+      "Solve to get x = 8"
+    ],
+    "formula": "Pure solute conserved",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "mixf-2",
+    "topic": "word-problems",
+    "subtopic": "Mixture Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many liters of 15% acid must be mixed with 20 liters of 50% acid to produce 30% acid?",
+    "correctValue": 26.67,
+    "tolerance": 0.01,
+    "unit": "liters",
+    "solutionSteps": [
+      "Let x = liters of 15% acid needed.",
+      "Acid balance: 0.15x + 0.50(20) = 0.30(x + 20).",
+      "0.15x + 10 = 0.30x + 6 → 4 = 0.15x → x = 26.67."
+    ],
+    "formula": "Amount of pure acid equal before and after",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "mixf-3",
+    "topic": "word-problems",
+    "subtopic": "Mixture Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many liters of 10% acid must be mixed with 30 liters of 60% acid to produce 40% acid?",
+    "correctValue": 20,
+    "tolerance": 0,
+    "unit": "liters",
+    "solutionSteps": [
+      "Let x = liters of 10% acid needed.",
+      "Acid balance: 0.10x + 0.60(30) = 0.40(x + 30).",
+      "0.10x + 18 = 0.40x + 12 → 6 = 0.30x → x = 20."
+    ],
+    "formula": "Amount of pure acid equal before and after",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "func-1",
+    "topic": "algebra",
+    "subtopic": "Functions",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "If f(x)=3x-2, what is f(4)?",
+    "correctValue": 10,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Substitute x=4."
+    ],
+    "formula": "Function evaluation",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "func-2",
+    "topic": "algebra",
+    "subtopic": "Functions",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "If f(x)=x²+2x, what is f(3)?",
+    "correctValue": 15,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Substitute x=3."
+    ],
+    "formula": "Function evaluation",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "func-3",
+    "topic": "algebra",
+    "subtopic": "Functions",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "If f(x)=5-x, what is f(7)?",
+    "correctValue": -2,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Substitute x=7."
+    ],
+    "formula": "Function evaluation",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "func-4",
+    "topic": "algebra",
+    "subtopic": "Functions",
+    "difficulty": "easy",
+    "type": "numeric-entry",
+    "prompt": "If f(x)=2x²-3, what is f(2)?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Substitute x=2."
+    ],
+    "formula": "Function evaluation",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "vol-1",
+    "topic": "geometry",
+    "subtopic": "Volume & Surface Area",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Volume of a cube side 5?",
+    "correctValue": 125,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "5³=125"
+    ],
+    "formula": "Volume formulas",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "vol-2",
+    "topic": "geometry",
+    "subtopic": "Volume & Surface Area",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Volume of a cube side 6?",
+    "correctValue": 216,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "6³"
+    ],
+    "formula": "Volume formulas",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "vol-3",
+    "topic": "geometry",
+    "subtopic": "Volume & Surface Area",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Volume of a rectangular 2×3×4?",
+    "correctValue": 24,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "2*3*4"
+    ],
+    "formula": "Volume formulas",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "vol-4",
+    "topic": "geometry",
+    "subtopic": "Volume & Surface Area",
+    "difficulty": "medium",
+    "type": "numeric-entry",
+    "prompt": "Volume of a cylinder r=2 h=5 (π≈3.14)?",
+    "correctValue": 62.8,
+    "tolerance": 0.1,
+    "unit": null,
+    "solutionSteps": [
+      "πr²h≈3.14*4*5=62.8"
+    ],
+    "formula": "Volume formulas",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "tough-01",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "What is the remainder when 7^50 is divided by 10?",
+    "correctValue": 9,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Units digits of powers of 7 cycle every 4: 7, 9, 3, 1.",
+      "50 mod 4 = 2 → second in cycle → units digit 9.",
+      "Remainder when divided by 10 is 9."
+    ],
+    "formula": "Units digit cycle of 7 is length 4",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "tough-02",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "If n leaves a remainder of 5 when divided by 8, what is the remainder when 3n + 2 is divided by 8?",
+    "correctValue": 1,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "n ≡ 5 (mod 8)",
+      "3n ≡ 15 ≡ 7 (mod 8)",
+      "3n + 2 ≡ 7 + 2 ≡ 9 ≡ 1 (mod 8)"
+    ],
+    "formula": "Linear congruences",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "tough-03",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "n is a positive integer greater than 1.",
+    "quantityA": "Remainder when n² is divided by 4",
+    "quantityB": "2",
+    "correctComparison": "B",
+    "solutionSteps": [
+      "Any integer is 0 or 1 mod 2.",
+      "Even n = 2k → n² = 4k² ≡ 0 mod 4.",
+      "Odd n = 2k+1 → n² = 4k(k+1) + 1 ≡ 1 mod 4.",
+      "Remainder is never 2 or 3. Quantity A is 0 or 1, both less than 2."
+    ],
+    "formula": "Squares are 0 or 1 mod 4",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "tough-04",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "What is the units digit of 3^47?",
+    "correctValue": 7,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Units digits of powers of 3 cycle every 4: 3, 9, 7, 1.",
+      "47 mod 4 = 3 → third position → 7."
+    ],
+    "formula": "Units digit cycle",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "tough-05",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many distinct prime factors does 840 have?",
+    "correctValue": 4,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "840 = 84 × 10 = (2² × 3 × 7) × (2 × 5) = 2³ × 3 × 5 × 7.",
+      "Distinct primes: 2, 3, 5, 7 → 4."
+    ],
+    "formula": "Prime factorization",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "tough-06",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "n is an odd positive integer.",
+    "quantityA": "Remainder when n² is divided by 8",
+    "quantityB": "1",
+    "correctComparison": "equal",
+    "solutionSteps": [
+      "Odd n = 2k+1 → n² = 4k(k+1) + 1.",
+      "k(k+1) is always even, so 4 × even = multiple of 8.",
+      "n² ≡ 1 (mod 8). Always equal."
+    ],
+    "formula": "Odd squares ≡ 1 mod 8",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "tough-07",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "What is the greatest common divisor of 144 and 216?",
+    "correctValue": 72,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "144 = 2⁴ × 3², 216 = 2³ × 3³.",
+      "GCD = 2³ × 3² = 8 × 9 = 72."
+    ],
+    "formula": "GCD takes lowest powers of common primes",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "tough-08",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "The least common multiple of 18, 24 and 30 is?",
+    "correctValue": 360,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "18=2×3², 24=2³×3, 30=2×3×5.",
+      "LCM = 2³ × 3² × 5 = 8 × 9 × 5 = 360."
+    ],
+    "formula": "LCM takes highest powers",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "tough-09",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "0 < x < 1",
+    "quantityA": "x² + x",
+    "quantityB": "x³ + 1",
+    "correctComparison": "B",
+    "solutionSteps": [
+      "x² + x - x³ - 1 = x(1 + x - x²) - 1.",
+      "Better: for 0<x<1, x³ < x² < x < 1.",
+      "Test x=0.5: A=0.25+0.5=0.75, B=0.125+1=1.125 → B larger.",
+      "In general B is larger."
+    ],
+    "formula": "Test values or rearrange inequality",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "tough-10",
+    "topic": "algebra",
+    "subtopic": "Exponents",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x > 1",
+    "quantityA": "√x",
+    "quantityB": "x^(1/3)",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "For x > 1 the function x^a increases as a increases.",
+      "1/2 > 1/3 → √x > x^(1/3)."
+    ],
+    "formula": "For base >1, larger exponent yields larger value",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "tough-11",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x < −1",
+    "quantityA": "x²",
+    "quantityB": "−x",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "x² is positive and grows faster than −x (which is positive).",
+      "For x=−2: A=4, B=2 → A larger.",
+      "For x=−10: A=100, B=10 → A larger. Always A > B when x < −1."
+    ],
+    "formula": "Compare quadratic vs linear for |x| large",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "tough-12",
+    "topic": "algebra",
+    "subtopic": "Absolute Value",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x is a real number.",
+    "quantityA": "|x − 3| + |x + 1|",
+    "quantityB": "4",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "|x − 3| + |x + 1| is the sum of distances from x to 3 and from x to −1, which are 4 apart.",
+      "When x is between −1 and 3, the sum equals exactly 4 (Quantities are equal).",
+      "When x is outside that range, the sum is strictly greater than 4 (Quantity A is greater).",
+      "Since the relationship is sometimes \"equal\" and sometimes \"A is greater\" depending on x, it cannot be determined from the information given."
+    ],
+    "formula": "Absolute value sum is minimized between the points",
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tough-13",
+    "topic": "algebra",
+    "subtopic": "Exponents",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "a = −3, b = 2",
+    "quantityA": "a^b",
+    "quantityB": "b^a",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "a^b = (−3)² = 9.",
+      "b^a = 2^(−3) = 1/8.",
+      "9 > 1/8."
+    ],
+    "formula": "Evaluate directly",
+    "estimatedSeconds": 30
+  },
+  {
+    "id": "tough-14",
+    "topic": "arithmetic",
+    "subtopic": "Percentages",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "A price is increased by 25% and then decreased by 20%.",
+    "quantityA": "Final price",
+    "quantityB": "Original price",
+    "correctComparison": "equal",
+    "solutionSteps": [
+      "1.25 × 0.80 = 1.00.",
+      "Final = original."
+    ],
+    "formula": "Sequential multipliers",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "tough-15",
+    "topic": "algebra",
+    "subtopic": "Absolute Value",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many integer solutions does |x − 4| + |x + 2| = 10 have?",
+    "correctValue": 2,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Critical points are x = 4 and x = −2, which are 6 apart — the minimum possible value of the sum is 6 (for −2 ≤ x ≤ 4).",
+      "Since we need the sum to equal 10 (greater than the minimum), the solutions lie outside [−2, 4].",
+      "For x ≥ 4: (x−4) + (x+2) = 2x − 2 = 10 → x = 6.",
+      "For x ≤ −2: (4−x) + (−x−2) = 2 − 2x = 10 → x = −4.",
+      "Exactly 2 solutions: x = 6 and x = −4."
+    ],
+    "formula": "Case analysis on absolute value",
+    "estimatedSeconds": 65
+  },
+  {
+    "id": "tough-16",
+    "topic": "algebra",
+    "subtopic": "Functions",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "If f(x) = x² − 4x + 3 and f(a) = f(b) with a ≠ b, what is a + b?",
+    "correctValue": 4,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "f(a) = f(b) ⇒ a² − 4a + 3 = b² − 4b + 3 ⇒ a² − b² − 4(a − b) = 0",
+      "(a − b)(a + b − 4) = 0.",
+      "Since a ≠ b, a + b = 4."
+    ],
+    "formula": "Axis of symmetry of parabola is midpoint of roots",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "tough-17",
+    "topic": "algebra",
+    "subtopic": "Quadratic Equations",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "If the roots of x² − px + 12 = 0 are integers, what is the largest possible value of p?",
+    "correctValue": 13,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Possible integer pairs (r,s) with r×s=12: (1,12) p=13; (2,6) p=8; (3,4) p=7; and negatives.",
+      "Largest p = 13."
+    ],
+    "formula": "Sum of roots = p, product = 12",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "tough-18",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "multiple-choice",
+    "prompt": "For which of the following is (x−2)(x−5) > 0 true?",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "2 < x < 5"
+      },
+      {
+        "id": "c1",
+        "text": "x < 2 or x > 5"
+      },
+      {
+        "id": "c2",
+        "text": "x ≤ 2 or x ≥ 5"
+      },
+      {
+        "id": "c3",
+        "text": "x > 2"
+      },
+      {
+        "id": "c4",
+        "text": "x < 5"
+      }
+    ],
+    "correctChoiceId": "c1",
+    "solutionSteps": [
+      "Product positive outside the roots.",
+      "x < 2 or x > 5."
+    ],
+    "formula": "Sign chart for quadratic inequality",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "tough-19",
+    "topic": "algebra",
+    "subtopic": "Systems of Equations",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "If 3x + 2y = 18 and x − y = 1, what is xy?",
+    "correctValue": 12,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "x = y + 1.",
+      "3(y+1) + 2y = 18 → 3y + 3 + 2y = 18 → 5y = 15 → y = 3.",
+      "x = 4. xy = 12."
+    ],
+    "formula": "Substitution",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "tough-20",
+    "topic": "algebra",
+    "subtopic": "Exponents",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "If 4^x = 8^(x−1), what is the value of x?",
+    "correctValue": 3,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "4 = 2², 8 = 2³ → (2²)^x = (2³)^(x−1)",
+      "2^(2x) = 2^(3x−3) → 2x = 3x − 3 → x = 3."
+    ],
+    "formula": "Express with same base",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "tough-21",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A bag contains 6 red and 4 blue marbles. Three marbles are drawn without replacement. What is the probability all three are red? (to 4 decimal places)",
+    "correctValue": 0.1667,
+    "tolerance": 0.001,
+    "unit": null,
+    "solutionSteps": [
+      "P = (6/10)×(5/9)×(4/8) = (6×5×4)/(10×9×8) = 120/720 = 1/6 ≈ 0.1667."
+    ],
+    "formula": "Without replacement successive multiplication",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "tough-22",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "In how many ways can a committee of 4 be chosen from 9 people if two particular people must both be included?",
+    "correctValue": 21,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Fix the two required people. Choose remaining 2 from the other 7: C(7,2) = 21."
+    ],
+    "formula": "C(n,r) with restrictions",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "tough-23",
+    "topic": "data-analysis",
+    "subtopic": "Overlapping Sets",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "In a class of 60 students, 35 study Math, 28 study Physics, and 12 study both. How many study neither?",
+    "correctValue": 9,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "At least one = 35 + 28 − 12 = 51.",
+      "Neither = 60 − 51 = 9."
+    ],
+    "formula": "Inclusion-exclusion",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "tough-24",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "A fair six-sided die is rolled twice.",
+    "quantityA": "Probability that the product of the two numbers is even",
+    "quantityB": "1/2",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "Product odd only if both odd. Odd faces: 1,3,5 → 3/6 × 3/6 = 1/4.",
+      "P(product even) = 1 − 1/4 = 3/4 > 1/2."
+    ],
+    "formula": "Complementary counting",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "tough-25",
+    "topic": "data-analysis",
+    "subtopic": "Combinations & Permutations",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many distinct arrangements of the letters in the word 'LEVEL' are there?",
+    "correctValue": 30,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "5 letters with L repeated twice, E repeated twice.",
+      "5! / (2! × 2!) = 120 / 4 = 30."
+    ],
+    "formula": "n! / (repetitions)",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "tough-26",
+    "topic": "geometry",
+    "subtopic": "Triangles",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A right triangle has legs of length 8 and 15. What is the length of the altitude to the hypotenuse?",
+    "correctValue": 7.06,
+    "tolerance": 0.05,
+    "unit": null,
+    "solutionSteps": [
+      "Hypotenuse c = √(64+225) = √289 = 17.",
+      "Area = (1/2)*8*15 = 60.",
+      "Also (1/2)*17*h = 60 → h = 120/17 ≈ 7.06."
+    ],
+    "formula": "Area can be expressed two ways",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "tough-27",
+    "topic": "geometry",
+    "subtopic": "Circles",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A square is inscribed in a circle of radius 5√2. What is the area of the square?",
+    "correctValue": 100,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Diagonal of square = diameter = 10√2.",
+      "Side s satisfies s√2 = 10√2 → s = 10.",
+      "Area = 100."
+    ],
+    "formula": "Diagonal of inscribed square = diameter",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "tough-28",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A and B together finish a job in 8 days. A alone takes 12 days. How many days does B alone take?",
+    "correctValue": 24,
+    "tolerance": 0,
+    "unit": "days",
+    "solutionSteps": [
+      "A rate = 1/12, combined = 1/8.",
+      "B rate = 1/8 − 1/12 = 3/24 − 2/24 = 1/24.",
+      "B alone = 24 days."
+    ],
+    "formula": "B = combined − A",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "tough-29",
+    "topic": "word-problems",
+    "subtopic": "Rate, Time, Distance",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Two cars start 240 miles apart and drive toward each other at 45 mph and 55 mph. After how many hours do they meet?",
+    "correctValue": 2.4,
+    "tolerance": 0,
+    "unit": "hours",
+    "solutionSteps": [
+      "Relative speed = 100 mph.",
+      "Time = 240 / 100 = 2.4 hours."
+    ],
+    "formula": "Closing speed = sum of speeds",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "tough-30",
+    "topic": "word-problems",
+    "subtopic": "Mixture Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many liters of pure water must be added to 30 liters of a 40% acid solution to obtain a 25% acid solution?",
+    "correctValue": 18,
+    "tolerance": 0,
+    "unit": "liters",
+    "solutionSteps": [
+      "Acid amount = 0.40 × 30 = 12 liters (constant).",
+      "12 / (30 + x) = 0.25 → 12 = 0.25(30 + x) → 48 = 30 + x → x = 18."
+    ],
+    "formula": "Pure solute remains constant when diluting",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "hqc2-01",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "n is a positive integer",
+    "quantityA": "Remainder when 3n is divided by 6",
+    "quantityB": "0",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "If n even, 3n even, can be 0 mod 6. If n odd, 3n ≡ 3 mod 6. Can be either."
+    ],
+    "formula": "Number properties / inequalities analysis",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-02",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "n > 1 integer",
+    "quantityA": "Number of positive divisors of n",
+    "quantityB": "Number of positive divisors of n²",
+    "correctComparison": "B",
+    "solutionSteps": [
+      "d(n²) > d(n) for n > 1 because exponents double (or more)."
+    ],
+    "formula": "Number properties / inequalities analysis",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-03",
+    "topic": "algebra",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x is an integer",
+    "quantityA": "x(x-1)(x-2)",
+    "quantityB": "0",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "Product of three consecutive can be 0 (when x=0,1,2) or positive or negative."
+    ],
+    "formula": "Number properties / inequalities analysis",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-04",
+    "topic": "algebra",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "0 < x < y",
+    "quantityA": "x/y + y/x",
+    "quantityB": "2",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "By AM-GM ≥ 2, equality only if x=y. Since x≠y, strictly greater."
+    ],
+    "formula": "Number properties / inequalities analysis",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-05",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x < 0",
+    "quantityA": "|x|",
+    "quantityB": "-x",
+    "correctComparison": "equal",
+    "solutionSteps": [
+      "Definition of absolute value for negative x."
+    ],
+    "formula": "Number properties / inequalities analysis",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-06",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "a > 1, b > 1",
+    "quantityA": "a^b",
+    "quantityB": "b^a",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "Depends: 2^4=16 > 4^2=16 equal; 2^3=8 < 3^2=9; 3^4=81 > 4^3=64."
+    ],
+    "formula": "Number properties / inequalities analysis",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-07",
+    "topic": "algebra",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "n is odd",
+    "quantityA": "n² mod 8",
+    "quantityB": "1",
+    "correctComparison": "equal",
+    "solutionSteps": [
+      "Odd squares always ≡1 mod 8."
+    ],
+    "formula": "Number properties / inequalities analysis",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-08",
+    "topic": "algebra",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x > 0",
+    "quantityA": "1/(x+1)",
+    "quantityB": "1/x - 1",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "For x=1 equal-ish, but varies."
+    ],
+    "formula": "Number properties / inequalities analysis",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-09",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "p is prime > 3",
+    "quantityA": "Remainder when p is divided by 6",
+    "quantityB": "1 or 5",
+    "correctComparison": "equal",
+    "solutionSteps": [
+      "Primes >3 are of form 6k±1."
+    ],
+    "formula": "Number properties / inequalities analysis",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-10",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "m and n positive integers",
+    "quantityA": "LCM(m,n) × GCD(m,n)",
+    "quantityB": "m × n",
+    "correctComparison": "equal",
+    "solutionSteps": [
+      "Classic identity: LCM × GCD = product."
+    ],
+    "formula": "Number properties / inequalities analysis",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-11",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x ≠ 0",
+    "quantityA": "x + 1/x",
+    "quantityB": "2",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "≥2 or ≤-2 for real x≠0. Can be >2 or <2."
+    ],
+    "formula": "Algebraic or geometric comparison",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-12",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "0 < x < 1",
+    "quantityA": "x^x",
+    "quantityB": "x",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "Compare ln(x^x) = x·ln(x) with ln(x) directly, since both x^x and x are positive.",
+      "x·ln(x) − ln(x) = ln(x)·(x − 1). For 0 < x < 1, ln(x) < 0 and (x − 1) < 0, so their product is positive.",
+      "So ln(x^x) > ln(x) for every x in (0,1), meaning x^x > x always. Quantity A is greater."
+    ],
+    "formula": "Algebraic or geometric comparison",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-13",
+    "topic": "geometry",
+    "subtopic": "Triangles",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "In triangle ABC, AB=5, BC=5, AC=6",
+    "quantityA": "Measure of angle B",
+    "quantityB": "60°",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "Triangle is isosceles with AB = BC = 5, base AC = 6, and angle B between the two equal sides.",
+      "Law of Cosines: AC² = AB² + BC² − 2·AB·BC·cos(B) → 36 = 50 − 50cos(B) → cos(B) = 0.28.",
+      "B = arccos(0.28) ≈ 73.7°, which is greater than 60°. Quantity A is greater."
+    ],
+    "formula": "Algebraic or geometric comparison",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-14",
+    "topic": "geometry",
+    "subtopic": "Circles",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "Circle radius 5",
+    "quantityA": "Area of inscribed square",
+    "quantityB": "50",
+    "correctComparison": "equal",
+    "solutionSteps": [
+      "Diagonal=10, side=5√2, area=50."
+    ],
+    "formula": "Algebraic or geometric comparison",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "hqc2-15",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x > y > 0",
+    "quantityA": "x² - y²",
+    "quantityB": "(x-y)²",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "x²-y² = (x-y)(x+y) > (x-y)(x-y) = (x-y)² since x+y > x-y."
+    ],
+    "formula": "Algebraic or geometric comparison",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "di-01",
+    "topic": "data-analysis",
+    "subtopic": "Data Interpretation",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A company has the following sales (in thousands): Jan 40, Feb 50, Mar 60, Apr 45, May 55. What is the average monthly sales for these 5 months?",
+    "correctValue": 50,
+    "tolerance": 0,
+    "unit": "thousands",
+    "solutionSteps": [
+      "Sum = 40+50+60+45+55 = 250. Average = 250/5 = 50."
+    ],
+    "formula": "Mean = sum / count",
+    "estimatedSeconds": 35
+  },
+  {
+    "id": "di-02",
+    "topic": "data-analysis",
+    "subtopic": "Data Interpretation",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Using the sales data Jan 40, Feb 50, Mar 60, Apr 45, May 55 (thousands), what is the percent increase from Jan to Mar?",
+    "correctValue": 50,
+    "tolerance": 0,
+    "unit": "%",
+    "solutionSteps": [
+      "Increase = 20. Percent = 20/40 × 100 = 50%."
+    ],
+    "formula": "Percent change = (change/original)×100",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "di-03",
+    "topic": "data-analysis",
+    "subtopic": "Data Interpretation",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "Sales: Jan 40, Feb 50, Mar 60, Apr 45, May 55 (thousands).",
+    "quantityA": "Median sales",
+    "quantityB": "Mean sales",
+    "correctComparison": "equal",
+    "solutionSteps": [
+      "Ordered: 40,45,50,55,60. Median = 50.",
+      "Mean = 50. Equal."
+    ],
+    "formula": "Median of ordered list; mean as before",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "di-04",
+    "topic": "data-analysis",
+    "subtopic": "Data Interpretation",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Test scores of 8 students: 72, 85, 90, 68, 95, 80, 77, 88. What is the median score?",
+    "correctValue": 82.5,
+    "tolerance": 0.1,
+    "unit": null,
+    "solutionSteps": [
+      "Ordered: 68,72,77,80,85,88,90,95.",
+      "Median = average of 4th and 5th = (80+85)/2 = 82.5."
+    ],
+    "formula": "Median of even count = average of two middle",
+    "estimatedSeconds": 45
+  },
+  {
+    "id": "di-05",
+    "topic": "data-analysis",
+    "subtopic": "Data Interpretation",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Test scores: 72, 85, 90, 68, 95, 80, 77, 88. What is the range?",
+    "correctValue": 27,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Max 95 − min 68 = 27."
+    ],
+    "formula": "Range = max − min",
+    "estimatedSeconds": 25
+  },
+  {
+    "id": "di-06",
+    "topic": "data-analysis",
+    "subtopic": "Data Interpretation",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Test scores: 72, 85, 90, 68, 95, 80, 77, 88. How many scores are above the mean? (mean ≈ 81.875)",
+    "correctValue": 4,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Sum = 655, mean ≈ 81.9.",
+      "Above: 85,90,95,88 → 4 scores."
+    ],
+    "formula": "Count values > mean",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "extra-h-01",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "What is the remainder when 2^20 is divided by 7?",
+    "correctValue": 4,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "2^n mod 7 cycles every 3: 2, 4, 1.",
+      "20 mod 3 = 2 → same as 2^2 ≡ 4 mod 7."
+    ],
+    "formula": "Modular exponentiation cycle",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "extra-h-02",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "How many positive integers ≤ 100 are divisible by 2 or 3 or 5?",
+    "correctValue": 74,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Inclusion-exclusion: |2∪3∪5| = 50+33+20 -16-10-6 +3 = 74."
+    ],
+    "formula": "Inclusion-exclusion for 3 sets",
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "extra-h-03",
+    "topic": "algebra",
+    "subtopic": "Absolute Value",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Solve |x-2| = |x+4|. What is the value of x?",
+    "correctValue": -1,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "The solution is the midpoint between 2 and -4: x = (-4+2)/2 = -1.",
+      "Or cases: x-2 = x+4 (impossible) or x-2 = -(x+4) → x-2 = -x-4 → 2x = -2 → x=-1."
+    ],
+    "formula": "Midpoint for equal absolute distances",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "work-h-1",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A finishes a job in 6 days, B in 8 days. Working together how many days?",
+    "correctValue": 3.43,
+    "tolerance": 0.05,
+    "unit": "days",
+    "solutionSteps": [
+      "1/6 + 1/8 = combined rate. Time = 1/rate ≈ 3.43."
+    ],
+    "formula": "Combined rate",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "work-h-2",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A finishes a job in 9 days, B in 12 days. Working together how many days?",
+    "correctValue": 5.14,
+    "tolerance": 0.05,
+    "unit": "days",
+    "solutionSteps": [
+      "1/9 + 1/12 = combined rate. Time = 1/rate ≈ 5.14."
+    ],
+    "formula": "Combined rate",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "work-h-3",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A finishes a job in 5 days, B in 20 days. Working together how many days?",
+    "correctValue": 4,
+    "tolerance": 0.05,
+    "unit": "days",
+    "solutionSteps": [
+      "1/5 + 1/20 = combined rate. Time = 1/rate ≈ 4."
+    ],
+    "formula": "Combined rate",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "work-h-4",
+    "topic": "word-problems",
+    "subtopic": "Work Problems",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A finishes a job in 10 days, B in 15 days. Working together how many days?",
+    "correctValue": 6,
+    "tolerance": 0.05,
+    "unit": "days",
+    "solutionSteps": [
+      "1/10 + 1/15 = combined rate. Time = 1/rate ≈ 6."
+    ],
+    "formula": "Combined rate",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "pow-h-1",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Remainder when 5^20 is divided by 7?",
+    "correctValue": 4,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Powers of 5 mod 7 cycle every 6: 5, 4, 6, 2, 3, 1.",
+      "20 mod 6 = 2 → second position in the cycle → 4."
+    ],
+    "formula": "Modular powers",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "pow-h-2",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Remainder when 3^25 is divided by 5?",
+    "correctValue": 3,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Use modular exponentiation or cycle of powers of 3 mod 5."
+    ],
+    "formula": "Modular powers",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "pow-h-3",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Remainder when 4^15 is divided by 6?",
+    "correctValue": 4,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Use modular exponentiation or cycle of powers of 4 mod 6."
+    ],
+    "formula": "Modular powers",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "pow-h-4",
+    "topic": "arithmetic",
+    "subtopic": "Number Properties",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Remainder when 9^10 is divided by 5?",
+    "correctValue": 1,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Use modular exponentiation or cycle of powers of 9 mod 5."
+    ],
+    "formula": "Modular powers",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "qc-f-1",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "x > 2",
+    "quantityA": "x² - 4",
+    "quantityB": "(x-2)²",
+    "correctComparison": "A",
+    "solutionSteps": [
+      "x²-4 = (x-2)(x+2) > (x-2)(x-2) since x+2 > x-2."
+    ],
+    "formula": "Algebraic comparison",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "qc-f-2",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "0 < x < 2",
+    "quantityA": "x² - 4",
+    "quantityB": "(x-2)²",
+    "correctComparison": "B",
+    "solutionSteps": [
+      "x²-4 negative while (x-2)² positive."
+    ],
+    "formula": "Algebraic comparison",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "qc-f-3",
+    "topic": "algebra",
+    "subtopic": "Inequalities",
+    "difficulty": "hard",
+    "type": "quant-comparison",
+    "prompt": "n even positive",
+    "quantityA": "n/2",
+    "quantityB": "Number of even positive divisors of n",
+    "correctComparison": "cannot-determine",
+    "solutionSteps": [
+      "Depends on n."
+    ],
+    "formula": "Algebraic comparison",
+    "estimatedSeconds": 50
+  },
+  {
+    "id": "geo-f-01",
+    "topic": "geometry",
+    "subtopic": "Triangles",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "In a 30-60-90 triangle the longer leg is 6√3. What is the hypotenuse?",
+    "correctValue": 12,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Sides  x : x√3 : 2x. Longer leg = x√3 = 6√3 → x=6.",
+      "Hypotenuse = 2x = 12."
+    ],
+    "formula": "30-60-90 ratios",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "geo-f-02",
+    "topic": "geometry",
+    "subtopic": "Circles",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "A chord of length 8 is 3 units from the center of a circle. What is the radius?",
+    "correctValue": 5,
+    "tolerance": 0,
+    "unit": null,
+    "solutionSteps": [
+      "Half chord 4, distance 3 → r = √(16+9) = 5."
+    ],
+    "formula": "Pythagorean in radius-chord triangle",
+    "estimatedSeconds": 40
+  },
+  {
+    "id": "prob-f-01",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "From 5 men and 4 women, a committee of 3 is chosen at random. Probability the committee has exactly 2 women?",
+    "correctValue": 0.3571,
+    "tolerance": 0.01,
+    "unit": null,
+    "solutionSteps": [
+      "C(4,2)×C(5,1) / C(9,3) = 6×5 / 84 = 30/84 = 5/14 ≈ 0.3571."
+    ],
+    "formula": "Combinations for probability",
+    "estimatedSeconds": 55
+  },
+  {
+    "id": "prob-f-02",
+    "topic": "data-analysis",
+    "subtopic": "Probability",
+    "difficulty": "hard",
+    "type": "numeric-entry",
+    "prompt": "Two cards drawn without replacement from a 52-card deck. Probability both are aces?",
+    "correctValue": 0.0045,
+    "tolerance": 0.0005,
+    "unit": null,
+    "solutionSteps": [
+      "(4/52)×(3/51) = 12/2652 = 1/221 ≈ 0.0045."
+    ],
+    "formula": "Without replacement",
+    "estimatedSeconds": 40
+  }
+]

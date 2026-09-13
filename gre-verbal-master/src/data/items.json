@@ -1,0 +1,6732 @@
+[
+  {
+    "id": "se-01",
+    "topic": "sentence-equivalence",
+    "subtopic": "Contrast/Conflict",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "Despite the mediator's attempts to find common ground, the negotiations remained (( )), with neither side willing to compromise.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "contentious"
+      },
+      {
+        "id": "c1",
+        "text": "divisive"
+      },
+      {
+        "id": "c2",
+        "text": "placid"
+      },
+      {
+        "id": "c3",
+        "text": "harmonious"
+      },
+      {
+        "id": "c4",
+        "text": "frugal"
+      },
+      {
+        "id": "c5",
+        "text": "ephemeral"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "The word \"despite\" signals a contrast with the mediator's efforts, so the blank must describe an unresolved, argumentative negotiation.",
+      "\"contentious\" and \"divisive\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w049",
+      "w097",
+      "w080"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-02",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The scientist's findings were so (( )) that other researchers could not replicate her results using the same methodology.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "anomalous"
+      },
+      {
+        "id": "c1",
+        "text": "aberrant"
+      },
+      {
+        "id": "c2",
+        "text": "typical"
+      },
+      {
+        "id": "c3",
+        "text": "conventional"
+      },
+      {
+        "id": "c4",
+        "text": "frugal"
+      },
+      {
+        "id": "c5",
+        "text": "garrulous"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Results other researchers could not replicate must be unusual/deviating from the norm, not ordinary.",
+      "\"anomalous\" and \"aberrant\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w001",
+      "w097",
+      "w098"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-03",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "easy",
+    "type": "sentence-equivalence",
+    "sentenceText": "The committee's report was praised for its (( )); it covered a complex issue in only two clear pages.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "brevity"
+      },
+      {
+        "id": "c1",
+        "text": "succinctness"
+      },
+      {
+        "id": "c2",
+        "text": "verbosity"
+      },
+      {
+        "id": "c3",
+        "text": "prolixity"
+      },
+      {
+        "id": "c4",
+        "text": "hegemony"
+      },
+      {
+        "id": "c5",
+        "text": "dissonance"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Covering a complex issue in only two pages is being concise, so the blank should mean shortness/conciseness of expression.",
+      "\"brevity\" and \"succinctness\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w028",
+      "w100",
+      "w068"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-04",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "Rather than confront the allegations directly, the spokesperson chose to (( )), giving vague, noncommittal answers to every question.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "equivocate"
+      },
+      {
+        "id": "c1",
+        "text": "hedge"
+      },
+      {
+        "id": "c2",
+        "text": "clarify"
+      },
+      {
+        "id": "c3",
+        "text": "affirm"
+      },
+      {
+        "id": "c4",
+        "text": "coalesce"
+      },
+      {
+        "id": "c5",
+        "text": "burgeon"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Vague, noncommittal answers instead of direct confrontation is the definition of evasive, ambiguous speech.",
+      "\"equivocate\" and \"hedge\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w082",
+      "w041",
+      "w030"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-05",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The old professor's lectures were famously (( )); students often lost track of the original topic entirely.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "convoluted"
+      },
+      {
+        "id": "c1",
+        "text": "tangled"
+      },
+      {
+        "id": "c2",
+        "text": "straightforward"
+      },
+      {
+        "id": "c3",
+        "text": "simple"
+      },
+      {
+        "id": "c4",
+        "text": "buoyant"
+      },
+      {
+        "id": "c5",
+        "text": "cogent"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Losing track of the topic implies the lecture was hard to follow or overly complex.",
+      "\"convoluted\" and \"tangled\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w051",
+      "w029",
+      "w042"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-06",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The critic's review was notably (( )), attacking the film's every flaw with biting, sarcastic wit.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "caustic"
+      },
+      {
+        "id": "c1",
+        "text": "acerbic"
+      },
+      {
+        "id": "c2",
+        "text": "gentle"
+      },
+      {
+        "id": "c3",
+        "text": "benevolent"
+      },
+      {
+        "id": "c4",
+        "text": "frugal"
+      },
+      {
+        "id": "c5",
+        "text": "empirical"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Attacking flaws with biting, sarcastic wit describes harsh, cutting criticism.",
+      "\"caustic\" and \"acerbic\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w036",
+      "w024",
+      "w097",
+      "w075"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-07",
+    "topic": "sentence-equivalence",
+    "subtopic": "Contrast/Conflict",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "Although the intern seemed (( )) during the interview, she proved to be remarkably decisive once given real responsibility.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "diffident"
+      },
+      {
+        "id": "c1",
+        "text": "timid"
+      },
+      {
+        "id": "c2",
+        "text": "confident"
+      },
+      {
+        "id": "c3",
+        "text": "assertive"
+      },
+      {
+        "id": "c4",
+        "text": "bombastic"
+      },
+      {
+        "id": "c5",
+        "text": "eclectic"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "The word \"although\" signals a contrast between how she seemed and how she actually turned out (decisive), so the blank must mean shy/lacking confidence.",
+      "\"diffident\" and \"timid\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w064",
+      "w025",
+      "w070"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-08",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "The politician's speech was (( )), full of grand phrases that ultimately said very little of substance.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "bombastic"
+      },
+      {
+        "id": "c1",
+        "text": "grandiloquent"
+      },
+      {
+        "id": "c2",
+        "text": "understated"
+      },
+      {
+        "id": "c3",
+        "text": "plain"
+      },
+      {
+        "id": "c4",
+        "text": "diffident"
+      },
+      {
+        "id": "c5",
+        "text": "cursory"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Grand phrases that say little of substance describe pompous, inflated language.",
+      "\"bombastic\" and \"grandiloquent\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w025",
+      "w064",
+      "w053"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-09",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "easy",
+    "type": "sentence-equivalence",
+    "sentenceText": "The volunteers worked with such (( )) that the shelter was fully renovated in half the expected time.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "alacrity"
+      },
+      {
+        "id": "c1",
+        "text": "eagerness"
+      },
+      {
+        "id": "c2",
+        "text": "reluctance"
+      },
+      {
+        "id": "c3",
+        "text": "sluggishness"
+      },
+      {
+        "id": "c4",
+        "text": "candor"
+      },
+      {
+        "id": "c5",
+        "text": "dearth"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Finishing a project in half the expected time suggests the volunteers worked with brisk, cheerful readiness.",
+      "\"alacrity\" and \"eagerness\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w007",
+      "w032",
+      "w054"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-10",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "Historians consider the treaty a diplomatic (( )); it ended one war only to trigger three more within a decade.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "debacle"
+      },
+      {
+        "id": "c1",
+        "text": "fiasco"
+      },
+      {
+        "id": "c2",
+        "text": "triumph"
+      },
+      {
+        "id": "c3",
+        "text": "success"
+      },
+      {
+        "id": "c4",
+        "text": "deference"
+      },
+      {
+        "id": "c5",
+        "text": "brevity"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "A treaty that triggers three more wars is a failure, not a success, so the blank should mean a disastrous failure.",
+      "\"debacle\" and \"fiasco\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w055",
+      "w057",
+      "w028"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-11",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The new evidence did nothing to (( )) the original witness's account; if anything, it reinforced every detail.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "corroborate"
+      },
+      {
+        "id": "c1",
+        "text": "substantiate"
+      },
+      {
+        "id": "c2",
+        "text": "contradict"
+      },
+      {
+        "id": "c3",
+        "text": "refute"
+      },
+      {
+        "id": "c4",
+        "text": "abscond"
+      },
+      {
+        "id": "c5",
+        "text": "elicit"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "\"Reinforced every detail\" tells us the evidence supported/confirmed the account, so the blank should mean confirm.",
+      "\"corroborate\" and \"substantiate\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w052",
+      "w002",
+      "w073"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-12",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "Even seasoned critics found the painter's technique (( )); no single influence could fully explain her unusual style.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "enigmatic"
+      },
+      {
+        "id": "c1",
+        "text": "mysterious"
+      },
+      {
+        "id": "c2",
+        "text": "obvious"
+      },
+      {
+        "id": "c3",
+        "text": "predictable"
+      },
+      {
+        "id": "c4",
+        "text": "fastidious"
+      },
+      {
+        "id": "c5",
+        "text": "fractious"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "A style \"no single influence could fully explain\" is puzzling or mysterious.",
+      "\"enigmatic\" and \"mysterious\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w090",
+      "w096"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-13",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "The manager's (( )) tone during the layoffs, calm and measured despite the tension in the room, put the staff at ease.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "equanimity"
+      },
+      {
+        "id": "c1",
+        "text": "composure"
+      },
+      {
+        "id": "c2",
+        "text": "agitation"
+      },
+      {
+        "id": "c3",
+        "text": "anxiety"
+      },
+      {
+        "id": "c4",
+        "text": "chicanery"
+      },
+      {
+        "id": "c5",
+        "text": "digression"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "A \"calm and measured\" tone despite tension describes mental composure.",
+      "\"equanimity\" and \"composure\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w081",
+      "w038",
+      "w065"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-14",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The budget cuts were so (( )) that the library could no longer afford to renew even its most popular subscriptions.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "deleterious"
+      },
+      {
+        "id": "c1",
+        "text": "detrimental"
+      },
+      {
+        "id": "c2",
+        "text": "beneficial"
+      },
+      {
+        "id": "c3",
+        "text": "salutary"
+      },
+      {
+        "id": "c4",
+        "text": "eclectic"
+      },
+      {
+        "id": "c5",
+        "text": "erudite"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Cuts that prevent renewing popular subscriptions are clearly harmful to the library.",
+      "\"deleterious\" and \"detrimental\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w058",
+      "w070",
+      "w083"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-15",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "Rather than admit fault, the executive tried to (( )) his role in the scandal, insisting he had merely followed orders.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "disparage"
+      },
+      {
+        "id": "c1",
+        "text": "belittle"
+      },
+      {
+        "id": "c2",
+        "text": "extol"
+      },
+      {
+        "id": "c3",
+        "text": "praise"
+      },
+      {
+        "id": "c4",
+        "text": "abscond"
+      },
+      {
+        "id": "c5",
+        "text": "corroborate"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Trying to minimize responsibility by insisting he \"merely followed orders\" is an attempt to diminish or play down his role.",
+      "\"disparage\" and \"belittle\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w066",
+      "w089",
+      "w002",
+      "w052"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-16",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The city's restoration plan was criticized as (( )); it addressed surface-level cracks while ignoring the building's crumbling foundation.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "cursory"
+      },
+      {
+        "id": "c1",
+        "text": "superficial"
+      },
+      {
+        "id": "c2",
+        "text": "thorough"
+      },
+      {
+        "id": "c3",
+        "text": "meticulous"
+      },
+      {
+        "id": "c4",
+        "text": "conciliatory"
+      },
+      {
+        "id": "c5",
+        "text": "empirical"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "A plan that ignores the foundation while addressing only surface cracks is a hasty, incomplete effort.",
+      "\"cursory\" and \"superficial\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w053",
+      "w045",
+      "w075"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-17",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The debate coach urged her students to be more (( )), arguing that a single strong point beats ten weak ones.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "cogent"
+      },
+      {
+        "id": "c1",
+        "text": "compelling"
+      },
+      {
+        "id": "c2",
+        "text": "unconvincing"
+      },
+      {
+        "id": "c3",
+        "text": "weak"
+      },
+      {
+        "id": "c4",
+        "text": "banal"
+      },
+      {
+        "id": "c5",
+        "text": "boorish"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "A \"single strong point\" that beats ten weak ones is a persuasive, logically compelling argument.",
+      "\"cogent\" and \"compelling\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w042",
+      "w022",
+      "w027"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-18",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The junior chemist's claims were met with skepticism until further experiments (( )) her original hypothesis.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "corroborated"
+      },
+      {
+        "id": "c1",
+        "text": "validated"
+      },
+      {
+        "id": "c2",
+        "text": "refuted"
+      },
+      {
+        "id": "c3",
+        "text": "contradicted"
+      },
+      {
+        "id": "c4",
+        "text": "appeased"
+      },
+      {
+        "id": "c5",
+        "text": "belied"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Skepticism giving way implies the further experiments confirmed rather than disproved the hypothesis.",
+      "\"corroborated\" and \"validated\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-19",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "The novelist's prose is often praised as (( )); she can convey a character's entire history in a single, perfectly chosen sentence.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "eloquent"
+      },
+      {
+        "id": "c1",
+        "text": "articulate"
+      },
+      {
+        "id": "c2",
+        "text": "inarticulate"
+      },
+      {
+        "id": "c3",
+        "text": "tongue-tied"
+      },
+      {
+        "id": "c4",
+        "text": "boorish"
+      },
+      {
+        "id": "c5",
+        "text": "banal"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Conveying a whole history in one perfectly chosen sentence describes fluent, expressive writing.",
+      "\"eloquent\" and \"articulate\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w074",
+      "w017",
+      "w027",
+      "w022"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-20",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "easy",
+    "type": "sentence-equivalence",
+    "sentenceText": "The company's growth over the past year has been (( )); revenue nearly tripled in just three quarters.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "burgeoning"
+      },
+      {
+        "id": "c1",
+        "text": "flourishing"
+      },
+      {
+        "id": "c2",
+        "text": "declining"
+      },
+      {
+        "id": "c3",
+        "text": "withering"
+      },
+      {
+        "id": "c4",
+        "text": "ascetic"
+      },
+      {
+        "id": "c5",
+        "text": "arcane"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Revenue nearly tripling describes rapid growth, not decline.",
+      "\"burgeoning\" and \"flourishing\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w018",
+      "w015"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-21",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "The senator's remarks were widely seen as (( )); even his own party distanced itself from the blatantly offensive comment.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "egregious"
+      },
+      {
+        "id": "c1",
+        "text": "flagrant"
+      },
+      {
+        "id": "c2",
+        "text": "minor"
+      },
+      {
+        "id": "c3",
+        "text": "trivial"
+      },
+      {
+        "id": "c4",
+        "text": "conciliatory"
+      },
+      {
+        "id": "c5",
+        "text": "diffident"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Remarks his own party distanced itself from as \"blatantly offensive\" must be outstandingly bad, not minor.",
+      "\"egregious\" and \"flagrant\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w072",
+      "w093",
+      "w045",
+      "w064"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-22",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "After years of scholarly work, the historian became known for his (( )) command of obscure medieval texts.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "erudite"
+      },
+      {
+        "id": "c1",
+        "text": "scholarly"
+      },
+      {
+        "id": "c2",
+        "text": "ignorant"
+      },
+      {
+        "id": "c3",
+        "text": "uneducated"
+      },
+      {
+        "id": "c4",
+        "text": "capricious"
+      },
+      {
+        "id": "c5",
+        "text": "boorish"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "\"Years of scholarly work\" and command of obscure texts point to deep learning and knowledge.",
+      "\"erudite\" and \"scholarly\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w083",
+      "w033",
+      "w027"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-23",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The toddler's mood was famously (( )); a bout of laughter could turn to tears within moments, for no clear reason.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "capricious"
+      },
+      {
+        "id": "c1",
+        "text": "mercurial"
+      },
+      {
+        "id": "c2",
+        "text": "steady"
+      },
+      {
+        "id": "c3",
+        "text": "constant"
+      },
+      {
+        "id": "c4",
+        "text": "assiduous"
+      },
+      {
+        "id": "c5",
+        "text": "conciliatory"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "A mood that shifts unpredictably \"for no clear reason\" is fickle and changeable.",
+      "\"capricious\" and \"mercurial\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w033",
+      "w019",
+      "w045"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-24",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "easy",
+    "type": "sentence-equivalence",
+    "sentenceText": "The garden, untended for a decade, had (( )); vines and weeds had overtaken every path and flowerbed.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "burgeoned"
+      },
+      {
+        "id": "c1",
+        "text": "proliferated"
+      },
+      {
+        "id": "c2",
+        "text": "withered"
+      },
+      {
+        "id": "c3",
+        "text": "declined"
+      },
+      {
+        "id": "c4",
+        "text": "abstained"
+      },
+      {
+        "id": "c5",
+        "text": "demurred"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Vines and weeds overtaking every path describes rapid, uncontrolled growth.",
+      "\"burgeoned\" and \"proliferated\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-25",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "The apology struck many as (( )); the CEO read from a prepared statement without once looking up or departing from the script.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "perfunctory"
+      },
+      {
+        "id": "c1",
+        "text": "hasty"
+      },
+      {
+        "id": "c2",
+        "text": "heartfelt"
+      },
+      {
+        "id": "c3",
+        "text": "sincere"
+      },
+      {
+        "id": "c4",
+        "text": "audacious"
+      },
+      {
+        "id": "c5",
+        "text": "buoyant"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Reading woodenly from a script without engaging describes a rushed, going-through-the-motions gesture rather than a genuine one.",
+      "\"perfunctory\" and \"hasty\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w020",
+      "w029"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-01",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The senator's argument was so (i) that even her fiercest critics found themselves nodding in agreement by the end of her speech.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "cogent"
+          },
+          {
+            "id": "c1",
+            "text": "banal"
+          },
+          {
+            "id": "c2",
+            "text": "convoluted"
+          },
+          {
+            "id": "c3",
+            "text": "bombastic"
+          },
+          {
+            "id": "c4",
+            "text": "diffident"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Critics nodding in agreement signals a persuasive, logically convincing argument — \"cogent.\""
+    ],
+    "vocabWordIds": [
+      "w042"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-02",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "easy",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "Unlike her gregarious brother, Maya was famously (i), preferring solitary walks to crowded parties.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "garrulous"
+          },
+          {
+            "id": "c1",
+            "text": "diffident"
+          },
+          {
+            "id": "c2",
+            "text": "audacious"
+          },
+          {
+            "id": "c3",
+            "text": "ebullient"
+          },
+          {
+            "id": "c4",
+            "text": "congenial"
+          }
+        ],
+        "correctChoiceId": "c1"
+      }
+    ],
+    "solutionSteps": [
+      "\"Unlike\" signals contrast with her outgoing brother; preferring solitude fits \"diffident\" (shy, reserved)."
+    ],
+    "vocabWordIds": [
+      "w064"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-03",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The museum's new wing was criticized for its (i) design, an odd mix of clashing styles that seemed to belong to no particular era.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "cohesive"
+          },
+          {
+            "id": "c1",
+            "text": "disparate"
+          },
+          {
+            "id": "c2",
+            "text": "uniform"
+          },
+          {
+            "id": "c3",
+            "text": "congenial"
+          },
+          {
+            "id": "c4",
+            "text": "ascetic"
+          }
+        ],
+        "correctChoiceId": "c1"
+      }
+    ],
+    "solutionSteps": [
+      "\"An odd mix of clashing styles\" describes elements that don't belong together — \"disparate\" (essentially different, not comparable)."
+    ],
+    "vocabWordIds": [
+      "w067"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-04",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "easy",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The critic's assessment was marked by refreshing (i); she praised what she admired and criticized what she disliked without regard for the author's reputation.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "candor"
+          },
+          {
+            "id": "c1",
+            "text": "chicanery"
+          },
+          {
+            "id": "c2",
+            "text": "deference"
+          },
+          {
+            "id": "c3",
+            "text": "cacophony"
+          },
+          {
+            "id": "c4",
+            "text": "dearth"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Praising and criticizing honestly \"without regard for reputation\" describes open, frank honesty — \"candor.\""
+    ],
+    "vocabWordIds": [
+      "w032"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-05",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The professor's lecture was full of (i) references that only a handful of specialists in the field could fully appreciate.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "esoteric"
+          },
+          {
+            "id": "c1",
+            "text": "colloquial"
+          },
+          {
+            "id": "c2",
+            "text": "banal"
+          },
+          {
+            "id": "c3",
+            "text": "hackneyed"
+          },
+          {
+            "id": "c4",
+            "text": "empirical"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "References only a handful of specialists could appreciate are obscure to outsiders — \"esoteric.\""
+    ],
+    "vocabWordIds": [
+      "w084"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-06",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "Investors grew (i) after the company's third consecutive quarter of missed earnings targets.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "circumspect"
+          },
+          {
+            "id": "c1",
+            "text": "buoyant"
+          },
+          {
+            "id": "c2",
+            "text": "ebullient"
+          },
+          {
+            "id": "c3",
+            "text": "complacent"
+          },
+          {
+            "id": "c4",
+            "text": "fortuitous"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Three straight quarters of missed targets would make investors cautious and wary — \"circumspect.\""
+    ],
+    "vocabWordIds": [
+      "w039"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-07",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The mayor's promise to cut taxes while increasing services struck many economists as (i); the numbers simply didn't add up.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "dubious"
+          },
+          {
+            "id": "c1",
+            "text": "cogent"
+          },
+          {
+            "id": "c2",
+            "text": "plausible"
+          },
+          {
+            "id": "c3",
+            "text": "empirical"
+          },
+          {
+            "id": "c4",
+            "text": "frugal"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Numbers that \"don't add up\" describe a doubtful, questionable claim — \"dubious.\" Note \"plausible\" is the near-opposite and clearly contradicted by the second clause."
+    ],
+    "vocabWordIds": [],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-08",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The senator's speech was (i), littered with grandiose phrases that obscured a near-total absence of policy substance.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "bombastic"
+          },
+          {
+            "id": "c1",
+            "text": "succinct"
+          },
+          {
+            "id": "c2",
+            "text": "austere"
+          },
+          {
+            "id": "c3",
+            "text": "erudite"
+          },
+          {
+            "id": "c4",
+            "text": "candid"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Grand phrases masking a lack of substance describe pompous, inflated speech — \"bombastic.\""
+    ],
+    "vocabWordIds": [
+      "w025"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-09",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "easy",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "After weeks of tireless preparation, the team approached the final exam with (i), confident they had covered every possible topic.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "equanimity"
+          },
+          {
+            "id": "c1",
+            "text": "apprehension"
+          },
+          {
+            "id": "c2",
+            "text": "dearth"
+          },
+          {
+            "id": "c3",
+            "text": "antipathy"
+          },
+          {
+            "id": "c4",
+            "text": "digression"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Feeling confident after thorough preparation describes calm composure — \"equanimity.\""
+    ],
+    "vocabWordIds": [
+      "w081"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-10",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The politician's statement was deliberately (i), crafted so that both supporters and opponents of the bill could each interpret it favorably.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "equivocal"
+          },
+          {
+            "id": "c1",
+            "text": "candid"
+          },
+          {
+            "id": "c2",
+            "text": "cogent"
+          },
+          {
+            "id": "c3",
+            "text": "flagrant"
+          },
+          {
+            "id": "c4",
+            "text": "austere"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Language two opposing sides can each read favorably is intentionally ambiguous — \"equivocal.\""
+    ],
+    "vocabWordIds": [
+      "w082"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-11",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "Far from being (i), the newly discovered manuscript turned out to be central to understanding the author's entire body of work.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "inconsequential"
+          },
+          {
+            "id": "c1",
+            "text": "pivotal"
+          },
+          {
+            "id": "c2",
+            "text": "indispensable"
+          },
+          {
+            "id": "c3",
+            "text": "seminal"
+          },
+          {
+            "id": "c4",
+            "text": "vital"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Far from being X\" followed by \"turned out to be central\" means X must be the opposite of important — \"inconsequential.\" The other four choices all mean roughly \"important,\" which would contradict \"far from.\""
+    ],
+    "vocabWordIds": [],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-12",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The senator's aides tried to (i) the controversy, but their vague statements only fueled further speculation.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "appease"
+          },
+          {
+            "id": "c1",
+            "text": "exacerbate"
+          },
+          {
+            "id": "c2",
+            "text": "publicize"
+          },
+          {
+            "id": "c3",
+            "text": "corroborate"
+          },
+          {
+            "id": "c4",
+            "text": "extol"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Trying to calm a controversy (even though it backfired) means the aides attempted to pacify it — \"appease.\""
+    ],
+    "vocabWordIds": [
+      "w014"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-13",
+    "topic": "text-completion",
+    "subtopic": "Two Blanks",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "Although the novel's plot was undeniably (i), critics praised its prose as (ii); readers could forgive a predictable story for the sheer beauty of the writing.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "banal"
+          },
+          {
+            "id": "c1",
+            "text": "innovative"
+          },
+          {
+            "id": "c2",
+            "text": "convoluted"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "eloquent"
+          },
+          {
+            "id": "c1",
+            "text": "turgid"
+          },
+          {
+            "id": "c2",
+            "text": "colloquial"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Predictable story\" tells us the plot was unoriginal — \"banal.\"",
+      "\"Beauty of the writing\" that critics praised means the prose was expressive and graceful — \"eloquent.\""
+    ],
+    "vocabWordIds": [
+      "w022",
+      "w074"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-14",
+    "topic": "text-completion",
+    "subtopic": "Two Blanks",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The negotiations were marked by unusual (i): both delegations, normally (ii) in their public statements, spoke with striking directness about the failures of the previous agreement.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "candor"
+          },
+          {
+            "id": "c1",
+            "text": "chicanery"
+          },
+          {
+            "id": "c2",
+            "text": "deference"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "guarded"
+          },
+          {
+            "id": "c1",
+            "text": "forthright"
+          },
+          {
+            "id": "c2",
+            "text": "audacious"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Striking directness\" is the definition of unusual openness — \"candor.\"",
+      "\"Normally X\" is contrasted with the striking directness they showed this time, so X must mean reserved/cautious — \"guarded.\""
+    ],
+    "vocabWordIds": [
+      "w032"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-15",
+    "topic": "text-completion",
+    "subtopic": "Two Blanks",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The critic's review was far from (i); rather than offering a balanced assessment, she seemed intent on (ii) every aspect of the production she found lacking.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "impartial"
+          },
+          {
+            "id": "c1",
+            "text": "partisan"
+          },
+          {
+            "id": "c2",
+            "text": "vitriolic"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "disparaging"
+          },
+          {
+            "id": "c1",
+            "text": "praising"
+          },
+          {
+            "id": "c2",
+            "text": "excusing"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "The sentence explicitly contrasts the review with \"a balanced assessment,\" so the negated blank (i) must mean balanced/unbiased — \"impartial.\"",
+      "Being \"intent on\" attacking every weak aspect means belittling them — \"disparaging.\""
+    ],
+    "vocabWordIds": [
+      "w066"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-16",
+    "topic": "text-completion",
+    "subtopic": "Two Blanks",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The committee's report was (i) in its criticism of the agency's failures, yet remarkably (ii) in its recommendations, offering only vague suggestions for improvement.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "scathing"
+          },
+          {
+            "id": "c1",
+            "text": "muted"
+          },
+          {
+            "id": "c2",
+            "text": "laudatory"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "imprecise"
+          },
+          {
+            "id": "c1",
+            "text": "specific"
+          },
+          {
+            "id": "c2",
+            "text": "rigorous"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Strong criticism of the agency's failures suggests harsh, biting language — \"scathing.\"",
+      "\"Offering only vague suggestions\" directly describes the second blank — \"imprecise.\""
+    ],
+    "vocabWordIds": [],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-17",
+    "topic": "text-completion",
+    "subtopic": "Two Blanks",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The two economists, though (i) about the causes of the recession, were in complete (ii) about the necessary remedy: both urged immediate government intervention.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "divided"
+          },
+          {
+            "id": "c1",
+            "text": "unanimous"
+          },
+          {
+            "id": "c2",
+            "text": "aligned"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "agreement"
+          },
+          {
+            "id": "c1",
+            "text": "disagreement"
+          },
+          {
+            "id": "c2",
+            "text": "ambivalence"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Though X\" sets up a contrast with the agreement described next, so X means disagreement — \"divided.\"",
+      "\"Both urged\" the same thing describes shared agreement — \"agreement.\""
+    ],
+    "vocabWordIds": [],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-18",
+    "topic": "text-completion",
+    "subtopic": "Two Blanks",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "Rather than (i) the allegations, the CEO chose to address them with unusual (ii), answering even the most pointed questions in detail.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "evading"
+          },
+          {
+            "id": "c1",
+            "text": "confronting"
+          },
+          {
+            "id": "c2",
+            "text": "welcoming"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "candor"
+          },
+          {
+            "id": "c1",
+            "text": "reticence"
+          },
+          {
+            "id": "c2",
+            "text": "chicanery"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Rather than X, chose to address them\" means X is the opposite of addressing directly — \"evading.\"",
+      "Answering pointed questions \"in detail\" is a sign of openness — \"candor.\""
+    ],
+    "vocabWordIds": [
+      "w032"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-19",
+    "topic": "text-completion",
+    "subtopic": "Two Blanks",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The professor's lectures, while occasionally (i), were never truly (ii); even her driest tangents eventually circled back to illuminate the main argument.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "digressive"
+          },
+          {
+            "id": "c1",
+            "text": "focused"
+          },
+          {
+            "id": "c2",
+            "text": "terse"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "pointless"
+          },
+          {
+            "id": "c1",
+            "text": "engaging"
+          },
+          {
+            "id": "c2",
+            "text": "illuminating"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Tangents\" directly signals going off-topic — \"digressive.\"",
+      "Tangents that \"eventually circled back to illuminate\" the argument mean they were never truly without value — \"pointless.\""
+    ],
+    "vocabWordIds": [
+      "w065"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-20",
+    "topic": "text-completion",
+    "subtopic": "Two Blanks",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The startup's growth has been (i): revenue doubled in a single quarter, yet the founders remain surprisingly (ii) about their long-term prospects.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "meteoric"
+          },
+          {
+            "id": "c1",
+            "text": "gradual"
+          },
+          {
+            "id": "c2",
+            "text": "stagnant"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "circumspect"
+          },
+          {
+            "id": "c1",
+            "text": "boastful"
+          },
+          {
+            "id": "c2",
+            "text": "complacent"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Revenue doubling in one quarter describes extremely rapid growth — \"meteoric.\"",
+      "\"Yet surprisingly X\" contrasts with the dramatic growth, suggesting a cautious, wary attitude — \"circumspect.\""
+    ],
+    "vocabWordIds": [
+      "w039"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-21",
+    "topic": "text-completion",
+    "subtopic": "Two Blanks",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The ancient manuscript was so (i) that scholars debated for decades whether certain passages were later insertions or (ii) to the original text.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "enigmatic"
+          },
+          {
+            "id": "c1",
+            "text": "straightforward"
+          },
+          {
+            "id": "c2",
+            "text": "pedestrian"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "integral"
+          },
+          {
+            "id": "c1",
+            "text": "extraneous"
+          },
+          {
+            "id": "c2",
+            "text": "negligible"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Decades of scholarly debate signal something puzzling and hard to interpret — \"enigmatic.\"",
+      "The contrast is between passages added later (\"insertions\") and passages that were originally, essentially part of the text — \"integral.\""
+    ],
+    "vocabWordIds": [],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-22",
+    "topic": "text-completion",
+    "subtopic": "Two Blanks",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "Though the coach's methods seemed (i) to outside observers, his players understood the careful logic behind every seemingly (ii) decision.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "erratic"
+          },
+          {
+            "id": "c1",
+            "text": "methodical"
+          },
+          {
+            "id": "c2",
+            "text": "transparent"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "arbitrary"
+          },
+          {
+            "id": "c1",
+            "text": "deliberate"
+          },
+          {
+            "id": "c2",
+            "text": "calculated"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Though X to outsiders\" is contrasted with players understanding \"careful logic,\" so X means inconsistent/unpredictable from the outside — \"erratic.\"",
+      "A decision that seemed random but actually had \"careful logic\" behind it was only seemingly random — \"arbitrary.\""
+    ],
+    "vocabWordIds": [],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-23",
+    "topic": "text-completion",
+    "subtopic": "Three Blanks",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 3,
+    "passageText": "The senator's speech was (i) in its condemnation of the policy, yet oddly (ii) about what should replace it; critics noted that fierce criticism without a concrete alternative amounts to little more than (iii) posturing.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "vehement"
+          },
+          {
+            "id": "c1",
+            "text": "muted"
+          },
+          {
+            "id": "c2",
+            "text": "ambivalent"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "silent"
+          },
+          {
+            "id": "c1",
+            "text": "specific"
+          },
+          {
+            "id": "c2",
+            "text": "forthcoming"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "iii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "empty"
+          },
+          {
+            "id": "c1",
+            "text": "substantive"
+          },
+          {
+            "id": "c2",
+            "text": "measured"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Condemnation\" described as fierce/forceful is \"vehement.\"",
+      "\"Oddly X about what should replace it\" plus \"without a concrete alternative\" means the speech offered nothing — \"silent.\"",
+      "Criticism with no real alternative is hollow — \"empty\" posturing."
+    ],
+    "vocabWordIds": [],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-24",
+    "topic": "text-completion",
+    "subtopic": "Three Blanks",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 3,
+    "passageText": "Long dismissed as (i) by mainstream economists, the theory has recently found renewed support: new data appears to (ii) its central claims, prompting even former skeptics to treat it with newfound (iii).",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "dubious"
+          },
+          {
+            "id": "c1",
+            "text": "rigorous"
+          },
+          {
+            "id": "c2",
+            "text": "mainstream"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "corroborate"
+          },
+          {
+            "id": "c1",
+            "text": "undermine"
+          },
+          {
+            "id": "c2",
+            "text": "contradict"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "iii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "respect"
+          },
+          {
+            "id": "c1",
+            "text": "disdain"
+          },
+          {
+            "id": "c2",
+            "text": "indifference"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Dismissed as X\" by the mainstream, contrasted with later \"renewed support,\" means X was originally seen as questionable — \"dubious.\"",
+      "Data that leads skeptics to change their minds must support the claims — \"corroborate.\"",
+      "Skeptics changing their minds toward a positive view describes newfound \"respect.\""
+    ],
+    "vocabWordIds": [
+      "w052"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-25",
+    "topic": "text-completion",
+    "subtopic": "Three Blanks",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 3,
+    "passageText": "The reviewer's critique, while occasionally (i) in tone, was ultimately (ii): she identified genuine flaws in the novel's structure but also praised its (iii) prose, striking a fair balance.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "harsh"
+          },
+          {
+            "id": "c1",
+            "text": "gentle"
+          },
+          {
+            "id": "c2",
+            "text": "indifferent"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "balanced"
+          },
+          {
+            "id": "c1",
+            "text": "one-sided"
+          },
+          {
+            "id": "c2",
+            "text": "dismissive"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "iii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "elegant"
+          },
+          {
+            "id": "c1",
+            "text": "clumsy"
+          },
+          {
+            "id": "c2",
+            "text": "banal"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Occasionally X in tone\" pairs with identifying \"genuine flaws\" — a critical, harsh edge.",
+      "\"Striking a fair balance\" directly restates the second blank — \"balanced.\"",
+      "Praising the prose positively requires a positive word — \"elegant.\""
+    ],
+    "vocabWordIds": [
+      "w022"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-26",
+    "topic": "text-completion",
+    "subtopic": "Three Blanks",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 3,
+    "passageText": "What makes the artist's later work so (i) is precisely what made her earlier career so (ii): a willingness to abandon a successful style just as it was becoming (iii).",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "compelling"
+          },
+          {
+            "id": "c1",
+            "text": "tedious"
+          },
+          {
+            "id": "c2",
+            "text": "forgettable"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "turbulent"
+          },
+          {
+            "id": "c1",
+            "text": "stable"
+          },
+          {
+            "id": "c2",
+            "text": "predictable"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "iii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "fashionable"
+          },
+          {
+            "id": "c1",
+            "text": "obsolete"
+          },
+          {
+            "id": "c2",
+            "text": "unpopular"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Later work described as a strength implies a positive word — \"compelling.\"",
+      "A career defined by repeatedly abandoning successful styles is an unstable, ever-changing one — \"turbulent.\"",
+      "Abandoning a style \"just as it was becoming\" successful/popular is the ironic twist — \"fashionable.\""
+    ],
+    "vocabWordIds": [],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-27",
+    "topic": "text-completion",
+    "subtopic": "Three Blanks",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 3,
+    "passageText": "The committee's decision was met with fierce public outcry, yet its members remained (i) in their conviction that the policy, however (ii) in the short term, would prove (iii) in the long run.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "resolute"
+          },
+          {
+            "id": "c1",
+            "text": "wavering"
+          },
+          {
+            "id": "c2",
+            "text": "ambivalent"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "unpopular"
+          },
+          {
+            "id": "c1",
+            "text": "beneficial"
+          },
+          {
+            "id": "c2",
+            "text": "welcome"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "iii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "beneficial"
+          },
+          {
+            "id": "c1",
+            "text": "harmful"
+          },
+          {
+            "id": "c2",
+            "text": "negligible"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Yet remained X in conviction\" despite outcry means the members stayed firm — \"resolute.\"",
+      "\"However X in the short term\" contrasted with proving beneficial later suggests it was unpopular now — \"unpopular.\"",
+      "The long-run payoff, contrasted with short-term unpopularity, should be positive — \"beneficial.\""
+    ],
+    "vocabWordIds": [],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-28",
+    "topic": "text-completion",
+    "subtopic": "Three Blanks",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 3,
+    "passageText": "Some readers find the author's style (i), delighting in her long, winding sentences; others find the same prose merely (ii), complaining that a single idea is needlessly stretched across an entire paragraph; both reactions, however, agree that her writing is anything but (iii).",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "intricate"
+          },
+          {
+            "id": "c1",
+            "text": "plain"
+          },
+          {
+            "id": "c2",
+            "text": "terse"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "convoluted"
+          },
+          {
+            "id": "c1",
+            "text": "lucid"
+          },
+          {
+            "id": "c2",
+            "text": "concise"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "iii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "simple"
+          },
+          {
+            "id": "c1",
+            "text": "complex"
+          },
+          {
+            "id": "c2",
+            "text": "elaborate"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Delighting in \"long, winding sentences\" describes finding the style richly complex — \"intricate.\"",
+      "Complaining that an idea is \"needlessly stretched\" describes finding it tangled and hard to follow — \"convoluted.\"",
+      "Both reactions (intricate and convoluted) describe complexity, so both agree the writing is not — \"simple.\""
+    ],
+    "vocabWordIds": [
+      "w051"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-29",
+    "topic": "text-completion",
+    "subtopic": "Three Blanks",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 3,
+    "passageText": "The panel's assessment of the new policy was (i): they neither fully endorsed nor entirely rejected it, noting that its benefits, though (ii), were nonetheless real, while its costs, though (iii), could not be ignored.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "equivocal"
+          },
+          {
+            "id": "c1",
+            "text": "enthusiastic"
+          },
+          {
+            "id": "c2",
+            "text": "damning"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "modest"
+          },
+          {
+            "id": "c1",
+            "text": "enormous"
+          },
+          {
+            "id": "c2",
+            "text": "nonexistent"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "iii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "substantial"
+          },
+          {
+            "id": "c1",
+            "text": "negligible"
+          },
+          {
+            "id": "c2",
+            "text": "hypothetical"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Neither fully endorsed nor entirely rejected\" is the definition of an ambiguous, mixed verdict — \"equivocal.\"",
+      "\"Though X, were nonetheless real\" means the benefits were small but genuine — \"modest.\"",
+      "\"Though X, could not be ignored\" means the costs were significant enough to matter — \"substantial.\""
+    ],
+    "vocabWordIds": [
+      "w082"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-30",
+    "topic": "text-completion",
+    "subtopic": "Two Blanks",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The young diplomat was praised for a rare combination of qualities: a sophisticated grasp of complex treaties, a (i) manner that put even hostile counterparts at ease, and a (ii) refusal to abandon her position when she believed she was right.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "congenial"
+          },
+          {
+            "id": "c1",
+            "text": "abrasive"
+          },
+          {
+            "id": "c2",
+            "text": "aloof"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "steadfast"
+          },
+          {
+            "id": "c1",
+            "text": "wavering"
+          },
+          {
+            "id": "c2",
+            "text": "halfhearted"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "A manner that \"put even hostile counterparts at ease\" is warm and friendly — \"congenial.\"",
+      "A \"refusal to abandon her position\" describes firmness — \"steadfast.\""
+    ],
+    "vocabWordIds": [
+      "w047"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "rc-01-1",
+    "topic": "reading-comprehension",
+    "subtopic": "Main Idea",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p01",
+    "prompt": "Which of the following best states the main idea of the passage?",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "Octopus intelligence is best understood as a distributed phenomenon that resists comparison with centralized, mammalian-style cognition."
+      },
+      {
+        "id": "c1",
+        "text": "Octopuses are more intelligent than most mammals because their neurons are spread throughout their bodies."
+      },
+      {
+        "id": "c2",
+        "text": "Traditional intelligence tests are entirely useless for studying any non-human animal."
+      },
+      {
+        "id": "c3",
+        "text": "Octopus arms can survive and function independently after being severed from the body."
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage's central claim, developed across both paragraphs, is that the octopus's decentralized nervous system makes it a fundamentally different kind of intelligence, not a lesser or greater version of centralized (mammalian) intelligence.",
+      "Choice B overstates the passage's claim (no comparison of degree is made); C is too broad (the passage only questions tests as applied to octopuses); D is a supporting detail, not the main idea."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-01-2",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p01",
+    "prompt": "The passage suggests which of the following about traditional intelligence tests?",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "They were developed without accounting for nervous systems that are not centrally organized."
+      },
+      {
+        "id": "c1",
+        "text": "They have been proven to accurately measure octopus intelligence."
+      },
+      {
+        "id": "c2",
+        "text": "They were specifically designed to study invertebrate cognition."
+      },
+      {
+        "id": "c3",
+        "text": "They are no longer used by neuroscientists studying any animal."
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states such tests were \"designed with centralized nervous systems in mind\" and \"may systematically undervalue\" distributed cognition — implying they weren't built to account for octopus-like nervous systems."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-01-3",
+    "topic": "reading-comprehension",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p01",
+    "prompt": "As used in the passage, \"confederation\" most nearly means",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "a loose association of largely independent parts"
+      },
+      {
+        "id": "c1",
+        "text": "a single unified command structure"
+      },
+      {
+        "id": "c2",
+        "text": "a temporary military alliance"
+      },
+      {
+        "id": "c3",
+        "text": "a hierarchy with one dominant leader"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage describes the octopus as \"a confederation of semi-autonomous, intelligent parts, loosely coordinated\" — the context (semi-autonomous, loosely coordinated) points to a loose association rather than a strict hierarchy."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-02-1",
+    "topic": "reading-comprehension",
+    "subtopic": "Primary Purpose",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p02",
+    "prompt": "The primary purpose of the passage is to",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "complicate a popular narrative about the printing press's effect on textual accuracy"
+      },
+      {
+        "id": "c1",
+        "text": "argue that the printing press had no meaningful effect on the transmission of knowledge"
+      },
+      {
+        "id": "c2",
+        "text": "describe the biographical details of early compositors"
+      },
+      {
+        "id": "c3",
+        "text": "prove that hand-copied manuscripts were more accurate than printed books"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage opens by naming a \"commonplace\" (popular) view, then spends both paragraphs qualifying and complicating it — this is the hallmark of a complicating, not a wholesale rejecting or purely descriptive, purpose."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-02-2",
+    "topic": "reading-comprehension",
+    "subtopic": "Detail",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p02",
+    "prompt": "According to the passage, copies of the same printed edition could differ from one another because",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "corrections were sometimes applied to a print run only partway through printing"
+      },
+      {
+        "id": "c1",
+        "text": "each copy was individually hand-copied by a different scribe"
+      },
+      {
+        "id": "c2",
+        "text": "readers were permitted to write their own corrections into their copies"
+      },
+      {
+        "id": "c3",
+        "text": "printing presses of the period could only produce one copy at a time"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage explicitly states corrections were \"applied to some copies on the press but not to others already printed before the change was made.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-02-3",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p02",
+    "prompt": "The passage suggests that true textual standardization",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "depended on developments that emerged well after the printing press itself was introduced"
+      },
+      {
+        "id": "c1",
+        "text": "was achieved immediately upon the invention of the printing press"
+      },
+      {
+        "id": "c2",
+        "text": "was primarily the result of compositors' individual editorial judgment"
+      },
+      {
+        "id": "c3",
+        "text": "has still never been achieved in print culture"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The final sentence states standardization was \"a slow, later development... that took centuries to mature, not the single technological leap the popular narrative implies\" — directly supporting this inference."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-03-1",
+    "topic": "reading-comprehension",
+    "subtopic": "Main Idea",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p03",
+    "prompt": "The passage is primarily concerned with",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "explaining what nudges are and then presenting a criticism of their limitations as policy tools"
+      },
+      {
+        "id": "c1",
+        "text": "arguing that nudges are ineffective and should be abandoned entirely"
+      },
+      {
+        "id": "c2",
+        "text": "comparing the cost of nudges to the cost of direct financial subsidies in detail"
+      },
+      {
+        "id": "c3",
+        "text": "describing the history of behavioral economics as an academic discipline"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The first paragraph defines/explains nudges with an example; the second paragraph pivots to a specific critique (their limited effect and potential to divert attention from stronger interventions) — matching choice A precisely."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-03-2",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p03",
+    "prompt": "The passage suggests that the appeal of nudges to policymakers stems primarily from their",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "low political and economic cost relative to mandates or subsidies"
+      },
+      {
+        "id": "c1",
+        "text": "proven ability to eliminate financial hardship entirely"
+      },
+      {
+        "id": "c2",
+        "text": "long track record spanning many centuries of use"
+      },
+      {
+        "id": "c3",
+        "text": "requirement that citizens' choices be legally restricted"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states nudges are attractive \"precisely because they promise behavioral change without the political cost of mandates or the economic cost of subsidies.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-03-3",
+    "topic": "reading-comprehension",
+    "subtopic": "Detail",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p03",
+    "prompt": "Which of the following, according to the passage, is a limitation critics attribute to nudges?",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "They do relatively little to change behavior driven by powerful forces like financial hardship."
+      },
+      {
+        "id": "c1",
+        "text": "They are more expensive to implement than direct subsidies."
+      },
+      {
+        "id": "c2",
+        "text": "They require citizens to give up their freedom of choice."
+      },
+      {
+        "id": "c3",
+        "text": "They have never been shown to produce any measurable behavioral change."
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states nudges do \"comparatively little to change the behavior of people whose choices are driven by more powerful forces, such as financial hardship.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-04-1",
+    "topic": "reading-comprehension",
+    "subtopic": "Main Idea",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p04",
+    "prompt": "The main idea of the passage is that",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "fragmentation in modernist poetry, though open to different interpretations, was typically a deliberate and coherent structural choice rather than arbitrary disorder"
+      },
+      {
+        "id": "c1",
+        "text": "modernist poets universally agreed that their fragmented structures represented a fractured psychological state"
+      },
+      {
+        "id": "c2",
+        "text": "fragmented poems are impossible to interpret coherently on any reading"
+      },
+      {
+        "id": "c3",
+        "text": "nineteenth-century poetry was structurally superior to modernist poetry"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage presents two possible readings of fragmentation, notes they aren't mutually exclusive, then states with more confidence that fragmentation \"was rarely, if ever, arbitrary\" and reveals \"a coherent whole\" — matching choice A."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-04-2",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p04",
+    "prompt": "It can be inferred from the passage that a poem's fragments achieving \"coherence... through accumulation rather than narration\" means that",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "the poem builds a unified effect through repeated patterns rather than through a continuous storyline"
+      },
+      {
+        "id": "c1",
+        "text": "the poem tells a single continuous story from beginning to end"
+      },
+      {
+        "id": "c2",
+        "text": "each fragment in the poem must be read in strict chronological order"
+      },
+      {
+        "id": "c3",
+        "text": "coherence in modernist poetry is achieved only through rhyme and meter"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage directly contrasts \"coherent... in the sense of building toward a unified emotional or thematic effect through accumulation\" with \"telling a continuous story,\" supporting choice A."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-04-3",
+    "topic": "reading-comprehension",
+    "subtopic": "Structure",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p04",
+    "prompt": "The second paragraph functions primarily to",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "qualify the two interpretations introduced in the first paragraph by identifying a claim about fragmentation that holds true under either reading"
+      },
+      {
+        "id": "c1",
+        "text": "introduce an entirely new topic unrelated to the first paragraph"
+      },
+      {
+        "id": "c2",
+        "text": "reject both interpretations offered in the first paragraph as equally invalid"
+      },
+      {
+        "id": "c3",
+        "text": "provide a detailed biography of a specific modernist poet"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The second paragraph opens by noting the two readings \"are not... mutually exclusive\" and then offers a claim (fragmentation is rarely arbitrary) that stands regardless of which of the two readings from paragraph one is correct."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-05-1",
+    "topic": "reading-comprehension",
+    "subtopic": "Main Idea",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p05",
+    "prompt": "The passage as a whole is primarily concerned with",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "presenting a claim drawn from convergent evolution and then a skeptical response questioning whether that claim is adequately supported"
+      },
+      {
+        "id": "c1",
+        "text": "proving conclusively that evolution always produces the same solutions to the same problems"
+      },
+      {
+        "id": "c2",
+        "text": "describing the anatomical differences between bat, bird, and butterfly wings"
+      },
+      {
+        "id": "c3",
+        "text": "arguing that convergent evolution does not actually occur in nature"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "Paragraph one presents the pro-convergence interpretation; paragraph two introduces skeptical biologists who question whether the evidence has been selectively gathered — matching a claim-then-skeptical-response structure."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-05-2",
+    "topic": "reading-comprehension",
+    "subtopic": "Detail",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p05",
+    "prompt": "According to the passage, skeptics of the strong convergent-evolution conclusion argue that",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "the traits most often cited as convergent may simply be the ones scientists are most likely to notice and study"
+      },
+      {
+        "id": "c1",
+        "text": "convergent evolution has never actually been observed in any species"
+      },
+      {
+        "id": "c2",
+        "text": "bat and bird wings are not structurally similar in any respect"
+      },
+      {
+        "id": "c3",
+        "text": "natural selection cannot produce similar traits in unrelated lineages"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states skeptics note the cited traits \"are also the traits most likely to be studied and cataloged in the first place\" due to being visually striking — directly matching choice A."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-05-3",
+    "topic": "reading-comprehension",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p05",
+    "prompt": "As used in the passage, \"evolutionary novelty\" most nearly refers to",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "adaptations that have no clear counterpart elsewhere among unrelated species"
+      },
+      {
+        "id": "c1",
+        "text": "traits shared by all species within a single lineage"
+      },
+      {
+        "id": "c2",
+        "text": "the very first traits that ever evolved in the history of life"
+      },
+      {
+        "id": "c3",
+        "text": "traits that have since gone extinct in every known lineage"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage defines it directly: \"cases of evolutionary novelty: adaptations with no clear parallel elsewhere in the tree of life.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-06-1",
+    "topic": "reading-comprehension",
+    "subtopic": "Primary Purpose",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p06",
+    "prompt": "The primary purpose of the passage is to",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "explain Popper's paradox of tolerance, his proposed resolution, and a key difficulty in applying that resolution"
+      },
+      {
+        "id": "c1",
+        "text": "argue that no society should ever tolerate any intolerant idea whatsoever"
+      },
+      {
+        "id": "c2",
+        "text": "provide a comprehensive biography of Karl Popper's life and philosophical career"
+      },
+      {
+        "id": "c3",
+        "text": "prove that Popper's paradox of tolerance is entirely without merit"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage explains the paradox (paragraph 1), Popper's specific resolution (end of paragraph 1), and then a durability claim followed by critics' concerns about applying that resolution (paragraph 2) — matching choice A."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-06-2",
+    "topic": "reading-comprehension",
+    "subtopic": "Detail",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p06",
+    "prompt": "According to the passage, Popper's own proposed resolution to the paradox specifically permitted refusing tolerance to",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "movements that reject rational argument and resort to suppressing opposing views by force"
+      },
+      {
+        "id": "c1",
+        "text": "any individual who privately holds an intolerant personal opinion"
+      },
+      {
+        "id": "c2",
+        "text": "all political movements regardless of their methods or goals"
+      },
+      {
+        "id": "c3",
+        "text": "only movements that hold religious beliefs different from the majority"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states Popper argued a tolerant society \"retains the right to refuse tolerance specifically to movements that reject rational argument and instead resort to suppressing opposing views by force.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-06-3",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p06",
+    "prompt": "The passage suggests that critics find Popper's resolution difficult to apply primarily because",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "distinguishing vigorous persuasion from incitement to suppress opponents is not always self-evident in practice"
+      },
+      {
+        "id": "c1",
+        "text": "Popper never actually specified any resolution to the paradox he identified"
+      },
+      {
+        "id": "c2",
+        "text": "all movements clearly announce in advance their intention to abandon rational argument"
+      },
+      {
+        "id": "c3",
+        "text": "critics believe tolerance should never have any limits under any circumstances"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states the line \"between vigorous rhetorical persuasion and incitement to suppress opponents is not always self-evident, leaving considerable room for disagreement.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-07-1",
+    "topic": "reading-comprehension",
+    "subtopic": "Main Idea",
+    "difficulty": "easy",
+    "type": "reading-comprehension",
+    "passageId": "p07",
+    "prompt": "The passage as a whole suggests that the Antikythera mechanism should most likely be understood as",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "one surviving example of a broader tradition of ancient mechanical engineering that has otherwise been lost to history"
+      },
+      {
+        "id": "c1",
+        "text": "a device built using technology far beyond what the ancient Greeks were capable of producing"
+      },
+      {
+        "id": "c2",
+        "text": "a hoax that modern historians have since conclusively disproven"
+      },
+      {
+        "id": "c3",
+        "text": "the only mechanical device ever constructed in the ancient world"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The final sentence states directly that the mechanism \"is probably less a singular miracle than the one surviving data point from a much larger, now largely invisible, history of ancient mechanical ingenuity.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-07-2",
+    "topic": "reading-comprehension",
+    "subtopic": "Detail",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p07",
+    "prompt": "According to the passage, historians are puzzled by the Antikythera mechanism primarily because",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "little other evidence survives of a broader tradition of similarly complex mechanical devices"
+      },
+      {
+        "id": "c1",
+        "text": "modern technology has been unable to determine what the device was used for"
+      },
+      {
+        "id": "c2",
+        "text": "the ancient Greeks lacked the mathematical knowledge necessary to build it"
+      },
+      {
+        "id": "c3",
+        "text": "the device was found intact and in perfect working condition"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states the puzzle is \"less because such a device seems technically impossible... than because so little else survives to suggest it was part of a broader tradition.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-07-3",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p07",
+    "prompt": "The passage implies which of the following about devices similar to the Antikythera mechanism?",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "Any such devices that once existed were likely lost through processes like recycling, shipwreck, or decay."
+      },
+      {
+        "id": "c1",
+        "text": "No devices of comparable complexity could have existed given the metallurgy of the time."
+      },
+      {
+        "id": "c2",
+        "text": "Such devices were common and well documented throughout the ancient Mediterranean."
+      },
+      {
+        "id": "c3",
+        "text": "The Antikythera mechanism was definitely the very first such device ever built."
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage explicitly lists \"bronze recycling, shipwreck, or the ordinary decay\" as reasons similar devices may not have survived."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-08-1",
+    "topic": "reading-comprehension",
+    "subtopic": "Structure",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p08",
+    "prompt": "The passage's second paragraph is structured primarily around",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "a distinction between a practical objection and a separate, more skeptical objection to the 15-minute city concept"
+      },
+      {
+        "id": "c1",
+        "text": "a chronological history of how the 15-minute city concept developed over time"
+      },
+      {
+        "id": "c2",
+        "text": "a single objection developed in extensive technical detail"
+      },
+      {
+        "id": "c3",
+        "text": "an argument that the 15-minute city concept has no critics at all"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The paragraph opens with \"Critics raise two distinct types of objections\" and then explicitly labels them \"The first is practical\" and \"The second objection is more skeptical.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-08-2",
+    "topic": "reading-comprehension",
+    "subtopic": "Detail",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p08",
+    "prompt": "According to the passage, urban planners have responded to claims that 15-minute city policies restrict movement by",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "explicitly denying the claims and noting that no policy restricts anyone's ability to travel beyond their neighborhood"
+      },
+      {
+        "id": "c1",
+        "text": "agreeing that the policies are intended to restrict how far residents can travel"
+      },
+      {
+        "id": "c2",
+        "text": "declining to respond to the claims in any way"
+      },
+      {
+        "id": "c3",
+        "text": "admitting the claims are correct but arguing the restrictions are justified"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states this claim is one \"urban planners and the cities implementing such policies have repeatedly and explicitly denied, noting that no such policy restricts anyone's ability to travel.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-08-3",
+    "topic": "reading-comprehension",
+    "subtopic": "Detail/Multi",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p08",
+    "prompt": "According to the passage, which of the following are cited as benefits proponents attribute to the 15-minute city model? Select all that apply.",
+    "questionType": "multi",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "Reduced reliance on cars"
+      },
+      {
+        "id": "c1",
+        "text": "Stronger local economies"
+      },
+      {
+        "id": "c2",
+        "text": "Guaranteed elimination of all urban traffic"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "The passage lists proponents' claimed benefits as reducing \"reliance on cars,\" lowering emissions, and strengthening \"local economies and neighborhood social ties.\" \"Guaranteed elimination of all urban traffic\" is never claimed anywhere in the passage — it's an overstatement not supported by the text."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-09-1",
+    "topic": "reading-comprehension",
+    "subtopic": "Main Idea",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p09",
+    "prompt": "The passage's main point is that",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "the conventional distinction between reliable and unreliable narrators is less clear-cut than it first appears, since all narration involves some degree of limited perspective"
+      },
+      {
+        "id": "c1",
+        "text": "all narrators in literature are equally and completely unreliable"
+      },
+      {
+        "id": "c2",
+        "text": "unreliable narrators are a recent invention found only in modern fiction"
+      },
+      {
+        "id": "c3",
+        "text": "readers can never determine whether a narrator is reliable or not"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage argues the reliable/unreliable distinction assumes a baseline \"few narrators... actually meet\" and that the real difference \"may be one of degree rather than kind\" — supporting choice A, not the more extreme claims in B, C, or D."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-09-2",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p09",
+    "prompt": "It can be inferred from the passage that a narrator's unreliability might go unnoticed by a reader if",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "the text provides no contradicting evidence and gives the reader no particular reason to suspect the narrator"
+      },
+      {
+        "id": "c1",
+        "text": "the narrator explicitly announces their own unreliability at the start of the text"
+      },
+      {
+        "id": "c2",
+        "text": "other characters directly and repeatedly contradict the narrator's account"
+      },
+      {
+        "id": "c3",
+        "text": "the reader is already familiar with the concept of unreliable narration"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states some narrators' \"limitations remain invisible, either because the text provides no contradicting evidence or because the reader has no reason to look for it.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-09-3",
+    "topic": "reading-comprehension",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p09",
+    "prompt": "As used in the passage, \"baseline\" most nearly means",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "a standard or reference point against which something else is measured"
+      },
+      {
+        "id": "c1",
+        "text": "the lowest possible quality a narrator could have"
+      },
+      {
+        "id": "c2",
+        "text": "a musical term unrelated to the passage's argument"
+      },
+      {
+        "id": "c3",
+        "text": "the final conclusion the passage reaches"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage uses \"baseline\" to describe an assumed standard of \"reliable\" narration against which unreliability is measured — a reference point."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-10-1",
+    "topic": "reading-comprehension",
+    "subtopic": "Primary Purpose",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p10",
+    "prompt": "The primary purpose of the passage is to",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "caution that correlational microbiome research cannot, by itself, establish that the microbiome causes the conditions it is associated with"
+      },
+      {
+        "id": "c1",
+        "text": "argue that gut microbiome research has produced no useful findings of any kind"
+      },
+      {
+        "id": "c2",
+        "text": "recommend specific probiotic products to treat depression and obesity"
+      },
+      {
+        "id": "c3",
+        "text": "prove that diet has no influence on the composition of the gut microbiome"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage's central caution, developed across both paragraphs, is that correlational studies \"cannot, on their own, establish that differences in the microbiome cause the condition\" — matching choice A."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-10-2",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p10",
+    "prompt": "The passage suggests that if an altered gut microbiome is actually a consequence of a condition rather than a cause of it, then",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "interventions designed to restore a typical microbiome might fail to improve the condition even if they successfully change its composition"
+      },
+      {
+        "id": "c1",
+        "text": "the condition itself would be impossible to study using any scientific method"
+      },
+      {
+        "id": "c2",
+        "text": "the correlational studies described would automatically become causal studies"
+      },
+      {
+        "id": "c3",
+        "text": "probiotics would be guaranteed to cure the underlying condition"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states directly that if the microbiome is a consequence rather than a cause, interventions \"might do nothing at all, however impressively they succeed at changing the microbiome's composition.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-10-3",
+    "topic": "reading-comprehension",
+    "subtopic": "Detail",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p10",
+    "prompt": "According to the passage, studies using interventions in model organisms to test causation directly have found that",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "causal relationships have been confirmed for only a small number of specific conditions, with many others still unresolved"
+      },
+      {
+        "id": "c1",
+        "text": "no causal relationship between the microbiome and any condition has ever been established"
+      },
+      {
+        "id": "c2",
+        "text": "every correlational finding in microbiome research has since been proven causal"
+      },
+      {
+        "id": "c3",
+        "text": "model organisms cannot be used to study the gut microbiome at all"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states results \"have been decidedly mixed: causal relationships have been established for a small number of specific conditions, while for many... the underlying causal structure remains genuinely unresolved.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "se-26",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The CEO's (( )) response to the crisis left employees uncertain about the company's future direction.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "equivocal"
+      },
+      {
+        "id": "c1",
+        "text": "ambiguous"
+      },
+      {
+        "id": "c2",
+        "text": "decisive"
+      },
+      {
+        "id": "c3",
+        "text": "unequivocal"
+      },
+      {
+        "id": "c4",
+        "text": "laconic"
+      },
+      {
+        "id": "c5",
+        "text": "prosaic"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Leaving employees uncertain implies the response was unclear or open to multiple interpretations.",
+      "\"equivocal\" and \"ambiguous\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w082",
+      "w101"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-27",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "Despite years of research, the origins of the manuscript remained (( )), baffling even the most experienced paleographers.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "recondite"
+      },
+      {
+        "id": "c1",
+        "text": "obscure"
+      },
+      {
+        "id": "c2",
+        "text": "transparent"
+      },
+      {
+        "id": "c3",
+        "text": "obvious"
+      },
+      {
+        "id": "c4",
+        "text": "banal"
+      },
+      {
+        "id": "c5",
+        "text": "prosaic"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Baffling experts means the origins were little known or hard to understand.",
+      "\"recondite\" and \"obscure\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w102",
+      "w027"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-28",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "easy",
+    "type": "sentence-equivalence",
+    "sentenceText": "Her (( )) outlook helped the team stay motivated even when the project faced repeated setbacks.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "sanguine"
+      },
+      {
+        "id": "c1",
+        "text": "optimistic"
+      },
+      {
+        "id": "c2",
+        "text": "pessimistic"
+      },
+      {
+        "id": "c3",
+        "text": "cynical"
+      },
+      {
+        "id": "c4",
+        "text": "truculent"
+      },
+      {
+        "id": "c5",
+        "text": "obdurate"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Helping the team stay motivated despite setbacks points to a positive, hopeful attitude.",
+      "\"sanguine\" and \"optimistic\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w103"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-29",
+    "topic": "sentence-equivalence",
+    "subtopic": "Contrast/Conflict",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The diplomat's (( )) manner during negotiations only escalated tensions rather than easing them.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "truculent"
+      },
+      {
+        "id": "c1",
+        "text": "belligerent"
+      },
+      {
+        "id": "c2",
+        "text": "conciliatory"
+      },
+      {
+        "id": "c3",
+        "text": "placid"
+      },
+      {
+        "id": "c4",
+        "text": "laconic"
+      },
+      {
+        "id": "c5",
+        "text": "perfunctory"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Escalating tensions instead of easing them indicates an aggressive, confrontational manner.",
+      "\"truculent\" and \"belligerent\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w104",
+      "w080"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-30",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The protesters grew increasingly (( )), chanting slogans and drowning out the speakers at the rally.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "vociferous"
+      },
+      {
+        "id": "c1",
+        "text": "clamorous"
+      },
+      {
+        "id": "c2",
+        "text": "reticent"
+      },
+      {
+        "id": "c3",
+        "text": "taciturn"
+      },
+      {
+        "id": "c4",
+        "text": "sanguine"
+      },
+      {
+        "id": "c5",
+        "text": "prosaic"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Chanting and drowning out speakers describes loud, vehement expression.",
+      "\"vociferous\" and \"clamorous\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w105"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-31",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "What began as a promising collaboration soon became a (( )); mutual distrust made any further progress impossible.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "debacle"
+      },
+      {
+        "id": "c1",
+        "text": "fiasco"
+      },
+      {
+        "id": "c2",
+        "text": "triumph"
+      },
+      {
+        "id": "c3",
+        "text": "success"
+      },
+      {
+        "id": "c4",
+        "text": "coalescence"
+      },
+      {
+        "id": "c5",
+        "text": "burgeoning"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Mutual distrust making progress impossible points to a complete failure.",
+      "\"debacle\" and \"fiasco\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w055",
+      "w057"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-32",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The professor's (( )) explanations, stripped of unnecessary jargon, made complex theories accessible to undergraduates.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "laconic"
+      },
+      {
+        "id": "c1",
+        "text": "succinct"
+      },
+      {
+        "id": "c2",
+        "text": "prolix"
+      },
+      {
+        "id": "c3",
+        "text": "verbose"
+      },
+      {
+        "id": "c4",
+        "text": "recondite"
+      },
+      {
+        "id": "c5",
+        "text": "enigmatic"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Stripped of jargon and making theories accessible describes concise, brief explanations.",
+      "\"laconic\" and \"succinct\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w101",
+      "w100"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-33",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "The negotiator remained (( )) despite mounting pressure, refusing every proposed compromise.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "obdurate"
+      },
+      {
+        "id": "c1",
+        "text": "intransigent"
+      },
+      {
+        "id": "c2",
+        "text": "flexible"
+      },
+      {
+        "id": "c3",
+        "text": "malleable"
+      },
+      {
+        "id": "c4",
+        "text": "perfunctory"
+      },
+      {
+        "id": "c5",
+        "text": "sanguine"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Refusing every compromise under pressure describes stubborn refusal to change position.",
+      "\"obdurate\" and \"intransigent\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w107",
+      "w110"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-34",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "His (( )) analysis of the data revealed patterns that more casual observers had completely overlooked.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "perspicacious"
+      },
+      {
+        "id": "c1",
+        "text": "astute"
+      },
+      {
+        "id": "c2",
+        "text": "superficial"
+      },
+      {
+        "id": "c3",
+        "text": "cursory"
+      },
+      {
+        "id": "c4",
+        "text": "banal"
+      },
+      {
+        "id": "c5",
+        "text": "prosaic"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Revealing overlooked patterns indicates keen, insightful analysis.",
+      "\"perspicacious\" and \"astute\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w108",
+      "w045",
+      "w053"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "se-35",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "easy",
+    "type": "sentence-equivalence",
+    "sentenceText": "The courtier was widely regarded as a (( )), always flattering the king in hopes of personal advancement.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "sycophant"
+      },
+      {
+        "id": "c1",
+        "text": "toady"
+      },
+      {
+        "id": "c2",
+        "text": "critic"
+      },
+      {
+        "id": "c3",
+        "text": "dissenter"
+      },
+      {
+        "id": "c4",
+        "text": "recondite"
+      },
+      {
+        "id": "c5",
+        "text": "truculent"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Flattering for personal advancement describes a self-serving flatterer.",
+      "\"sycophant\" and \"toady\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w109"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-31",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The scientist's (i) approach to data collection—relying solely on controlled laboratory experiments—left little room for the messy realities of field observation.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "empirical"
+          },
+          {
+            "id": "c1",
+            "text": "theoretical"
+          },
+          {
+            "id": "c2",
+            "text": "speculative"
+          },
+          {
+            "id": "c3",
+            "text": "anecdotal"
+          },
+          {
+            "id": "c4",
+            "text": "casual"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Relying on controlled experiments points to an observation-based, empirical method rather than pure theory or anecdote."
+    ],
+    "vocabWordIds": [
+      "w075"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-32",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "easy",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "After the merger, the two corporate cultures proved so (i) that integration efforts repeatedly stalled.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "disparate"
+          },
+          {
+            "id": "c1",
+            "text": "compatible"
+          },
+          {
+            "id": "c2",
+            "text": "harmonious"
+          },
+          {
+            "id": "c3",
+            "text": "identical"
+          },
+          {
+            "id": "c4",
+            "text": "complementary"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Stalling integration implies the cultures were essentially different and hard to reconcile — \"disparate.\""
+    ],
+    "vocabWordIds": [
+      "w067"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-33",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The critic dismissed the novel as (i), arguing that its predictable plot and stock characters offered nothing new.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "banal"
+          },
+          {
+            "id": "c1",
+            "text": "innovative"
+          },
+          {
+            "id": "c2",
+            "text": "enigmatic"
+          },
+          {
+            "id": "c3",
+            "text": "recondite"
+          },
+          {
+            "id": "c4",
+            "text": "compelling"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Predictable plot and stock characters that offer nothing new describe something lacking originality — \"banal.\""
+    ],
+    "vocabWordIds": [
+      "w027"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-34",
+    "topic": "text-completion",
+    "subtopic": "Double Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "Although the mayor's speech was full of (i) promises, her subsequent actions revealed a more (ii) approach to fiscal policy.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "grandiloquent"
+          },
+          {
+            "id": "c1",
+            "text": "modest"
+          },
+          {
+            "id": "c2",
+            "text": "practical"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "austere"
+          },
+          {
+            "id": "c1",
+            "text": "extravagant"
+          },
+          {
+            "id": "c2",
+            "text": "bombastic"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Although\" signals contrast: grand/pompous promises versus a restrained (austere) actual policy.",
+      "Grandiloquent fits inflated promises; austere fits restrained fiscal approach."
+    ],
+    "vocabWordIds": [
+      "w025"
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "tc-35",
+    "topic": "text-completion",
+    "subtopic": "Double Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The biographer refused to (i) her subject's flaws, choosing instead a tone of unsparing (ii) that some readers found harsh.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "gloss over"
+          },
+          {
+            "id": "c1",
+            "text": "emphasize"
+          },
+          {
+            "id": "c2",
+            "text": "invent"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "candor"
+          },
+          {
+            "id": "c1",
+            "text": "flattery"
+          },
+          {
+            "id": "c2",
+            "text": "equivocation"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Refusing to hide flaws and using a harsh tone points to not glossing over + candor (frank honesty)."
+    ],
+    "vocabWordIds": [
+      "w032"
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "tc-36",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The committee's (i) review of the proposal, completed in under an hour, failed to catch several critical errors.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "cursory"
+          },
+          {
+            "id": "c1",
+            "text": "meticulous"
+          },
+          {
+            "id": "c2",
+            "text": "thorough"
+          },
+          {
+            "id": "c3",
+            "text": "exhaustive"
+          },
+          {
+            "id": "c4",
+            "text": "perspicacious"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Completed quickly and missing errors indicates a hasty, superficial review — \"cursory.\""
+    ],
+    "vocabWordIds": [
+      "w053"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-37",
+    "topic": "text-completion",
+    "subtopic": "Triple Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 3,
+    "passageText": "Far from being (i), the new theory was remarkably (ii); it explained anomalies that earlier models had dismissed as (iii).",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "recondite"
+          },
+          {
+            "id": "c1",
+            "text": "accessible"
+          },
+          {
+            "id": "c2",
+            "text": "popular"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "perspicacious"
+          },
+          {
+            "id": "c1",
+            "text": "obscure"
+          },
+          {
+            "id": "c2",
+            "text": "banal"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "iii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "anomalous"
+          },
+          {
+            "id": "c1",
+            "text": "typical"
+          },
+          {
+            "id": "c2",
+            "text": "irrelevant"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Far from being recondite\" means it was not obscure; instead it was insightful (perspicacious) and treated previous dismissals of anomalies as the anomalies themselves."
+    ],
+    "vocabWordIds": [
+      "w102",
+      "w108",
+      "w098"
+    ],
+    "estimatedSeconds": 90
+  },
+  {
+    "id": "tc-38",
+    "topic": "text-completion",
+    "subtopic": "Double Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The author's (i) style, full of lengthy digressions and ornamental flourishes, stood in sharp contrast to the (ii) prose preferred by her contemporaries.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "prolix"
+          },
+          {
+            "id": "c1",
+            "text": "laconic"
+          },
+          {
+            "id": "c2",
+            "text": "succinct"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "spare"
+          },
+          {
+            "id": "c1",
+            "text": "ornate"
+          },
+          {
+            "id": "c2",
+            "text": "bombastic"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Lengthy digressions = prolix; contrast with preferred spare (lean, unadorned) prose."
+    ],
+    "vocabWordIds": [
+      "w068",
+      "w101"
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "tc-39",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "easy",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "There was a noticeable (i) of qualified applicants, forcing the firm to lower its hiring standards.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "dearth"
+          },
+          {
+            "id": "c1",
+            "text": "surplus"
+          },
+          {
+            "id": "c2",
+            "text": "abundance"
+          },
+          {
+            "id": "c3",
+            "text": "glut"
+          },
+          {
+            "id": "c4",
+            "text": "profusion"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Having to lower standards implies a scarcity of qualified people — \"dearth.\""
+    ],
+    "vocabWordIds": [
+      "w054"
+    ],
+    "estimatedSeconds": 60
+  },
+  {
+    "id": "tc-40",
+    "topic": "text-completion",
+    "subtopic": "Double Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "Rather than (i) the opposition with reasoned argument, the speaker resorted to (ii) attacks that alienated moderate listeners.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "persuade"
+          },
+          {
+            "id": "c1",
+            "text": "provoke"
+          },
+          {
+            "id": "c2",
+            "text": "ignore"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "ad hominem"
+          },
+          {
+            "id": "c1",
+            "text": "constructive"
+          },
+          {
+            "id": "c2",
+            "text": "measured"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Instead of persuading with reason, the speaker used personal (ad hominem) attacks that alienated moderates."
+    ],
+    "vocabWordIds": [],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-01-4",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p01",
+    "prompt": "The passage implies that traditional intelligence tests may be inadequate for octopuses primarily because",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "they assume a centralized nervous system and may undervalue parallel, distributed problem-solving"
+      },
+      {
+        "id": "c1",
+        "text": "octopuses lack any form of problem-solving ability"
+      },
+      {
+        "id": "c2",
+        "text": "the tests require spoken language responses"
+      },
+      {
+        "id": "c3",
+        "text": "octopuses have fewer neurons than mammals"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states traditional tests \"designed with centralized nervous systems in mind, may systematically undervalue capacities that manifest differently in a distributed system.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-02-4",
+    "topic": "reading-comprehension",
+    "subtopic": "Primary Purpose",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p02",
+    "prompt": "Which of the following best describes the relationship between the two paragraphs?",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "The first challenges a common claim; the second concedes a real transformation while refining what that transformation actually was."
+      },
+      {
+        "id": "c1",
+        "text": "The first introduces a historical figure; the second discusses his later influence."
+      },
+      {
+        "id": "c2",
+        "text": "Both paragraphs argue that the printing press had no effect on knowledge transmission."
+      },
+      {
+        "id": "c3",
+        "text": "The second paragraph contradicts and rejects every claim made in the first."
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "Paragraph 1 complicates the \"commonplace\" of standardization; paragraph 2 acknowledges the press did transform volume/durability but clarifies standardization came later."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-03-4",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p03",
+    "prompt": "It can be inferred that the author of the passage would most likely agree that",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "nudges are useful at the margins but should not crowd out stronger policy tools when deeper causes are at stake"
+      },
+      {
+        "id": "c1",
+        "text": "nudges should replace all mandates and subsidies"
+      },
+      {
+        "id": "c2",
+        "text": "default enrollment plans are ineffective at raising savings rates"
+      },
+      {
+        "id": "c3",
+        "text": "financial hardship is best addressed solely through behavioral nudges"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage notes nudges' limited reach against powerful forces and warns that enthusiasm for them may divert attention from stronger interventions."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-04-4",
+    "topic": "reading-comprehension",
+    "subtopic": "Detail",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p04",
+    "prompt": "According to the passage, fragmentation in modernist poetry was",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "rarely if ever arbitrary, and typically revealed coherent patterns on closer analysis"
+      },
+      {
+        "id": "c1",
+        "text": "universally intended to mirror a fractured modern consciousness"
+      },
+      {
+        "id": "c2",
+        "text": "a purely accidental byproduct of the poets' writing process"
+      },
+      {
+        "id": "c3",
+        "text": "intended only to frustrate and confuse readers"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states \"fragmentation was rarely, if ever, arbitrary\" and that poems \"reveal... patterns... that bind the ostensibly disconnected fragments into a coherent whole.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-05-4",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p05",
+    "prompt": "The skeptics' argument implies that the frequency of convergent evolution may be overstated because",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "scientists preferentially notice and study visually striking traits that appear convergent"
+      },
+      {
+        "id": "c1",
+        "text": "convergent traits never actually occur in nature"
+      },
+      {
+        "id": "c2",
+        "text": "all adaptations are unique to their lineage"
+      },
+      {
+        "id": "c3",
+        "text": "natural selection does not favor similar solutions"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "Skeptics note the cited traits \"are also the traits most likely to be studied and cataloged... because they are visually striking.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-06-4",
+    "topic": "reading-comprehension",
+    "subtopic": "Main Idea",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p06",
+    "prompt": "Which of the following best captures a key tension identified in the passage?",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "A principle of unlimited tolerance may leave a society defenseless against those who would abolish tolerance itself."
+      },
+      {
+        "id": "c1",
+        "text": "Tolerance should never be limited under any circumstances."
+      },
+      {
+        "id": "c2",
+        "text": "Popper rejected the idea that any intolerance should ever be constrained."
+      },
+      {
+        "id": "c3",
+        "text": "The paradox of tolerance has no practical relevance outside philosophy."
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The paradox is that unlimited tolerance risks being undermined by the intolerant who exploit the absence of any defensive mechanism."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-07-4",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p07",
+    "prompt": "The passage most strongly suggests that the Antikythera mechanism",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "is likely the sole surviving representative of a larger tradition of ancient geared devices that did not endure"
+      },
+      {
+        "id": "c1",
+        "text": "was an isolated invention with no possible predecessors"
+      },
+      {
+        "id": "c2",
+        "text": "could not have been built with ancient Greek technology"
+      },
+      {
+        "id": "c3",
+        "text": "was primarily used for predicting modern sporting events"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The final sentence states it is \"probably less a singular miracle than the one surviving data point from a much larger, now largely invisible, history.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-08-4",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p08",
+    "prompt": "Based on the passage, which of the following would the author most likely view as a misunderstanding of the 15-minute city concept?",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "The belief that such policies are designed to restrict residents' freedom of movement beyond their neighborhoods"
+      },
+      {
+        "id": "c1",
+        "text": "The claim that the model can reduce car reliance and strengthen local economies"
+      },
+      {
+        "id": "c2",
+        "text": "The observation that retrofitting existing cities is practically difficult"
+      },
+      {
+        "id": "c3",
+        "text": "The recognition that benefits may take decades to appear"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage describes the restriction claim as one \"without credible evidence\" that planners \"have repeatedly and explicitly denied.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-09-4",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p09",
+    "prompt": "The passage suggests that a careful second reading of a text can sometimes",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "reveal a narrator's unreliability that was invisible on a first pass"
+      },
+      {
+        "id": "c1",
+        "text": "convert an unreliable narrator into a reliable one"
+      },
+      {
+        "id": "c2",
+        "text": "eliminate all limitations of perspective in narration"
+      },
+      {
+        "id": "c3",
+        "text": "prove that every narrator is completely trustworthy"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states \"a careful second reading can reveal a narrator's unreliability invisible on a first pass.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-10-4",
+    "topic": "reading-comprehension",
+    "subtopic": "Detail",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p10",
+    "prompt": "According to the passage, correlational microbiome studies are valuable primarily because they",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "generate hypotheses even though they cannot by themselves establish causation"
+      },
+      {
+        "id": "c1",
+        "text": "definitively prove that the microbiome causes the associated conditions"
+      },
+      {
+        "id": "c2",
+        "text": "have already resolved the causal structure for most conditions"
+      },
+      {
+        "id": "c3",
+        "text": "show that probiotics are guaranteed to cure obesity and depression"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states such studies \"are valuable for generating hypotheses, but they cannot, on their own, establish that differences in the microbiome cause the condition.\""
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "se-36",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "The committee found the consultant's recommendations (( )); they appeared reasonable on the surface but collapsed under even modest scrutiny.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "specious"
+      },
+      {
+        "id": "c1",
+        "text": "plausible-looking but flawed"
+      },
+      {
+        "id": "c2",
+        "text": "trenchant"
+      },
+      {
+        "id": "c3",
+        "text": "pellucid"
+      },
+      {
+        "id": "c4",
+        "text": "apposite"
+      },
+      {
+        "id": "c5",
+        "text": "ineluctable"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Appearing reasonable yet failing scrutiny describes something deceptively attractive or superficially plausible but wrong.",
+      "\"specious\" and the close paraphrase both capture that meaning and produce equivalent sentences."
+    ],
+    "vocabWordIds": [
+      "w118",
+      "w119",
+      "w112"
+    ],
+    "estimatedSeconds": 70
+  },
+  {
+    "id": "se-37",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "Her (( )) critique of the methodology exposed flaws that more polite reviewers had carefully avoided mentioning.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "trenchant"
+      },
+      {
+        "id": "c1",
+        "text": "incisive"
+      },
+      {
+        "id": "c2",
+        "text": "perfunctory"
+      },
+      {
+        "id": "c3",
+        "text": "obsequious"
+      },
+      {
+        "id": "c4",
+        "text": "prodigal"
+      },
+      {
+        "id": "c5",
+        "text": "quixotic"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Exposing carefully avoided flaws points to a sharp, penetrating criticism.",
+      "\"trenchant\" and \"incisive\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w119",
+      "w020"
+    ],
+    "estimatedSeconds": 70
+  },
+  {
+    "id": "se-38",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The new regulations proved (( )) to small businesses, raising compliance costs without delivering measurable public benefit.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "inimical"
+      },
+      {
+        "id": "c1",
+        "text": "detrimental"
+      },
+      {
+        "id": "c2",
+        "text": "propitious"
+      },
+      {
+        "id": "c3",
+        "text": "beneficial"
+      },
+      {
+        "id": "c4",
+        "text": "sedulous"
+      },
+      {
+        "id": "c5",
+        "text": "pellucid"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Raising costs without benefit means the regulations were harmful or hostile to small businesses.",
+      "\"inimical\" and \"detrimental\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w111",
+      "w070"
+    ],
+    "estimatedSeconds": 65
+  },
+  {
+    "id": "se-39",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "Despite the author's reputation for complexity, the final chapter was surprisingly (( )), laying out the argument in transparent, almost crystalline prose.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "pellucid"
+      },
+      {
+        "id": "c1",
+        "text": "lucid"
+      },
+      {
+        "id": "c2",
+        "text": "abstruse"
+      },
+      {
+        "id": "c3",
+        "text": "recondite"
+      },
+      {
+        "id": "c4",
+        "text": "convoluted"
+      },
+      {
+        "id": "c5",
+        "text": "specious"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Transparent, crystalline prose is the opposite of obscure or complex writing.",
+      "\"pellucid\" and \"lucid\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w112",
+      "w121",
+      "w102"
+    ],
+    "estimatedSeconds": 70
+  },
+  {
+    "id": "se-40",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "The rise in remote work was a (( )) of broader technological and cultural shifts that had been underway for years.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "concomitant"
+      },
+      {
+        "id": "c1",
+        "text": "corollary"
+      },
+      {
+        "id": "c2",
+        "text": "cause"
+      },
+      {
+        "id": "c3",
+        "text": "antidote"
+      },
+      {
+        "id": "c4",
+        "text": "vitiation"
+      },
+      {
+        "id": "c5",
+        "text": "impediment"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "A phenomenon that naturally accompanies broader shifts is a concomitant or natural consequence (corollary).",
+      "Both produce equivalent sentences about association rather than primary causation or opposition."
+    ],
+    "vocabWordIds": [
+      "w113"
+    ],
+    "estimatedSeconds": 65
+  },
+  {
+    "id": "se-41",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "The analogy the speaker chose was particularly (( )); it illuminated the abstract principle more effectively than any formal definition could have.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "apposite"
+      },
+      {
+        "id": "c1",
+        "text": "apt"
+      },
+      {
+        "id": "c2",
+        "text": "forced"
+      },
+      {
+        "id": "c3",
+        "text": "irrelevant"
+      },
+      {
+        "id": "c4",
+        "text": "specious"
+      },
+      {
+        "id": "c5",
+        "text": "quixotic"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "An analogy that illuminates better than a definition is highly relevant and well-chosen.",
+      "\"apposite\" and \"apt\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w114",
+      "w118"
+    ],
+    "estimatedSeconds": 70
+  },
+  {
+    "id": "se-42",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "Once the structural weakness was identified, the collapse of the entire argument became (( )); no amount of rhetorical repair could save it.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "ineluctable"
+      },
+      {
+        "id": "c1",
+        "text": "inevitable"
+      },
+      {
+        "id": "c2",
+        "text": "avoidable"
+      },
+      {
+        "id": "c3",
+        "text": "contingent"
+      },
+      {
+        "id": "c4",
+        "text": "propitious"
+      },
+      {
+        "id": "c5",
+        "text": "quixotic"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "No amount of repair could save it means the collapse could not be escaped or avoided.",
+      "\"ineluctable\" and \"inevitable\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w115"
+    ],
+    "estimatedSeconds": 70
+  },
+  {
+    "id": "se-43",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "Conditions for the launch appeared (( )); clear skies, stable winds, and fully operational systems all pointed toward success.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "propitious"
+      },
+      {
+        "id": "c1",
+        "text": "favorable"
+      },
+      {
+        "id": "c2",
+        "text": "inimical"
+      },
+      {
+        "id": "c3",
+        "text": "adverse"
+      },
+      {
+        "id": "c4",
+        "text": "recalcitrant"
+      },
+      {
+        "id": "c5",
+        "text": "abstruse"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Clear skies and stable systems pointing to success describe favorable conditions.",
+      "\"propitious\" and \"favorable\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w116",
+      "w111"
+    ],
+    "estimatedSeconds": 65
+  },
+  {
+    "id": "se-44",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "The board found the director (( )); she ignored repeated directives and continued to pursue projects the committee had explicitly rejected.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "recalcitrant"
+      },
+      {
+        "id": "c1",
+        "text": "insubordinate"
+      },
+      {
+        "id": "c2",
+        "text": "compliant"
+      },
+      {
+        "id": "c3",
+        "text": "deferential"
+      },
+      {
+        "id": "c4",
+        "text": "sedulous"
+      },
+      {
+        "id": "c5",
+        "text": "pellucid"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Ignoring directives and pursuing rejected projects describes stubborn resistance to authority.",
+      "\"recalcitrant\" and \"insubordinate\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w117"
+    ],
+    "estimatedSeconds": 70
+  },
+  {
+    "id": "se-45",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "medium",
+    "type": "sentence-equivalence",
+    "sentenceText": "Years of (( )) work in the archives finally yielded the missing correspondence that resolved the long-standing historical debate.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "sedulous"
+      },
+      {
+        "id": "c1",
+        "text": "diligent"
+      },
+      {
+        "id": "c2",
+        "text": "perfunctory"
+      },
+      {
+        "id": "c3",
+        "text": "cursory"
+      },
+      {
+        "id": "c4",
+        "text": "prodigal"
+      },
+      {
+        "id": "c5",
+        "text": "quixotic"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Years of work that finally yields a key discovery implies careful, persistent effort.",
+      "\"sedulous\" and \"diligent\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w125",
+      "w020",
+      "w053"
+    ],
+    "estimatedSeconds": 65
+  },
+  {
+    "id": "se-46",
+    "topic": "sentence-equivalence",
+    "subtopic": "Logical Consistency",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "The introduction of the flawed data set (( )) the entire statistical model, rendering its predictions unreliable.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "vitiated"
+      },
+      {
+        "id": "c1",
+        "text": "compromised"
+      },
+      {
+        "id": "c2",
+        "text": "bolstered"
+      },
+      {
+        "id": "c3",
+        "text": "validated"
+      },
+      {
+        "id": "c4",
+        "text": "illuminated"
+      },
+      {
+        "id": "c5",
+        "text": "clarified"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Making predictions unreliable means the data spoiled or impaired the model.",
+      "\"vitiated\" and \"compromised\" are synonyms in this context and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w120"
+    ],
+    "estimatedSeconds": 70
+  },
+  {
+    "id": "se-47",
+    "topic": "sentence-equivalence",
+    "subtopic": "Vocabulary in Context",
+    "difficulty": "hard",
+    "type": "sentence-equivalence",
+    "sentenceText": "Critics dismissed the proposal as (( )); its lofty goals bore little relation to the practical constraints of the available budget and timeline.",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "quixotic"
+      },
+      {
+        "id": "c1",
+        "text": "unrealistic"
+      },
+      {
+        "id": "c2",
+        "text": "pragmatic"
+      },
+      {
+        "id": "c3",
+        "text": "feasible"
+      },
+      {
+        "id": "c4",
+        "text": "sedulous"
+      },
+      {
+        "id": "c5",
+        "text": "apposite"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0",
+      "c1"
+    ],
+    "solutionSteps": [
+      "Lofty goals disconnected from practical constraints describe an impractically idealistic plan.",
+      "\"quixotic\" and \"unrealistic\" are synonyms and both produce a sentence with the same meaning."
+    ],
+    "vocabWordIds": [
+      "w124"
+    ],
+    "estimatedSeconds": 70
+  },
+  {
+    "id": "tc-41",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The defense attorney's (i) argument, though eloquently delivered, rested on a series of logical leaps that the prosecution quickly dismantled.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "specious"
+          },
+          {
+            "id": "c1",
+            "text": "trenchant"
+          },
+          {
+            "id": "c2",
+            "text": "pellucid"
+          },
+          {
+            "id": "c3",
+            "text": "apposite"
+          },
+          {
+            "id": "c4",
+            "text": "ineluctable"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "An argument that appears strong but is quickly dismantled for logical leaps is specious (superficially plausible but flawed)."
+    ],
+    "vocabWordIds": [
+      "w118"
+    ],
+    "estimatedSeconds": 70
+  },
+  {
+    "id": "tc-42",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "Far from being (i) to reform, the agency actively obstructed every attempt to modernize its outdated procedures.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "receptive"
+          },
+          {
+            "id": "c1",
+            "text": "inimical"
+          },
+          {
+            "id": "c2",
+            "text": "indifferent"
+          },
+          {
+            "id": "c3",
+            "text": "neutral"
+          },
+          {
+            "id": "c4",
+            "text": "ambivalent"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "\"Far from being receptive\" + actively obstructing = the agency was the opposite of open to reform."
+    ],
+    "vocabWordIds": [
+      "w111"
+    ],
+    "estimatedSeconds": 65
+  },
+  {
+    "id": "tc-43",
+    "topic": "text-completion",
+    "subtopic": "Double Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "Although the manuscript was dense and occasionally (i), its central thesis remained (ii) throughout, never losing the reader in unnecessary complexity.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "abstruse"
+          },
+          {
+            "id": "c1",
+            "text": "pellucid"
+          },
+          {
+            "id": "c2",
+            "text": "prosaic"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "pellucid"
+          },
+          {
+            "id": "c1",
+            "text": "obscure"
+          },
+          {
+            "id": "c2",
+            "text": "convoluted"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Dense + occasionally difficult, yet the thesis stayed clear: abstruse (obscure) in places, but pellucid (clear) at its core."
+    ],
+    "vocabWordIds": [
+      "w121",
+      "w112"
+    ],
+    "estimatedSeconds": 80
+  },
+  {
+    "id": "tc-44",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The decision to expand into emerging markets proved (i); within two years the new divisions accounted for nearly half of total revenue.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "propitious"
+          },
+          {
+            "id": "c1",
+            "text": "inimical"
+          },
+          {
+            "id": "c2",
+            "text": "quixotic"
+          },
+          {
+            "id": "c3",
+            "text": "prodigal"
+          },
+          {
+            "id": "c4",
+            "text": "recalcitrant"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Strong revenue growth indicates the expansion was favorable / well-timed — propitious."
+    ],
+    "vocabWordIds": [
+      "w116"
+    ],
+    "estimatedSeconds": 65
+  },
+  {
+    "id": "tc-45",
+    "topic": "text-completion",
+    "subtopic": "Double Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The auditor's (i) examination of the accounts uncovered irregularities that a more (ii) review would almost certainly have missed.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "sedulous"
+          },
+          {
+            "id": "c1",
+            "text": "cursory"
+          },
+          {
+            "id": "c2",
+            "text": "perfunctory"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "superficial"
+          },
+          {
+            "id": "c1",
+            "text": "meticulous"
+          },
+          {
+            "id": "c2",
+            "text": "exhaustive"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Uncovering irregularities that a lesser review would miss requires careful, persistent work (sedulous) versus a superficial one."
+    ],
+    "vocabWordIds": [
+      "w125",
+      "w045",
+      "w053"
+    ],
+    "estimatedSeconds": 80
+  },
+  {
+    "id": "tc-46",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "Once the key assumption was shown to be false, the (i) failure of the entire theoretical framework became obvious to even its most committed defenders.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "ineluctable"
+          },
+          {
+            "id": "c1",
+            "text": "contingent"
+          },
+          {
+            "id": "c2",
+            "text": "partial"
+          },
+          {
+            "id": "c3",
+            "text": "reversible"
+          },
+          {
+            "id": "c4",
+            "text": "temporary"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Failure that becomes obvious and cannot be avoided once the assumption falls is ineluctable (inescapable)."
+    ],
+    "vocabWordIds": [
+      "w115"
+    ],
+    "estimatedSeconds": 70
+  },
+  {
+    "id": "tc-47",
+    "topic": "text-completion",
+    "subtopic": "Double Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The analogy was so (i) that it clarified the dense technical material more effectively than any of the author's more formal, (ii) explanations.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "apposite"
+          },
+          {
+            "id": "c1",
+            "text": "forced"
+          },
+          {
+            "id": "c2",
+            "text": "obscure"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "abstruse"
+          },
+          {
+            "id": "c1",
+            "text": "pellucid"
+          },
+          {
+            "id": "c2",
+            "text": "accessible"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "A highly relevant (apposite) analogy clarifying material better than formal but difficult (abstruse) explanations."
+    ],
+    "vocabWordIds": [
+      "w114",
+      "w121"
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "tc-48",
+    "topic": "text-completion",
+    "subtopic": "Triple Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 3,
+    "passageText": "The committee's (i) stance toward the proposed changes was not merely passive resistance; it actively sought to (ii) the reform process by introducing procedural obstacles that proved nearly (iii).",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "recalcitrant"
+          },
+          {
+            "id": "c1",
+            "text": "accommodating"
+          },
+          {
+            "id": "c2",
+            "text": "indifferent"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "vitiate"
+          },
+          {
+            "id": "c1",
+            "text": "accelerate"
+          },
+          {
+            "id": "c2",
+            "text": "clarify"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "iii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "ineluctable"
+          },
+          {
+            "id": "c1",
+            "text": "trivial"
+          },
+          {
+            "id": "c2",
+            "text": "temporary"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Active obstruction of reform = recalcitrant stance that seeks to vitiate (spoil) the process with obstacles that are nearly ineluctable (inescapable)."
+    ],
+    "vocabWordIds": [
+      "w117",
+      "w120",
+      "w115"
+    ],
+    "estimatedSeconds": 95
+  },
+  {
+    "id": "tc-49",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "His (i) spending habits left the foundation short of reserves precisely when a major grant opportunity appeared.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "prodigal"
+          },
+          {
+            "id": "c1",
+            "text": "frugal"
+          },
+          {
+            "id": "c2",
+            "text": "ascetic"
+          },
+          {
+            "id": "c3",
+            "text": "measured"
+          },
+          {
+            "id": "c4",
+            "text": "sedulous"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Leaving the foundation short of reserves implies wasteful, extravagant spending — prodigal."
+    ],
+    "vocabWordIds": [
+      "w123",
+      "w015"
+    ],
+    "estimatedSeconds": 65
+  },
+  {
+    "id": "tc-50",
+    "topic": "text-completion",
+    "subtopic": "Double Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "What seemed at first a (i) criticism turned out to be (ii); the reviewer's sharp observations forced a genuine rethinking of the project's core assumptions.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "merely caustic"
+          },
+          {
+            "id": "c1",
+            "text": "constructive"
+          },
+          {
+            "id": "c2",
+            "text": "irrelevant"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "trenchant and useful"
+          },
+          {
+            "id": "c1",
+            "text": "purely destructive"
+          },
+          {
+            "id": "c2",
+            "text": "entirely misplaced"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Appearing only harsh at first but proving sharp and productive: merely caustic → trenchant and useful."
+    ],
+    "vocabWordIds": [
+      "w036",
+      "w119"
+    ],
+    "estimatedSeconds": 80
+  },
+  {
+    "id": "tc-51",
+    "topic": "text-completion",
+    "subtopic": "Single Blank",
+    "difficulty": "hard",
+    "type": "text-completion",
+    "blanksCount": 1,
+    "passageText": "The philosopher's later work grew increasingly (i), accessible only to readers already steeped in the specialized vocabulary of her earlier treatises.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "abstruse"
+          },
+          {
+            "id": "c1",
+            "text": "pellucid"
+          },
+          {
+            "id": "c2",
+            "text": "prosaic"
+          },
+          {
+            "id": "c3",
+            "text": "banal"
+          },
+          {
+            "id": "c4",
+            "text": "compelling"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "Accessible only to specialists steeped in prior vocabulary = abstruse (difficult/obscure)."
+    ],
+    "vocabWordIds": [
+      "w121"
+    ],
+    "estimatedSeconds": 70
+  },
+  {
+    "id": "tc-52",
+    "topic": "text-completion",
+    "subtopic": "Double Blank",
+    "difficulty": "medium",
+    "type": "text-completion",
+    "blanksCount": 2,
+    "passageText": "The unexpected surplus was a (i) development that gave the administration the political capital needed to pursue otherwise (ii) reforms.",
+    "blanks": [
+      {
+        "id": "i",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "propitious"
+          },
+          {
+            "id": "c1",
+            "text": "inimical"
+          },
+          {
+            "id": "c2",
+            "text": "neutral"
+          }
+        ],
+        "correctChoiceId": "c0"
+      },
+      {
+        "id": "ii",
+        "choices": [
+          {
+            "id": "c0",
+            "text": "contentious"
+          },
+          {
+            "id": "c1",
+            "text": "popular"
+          },
+          {
+            "id": "c2",
+            "text": "uncontroversial"
+          }
+        ],
+        "correctChoiceId": "c0"
+      }
+    ],
+    "solutionSteps": [
+      "A favorable (propitious) surplus enabling pursuit of otherwise controversial (contentious) reforms."
+    ],
+    "vocabWordIds": [
+      "w116",
+      "w049"
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-01-5",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p01",
+    "prompt": "The passage suggests that treating octopus cognition as \"an entirely separate evolutionary experiment\" would most likely lead researchers to",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "focus less on finding necessary preconditions shared with vertebrate intelligence and more on documenting the distinctive forms intelligence can take"
+      },
+      {
+        "id": "c1",
+        "text": "conclude that octopuses are less intelligent than mammals"
+      },
+      {
+        "id": "c2",
+        "text": "abandon all comparative study of animal cognition"
+      },
+      {
+        "id": "c3",
+        "text": "assume that distributed nervous systems are superior to centralized ones"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The final sentences argue that comparison to human cognition is less useful than treating octopus intelligence as a separate experiment that teaches us about varied forms rather than necessary preconditions."
+    ],
+    "estimatedSeconds": 80
+  },
+  {
+    "id": "rc-02-5",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p02",
+    "prompt": "Which of the following, if true, would most strengthen the passage's claim that standardization was \"a slow, later development\" rather than an immediate product of the printing press?",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "Bibliographic standards and consistent citation practices only became widespread in the eighteenth and nineteenth centuries, long after the press was introduced"
+      },
+      {
+        "id": "c1",
+        "text": "Early printed books contained fewer errors than contemporary manuscripts"
+      },
+      {
+        "id": "c2",
+        "text": "Compositors never introduced intentional changes to source texts"
+      },
+      {
+        "id": "c3",
+        "text": "Print runs were never corrected mid-process"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "Evidence that editorial and bibliographic conventions matured centuries later directly supports the claim that standardization was gradual and post-dated the technology itself."
+    ],
+    "estimatedSeconds": 80
+  },
+  {
+    "id": "rc-03-5",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p03",
+    "prompt": "The passage implies that policymakers' preference for nudges may produce a suboptimal outcome when",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "the target behavior is driven primarily by structural factors such as insufficient income rather than by mild indecision"
+      },
+      {
+        "id": "c1",
+        "text": "citizens have no freedom of choice at all"
+      },
+      {
+        "id": "c2",
+        "text": "nudges have never been shown to change any behavior"
+      },
+      {
+        "id": "c3",
+        "text": "subsidies and mandates are politically impossible under all circumstances"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage notes that nudges do little against powerful forces like financial hardship and that enthusiasm for them may divert resources from stronger interventions needed for deeper causes."
+    ],
+    "estimatedSeconds": 80
+  },
+  {
+    "id": "rc-04-5",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p04",
+    "prompt": "The passage's discussion of \"coherence... through accumulation rather than narration\" most nearly suggests that a fragmented modernist poem can still be coherent if",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "recurring patterns of imagery, sound, or theme gradually build a unified emotional or thematic effect even without continuous storytelling"
+      },
+      {
+        "id": "c1",
+        "text": "the poem tells a single unbroken story from beginning to end"
+      },
+      {
+        "id": "c2",
+        "text": "each fragment is completely independent of every other fragment"
+      },
+      {
+        "id": "c3",
+        "text": "the poet provides explicit transitional sentences between every image"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage defines the relevant coherence as \"building toward a unified emotional or thematic effect through accumulation rather than narration.\""
+    ],
+    "estimatedSeconds": 80
+  },
+  {
+    "id": "rc-05-5",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p05",
+    "prompt": "If the skeptics' concern about selective attention is correct, then the apparent narrowness of viable biological solutions may primarily reflect",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "a bias in what evolutionary biologists choose to study rather than a fundamental constraint imposed by natural selection"
+      },
+      {
+        "id": "c1",
+        "text": "the complete absence of evolutionary novelty in the history of life"
+      },
+      {
+        "id": "c2",
+        "text": "the fact that all traits are equally likely to be noticed and cataloged"
+      },
+      {
+        "id": "c3",
+        "text": "proof that convergent evolution never occurs"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "Skeptics argue that the narrowness \"may say less about the constraints of natural selection than about the selective attention of the scientists studying it.\""
+    ],
+    "estimatedSeconds": 80
+  },
+  {
+    "id": "rc-06-5",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p06",
+    "prompt": "The passage suggests that the practical difficulty with Popper's resolution arises mainly from",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "the difficulty of drawing a clear, non-controversial line between protected vigorous persuasion and unprotected incitement to suppress opponents by force"
+      },
+      {
+        "id": "c1",
+        "text": "Popper's failure to propose any resolution at all"
+      },
+      {
+        "id": "c2",
+        "text": "the fact that all intolerant movements announce their intentions in advance"
+      },
+      {
+        "id": "c3",
+        "text": "the claim that tolerance must be extended to every possible idea without exception"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "Critics note that the line between \"vigorous rhetorical persuasion and incitement to suppress opponents is not always self-evident, leaving considerable room for disagreement.\""
+    ],
+    "estimatedSeconds": 80
+  },
+  {
+    "id": "rc-07-5",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "medium",
+    "type": "reading-comprehension",
+    "passageId": "p07",
+    "prompt": "The passage's argument would be most weakened if which of the following were discovered?",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "Multiple additional complex geared mechanisms from the same period, clearly belonging to a continuous workshop tradition, have been recovered from other Mediterranean sites"
+      },
+      {
+        "id": "c1",
+        "text": "The Antikythera mechanism was used only for predicting eclipses"
+      },
+      {
+        "id": "c2",
+        "text": "Bronze was sometimes recycled in antiquity"
+      },
+      {
+        "id": "c3",
+        "text": "The device required advanced mathematical knowledge"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The puzzle is the scarcity of comparable devices; finding multiple similar ones in a continuous tradition would undercut the claim that it is a rare surviving data point from a largely invisible history."
+    ],
+    "estimatedSeconds": 75
+  },
+  {
+    "id": "rc-08-5",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p08",
+    "prompt": "The passage distinguishes two types of criticism of the 15-minute city. The second type differs from the first primarily in that it",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "questions the concept's underlying motives rather than its practical feasibility"
+      },
+      {
+        "id": "c1",
+        "text": "focuses exclusively on construction costs"
+      },
+      {
+        "id": "c2",
+        "text": "accepts the concept's goals while disputing its timeline"
+      },
+      {
+        "id": "c3",
+        "text": "is endorsed by the urban planners implementing the policies"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage labels the first objection \"practical\" (difficulty and cost of retrofitting) and the second \"more skeptical of the concept's motives than its feasibility.\""
+    ],
+    "estimatedSeconds": 80
+  },
+  {
+    "id": "rc-09-5",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p09",
+    "prompt": "According to the view presented in the second paragraph, the designation \"reliable narrator\" is best understood as",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "a provisional judgment that depends on the reader's detection of textual signals rather than an intrinsic, fixed property of the narrator"
+      },
+      {
+        "id": "c1",
+        "text": "an absolute category that applies equally to every third-person narrator"
+      },
+      {
+        "id": "c2",
+        "text": "a label that can never change after a first reading"
+      },
+      {
+        "id": "c3",
+        "text": "a purely biographical fact about the author's intentions"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage states that \"reliability\" is \"less a fixed property of a narrator than a relationship between the text and a reader alert enough to notice the signals,\" and that a second reading can reveal previously invisible unreliability."
+    ],
+    "estimatedSeconds": 80
+  },
+  {
+    "id": "rc-10-5",
+    "topic": "reading-comprehension",
+    "subtopic": "Inference",
+    "difficulty": "hard",
+    "type": "reading-comprehension",
+    "passageId": "p10",
+    "prompt": "The passage suggests that translating correlational microbiome findings directly into clinical recommendations is problematic primarily because",
+    "questionType": "single",
+    "choices": [
+      {
+        "id": "c0",
+        "text": "an altered microbiome may be a consequence rather than a cause of the condition, so restoring a \"typical\" microbiome might not improve the condition"
+      },
+      {
+        "id": "c1",
+        "text": "no correlational studies have ever been published"
+      },
+      {
+        "id": "c2",
+        "text": "model organisms cannot be used in any microbiome research"
+      },
+      {
+        "id": "c3",
+        "text": "all microbiome differences are known to be caused by medication use alone"
+      }
+    ],
+    "correctChoiceIds": [
+      "c0"
+    ],
+    "solutionSteps": [
+      "The passage stresses that if the microbiome is a consequence (or jointly caused by a third factor), interventions that change its composition \"might do nothing at all\" for the condition."
+    ],
+    "estimatedSeconds": 80
+  }
+]

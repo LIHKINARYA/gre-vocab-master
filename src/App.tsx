@@ -31,7 +31,7 @@ function App() {
 
   if (!hydrated) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-(--color-paper) text-(--color-ink)">
+      <div className="min-h-screen flex items-center justify-center bg-(--color-paper) dark:bg-(--color-ink) text-(--color-ink) dark:text-(--color-paper)">
         <p className="font-display text-lg">Loading your ledger…</p>
       </div>
     );

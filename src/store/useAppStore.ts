@@ -44,7 +44,7 @@ const defaultProgress: UserProgress = {
   newWordsToday: 0,
   lastActivityDate: null,
   achievements: [],
-  theme: 'light',
+  theme: 'dark',
   quizzesCompleted: 0,
 };
 

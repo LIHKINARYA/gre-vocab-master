@@ -311,6 +311,9 @@ export const useAppStore = create<AppStore>((set, get) => ({
         if (c && typeof c === 'object') {
           cards[id] = {
             ...c,
+            bookmarked: Boolean(c.bookmarked),
+            favorite: Boolean(c.favorite),
+            personalNotes: c.personalNotes || '',
             mastered: checkMastery(c),
           };
         }

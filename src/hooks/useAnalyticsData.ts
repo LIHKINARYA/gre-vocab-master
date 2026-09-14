@@ -1,11 +1,6 @@
 import { useMemo } from 'react';
 import { useAppStore, words } from '@/store/useAppStore';
-import { checkMastery } from '@/core/srs/sm2';
-import type { CardState } from '@/core/types';
-
-function isStruggling(card: CardState): boolean {
-  return card.easeFactor <= 1.5 || card.timesIncorrect >= 2;
-}
+import { checkMastery, isStruggling } from '@/core/srs/sm2';
 
 function isoDaysAgo(n: number): string {
   const d = new Date();

@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { useAppStore, words } from '@/store/useAppStore';
 import { xpForLevel } from '@/store/useAppStore';
 import { checkMastery, isLearned, isStruggling } from '@/core/srs/sm2';
@@ -8,6 +8,7 @@ export function useDashboardStats() {
   const cards = useAppStore((s) => s.cards);
   const progress = useAppStore((s) => s.progress);
   const dailyStats = useAppStore((s) => s.dailyStats);
+  const [mountedAt] = useState(() => Date.now());
 
   return useMemo(() => {
     const cardList = Object.values(cards);
@@ -28,10 +29,12 @@ export function useDashboardStats() {
     const totalReviews = totalCorrect + totalIncorrect;
     const accuracy = totalReviews > 0 ? Math.round((totalCorrect / totalReviews) * 100) : 0;
 
-    const now = Date.now();
-    const dueToday = cardList.filter((c) => c.nextReview <= now).length;
+    const dueToday = cardList.filter((c) => c.nextReview <= mountedAt).length;
 
-    const today = new Date().toISOString().slice(0, 10);
+    const today = new Date(mountedAt).toISOString().slice(0, 10);
+    const yesterday = new Date(mountedAt - 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+    const isStreakActive = progress.lastStudyDate === today || progress.lastStudyDate === yesterday;
+    const currentStreak = isStreakActive ? progress.currentStreak : 0;
     const todayStat = dailyStats[today];
 
     const currentLevelFloor = progress.level === 1 ? 0 : xpForLevel(progress.level - 1);
@@ -66,9 +69,9 @@ export function useDashboardStats() {
       xp: progress.xp,
       level: progress.level,
       levelProgress,
-      currentStreak: progress.currentStreak,
+      currentStreak,
       longestStreak: progress.longestStreak,
       totalReviewsAllTime: totalReviews,
     };
-  }, [cards, progress, dailyStats]);
+  }, [cards, progress, dailyStats, mountedAt]);
 }

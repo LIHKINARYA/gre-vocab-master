@@ -1,7 +1,8 @@
 import { useCallback, useMemo, useState } from 'react';
 import { useAppStore, words } from '@/store/useAppStore';
 import { buildQuiz, type QuizQuestion, type QuizQuestionType } from '@/core/quiz/quizGenerator';
-import type { CardState, Word } from '@/core/types';
+import { isDue, isLearned, isStruggling } from '@/core/srs/sm2';
+import type { CardState, ReviewRating, Word } from '@/core/types';
 
 export type QuizSource = 'due' | 'struggling' | 'learned' | 'new' | 'all';
 
@@ -13,18 +14,14 @@ export interface QuizConfig {
 
 type Phase = 'setup' | 'question' | 'answered' | 'complete';
 
-function isStruggling(card: CardState): boolean {
-  return card.easeFactor <= 1.5 || card.timesIncorrect >= 2;
-}
-
 export function sourceWordCount(source: QuizSource, cards: Record<string, CardState>, now = Date.now()): number {
   switch (source) {
     case 'due':
-      return words.filter((w) => cards[w.id] && cards[w.id].nextReview <= now).length;
+      return words.filter((w) => cards[w.id] && isDue(cards[w.id], now)).length;
     case 'struggling':
       return words.filter((w) => cards[w.id] && isStruggling(cards[w.id])).length;
     case 'learned':
-      return words.filter((w) => !!cards[w.id]).length;
+      return words.filter((w) => cards[w.id] && isLearned(cards[w.id])).length;
     case 'new':
       return words.filter((w) => !cards[w.id]).length;
     case 'all':
@@ -37,11 +34,11 @@ export function sourceWordCount(source: QuizSource, cards: Record<string, CardSt
 function wordsForSource(source: QuizSource, cards: Record<string, CardState>, now = Date.now()): Word[] {
   switch (source) {
     case 'due':
-      return words.filter((w) => cards[w.id] && cards[w.id].nextReview <= now);
+      return words.filter((w) => cards[w.id] && isDue(cards[w.id], now));
     case 'struggling':
       return words.filter((w) => cards[w.id] && isStruggling(cards[w.id]));
     case 'learned':
-      return words.filter((w) => !!cards[w.id]);
+      return words.filter((w) => cards[w.id] && isLearned(cards[w.id]));
     case 'new':
       return words.filter((w) => !cards[w.id]);
     case 'all':
@@ -73,8 +70,8 @@ export function useQuizSession(initialConfig?: Partial<QuizConfig>) {
   const [selectedOptionId, setSelectedOptionId] = useState<string | null>(null);
   const [correctCount, setCorrectCount] = useState(0);
   const [missed, setMissed] = useState<MissedItem[]>([]);
-  const [startedAt, setStartedAt] = useState<number>(Date.now());
-  const [questionShownAt, setQuestionShownAt] = useState<number>(Date.now());
+  const [startedAt, setStartedAt] = useState<number>(() => Date.now());
+  const [questionShownAt, setQuestionShownAt] = useState<number>(() => Date.now());
 
   const availableCount = useMemo(() => sourceWordCount(config.source, cards), [config.source, cards]);
 
@@ -123,7 +120,8 @@ export function useQuizSession(initialConfig?: Partial<QuizConfig>) {
       }
 
       // Feed the result back into the SRS scheduler so quizzing counts as review.
-      reviewWord(currentQuestion.wordId, isCorrect ? 'good' : 'again', responseTimeMs);
+      const rating: ReviewRating = isCorrect ? (responseTimeMs < 4500 ? 'easy' : 'good') : 'again';
+      reviewWord(currentQuestion.wordId, rating, responseTimeMs);
     },
     [currentQuestion, currentWord, phase, questionShownAt, reviewWord],
   );

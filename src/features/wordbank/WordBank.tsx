@@ -1,15 +1,18 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useWordBank, type WordBankFilter, type WordBankSort } from '@/hooks/useWordBank';
-import { checkMastery, isLearned } from '@/core/srs/sm2';
+import { checkMastery, isLearned, isStruggling } from '@/core/srs/sm2';
 import type { WordBankEntry } from '@/hooks/useWordBank';
 import { WordCard } from '@/features/learning/WordCard';
+import { useAppStore, words } from '@/store/useAppStore';
 
 const filters: { id: WordBankFilter; label: string }[] = [
   { id: 'learned', label: 'Learned' },
   { id: 'mastered', label: 'Mastered' },
   { id: 'due', label: 'Due' },
   { id: 'struggling', label: 'Struggling' },
+  { id: 'bookmarked', label: 'Bookmarked' },
+  { id: 'favorites', label: 'Favorites' },
   { id: 'not-started', label: 'Not Started' },
   { id: 'all', label: 'All' },
 ];
@@ -18,8 +21,7 @@ function statusBadge(entry: WordBankEntry) {
   const { card } = entry;
   if (!card) return { label: 'New', color: 'var(--color-slate)' };
   if (checkMastery(card)) return { label: 'Mastered', color: 'var(--color-verdigris)' };
-  if (card.easeFactor <= 1.5 || card.timesIncorrect >= 2)
-    return { label: 'Struggling', color: 'var(--color-rust)' };
+  if (isStruggling(card)) return { label: 'Struggling', color: 'var(--color-rust)' };
   if (card.nextReview <= Date.now()) return { label: 'Due', color: 'var(--color-gold)' };
   if (isLearned(card)) return { label: 'Learned', color: 'var(--color-verdigris-soft)' };
   return { label: 'Learning', color: 'var(--color-ink-soft)' };
@@ -36,7 +38,13 @@ function formatNextReview(ts: number): string {
 
 export function WordBank() {
   const { entries, filter, setFilter, sort, setSort, search, setSearch, counts } = useWordBank();
-  const [selected, setSelected] = useState<WordBankEntry | null>(null);
+  const [selectedWordId, setSelectedWordId] = useState<string | null>(null);
+  const cards = useAppStore((s) => s.cards);
+  const toggleMastered = useAppStore((s) => s.toggleMastered);
+
+  const selectedWord = selectedWordId ? words.find((w) => w.id === selectedWordId) : null;
+  const selectedCard = selectedWordId ? cards[selectedWordId] : undefined;
+  const selected: WordBankEntry | null = selectedWord ? { word: selectedWord, card: selectedCard } : null;
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -104,7 +112,7 @@ export function WordBank() {
                 <button
                   key={entry.word.id}
                   type="button"
-                  onClick={() => setSelected(entry)}
+                  onClick={() => setSelectedWordId(entry.word.id)}
                   className={`w-full text-left rounded-xl border p-4 transition-colors ${
                     isSelected
                       ? 'border-(--color-gold) bg-(--color-gold-soft)/30 dark:bg-(--color-gold)/10'
@@ -146,7 +154,30 @@ export function WordBank() {
                 initial={{ opacity: 0, x: 8 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -8 }}
+                className="space-y-3"
               >
+                <div className="flex items-center justify-between px-1">
+                  <span
+                    className="text-xs uppercase tracking-wider font-semibold px-2.5 py-1 rounded-full"
+                    style={{
+                      color: statusBadge(selected).color,
+                      backgroundColor: `color-mix(in srgb, ${statusBadge(selected).color} 14%, transparent)`,
+                    }}
+                  >
+                    {statusBadge(selected).label}
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => toggleMastered(selected.word.id)}
+                    className={`text-xs font-medium px-3 py-1.5 rounded-lg border transition-all cursor-pointer ${
+                      selected.card && checkMastery(selected.card)
+                        ? 'border-(--color-verdigris) text-(--color-verdigris) bg-(--color-verdigris-soft)/20 hover:bg-(--color-verdigris-soft)/30'
+                        : 'border-(--color-ink)/15 dark:border-(--color-paper)/20 text-(--color-slate) hover:border-(--color-gold) hover:text-(--color-gold)'
+                    }`}
+                  >
+                    {selected.card && checkMastery(selected.card) ? '★ Mastered' : '☆ Mark Mastered'}
+                  </button>
+                </div>
                 <WordCard word={selected.word} revealed />
               </motion.div>
             ) : (

@@ -1,0 +1,6 @@
+{
+  "name": "GRE Vocabulary Master",
+  "description": "Learn GRE words with spaced repetition (SM-2), interactive quizzes, word bank exploration, and progress analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useAppStore, words } from '@/store/useAppStore';
 import type { ReviewRating, Word } from '@/core/types';
 
@@ -17,7 +17,13 @@ export function useLearningSession() {
     const due = dueWords().slice(0, MAX_DUE_PER_SESSION);
     const dueIds = new Set(due.map((w) => w.id));
     const remainingGoal = Math.max(0, progress.dailyGoal - progress.newWordsToday);
-    const fresh = newWords(remainingGoal).filter((w) => !dueIds.has(w.id));
+    let fresh = newWords(remainingGoal).filter((w) => !dueIds.has(w.id));
+    // If daily goal is already reached or remainingGoal is 0, but no cards are due,
+    // allow learning more fresh words (up to 10) so the session isn't empty.
+    if (due.length === 0 && fresh.length === 0) {
+      const extraBatch = Math.max(10, progress.dailyGoal || 10);
+      fresh = newWords(extraBatch).filter((w) => !dueIds.has(w.id));
+    }
     return [...due, ...fresh];
   });
 
@@ -25,7 +31,11 @@ export function useLearningSession() {
   const [phase, setPhase] = useState<Phase>(queue.length > 0 ? 'prompt' : 'complete');
   const [sessionXp, setSessionXp] = useState(0);
   const [sessionCorrect, setSessionCorrect] = useState(0);
-  const promptShownAt = useRef<number>(Date.now());
+  const promptShownAt = useRef<number | null>(null);
+
+  useEffect(() => {
+    promptShownAt.current = Date.now();
+  }, [index, phase]);
 
   const currentWord = queue[index] as Word | undefined;
   const total = queue.length;
@@ -37,7 +47,7 @@ export function useLearningSession() {
   const rate = useCallback(
     (rating: ReviewRating) => {
       if (!currentWord || phase !== 'revealed') return;
-      const responseTimeMs = Date.now() - promptShownAt.current;
+      const responseTimeMs = promptShownAt.current ? Date.now() - promptShownAt.current : 2000;
       reviewWord(currentWord.id, rating, responseTimeMs);
 
       const xpGain = { again: 2, hard: 5, good: 8, easy: 10 }[rating];
@@ -50,7 +60,6 @@ export function useLearningSession() {
       } else {
         setIndex(nextIndex);
         setPhase('prompt');
-        promptShownAt.current = Date.now();
       }
     },
     [currentWord, phase, index, queue.length, reviewWord],

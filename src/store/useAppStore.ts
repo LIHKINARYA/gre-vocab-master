@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { storage } from '@/core/storage/StorageAdapter';
 import { computeStudyPlan } from '@/core/planning/studyPlan';
-import { createInitialCardState, scheduleNext, isDue, checkMastery } from '@/core/srs/sm2';
+import { createInitialCardState, scheduleNext, isDue, checkMastery, isStruggling } from '@/core/srs/sm2';
 import type { AppState, CardState, ReviewRating, UserProgress } from '@/core/types';
 import wordsData from '@/data/words.json';
 import type { Word } from '@/core/types';
@@ -18,10 +18,6 @@ function defaultTestDate(): string {
   const d = new Date();
   d.setDate(d.getDate() + 30);
   return d.toISOString().slice(0, 10);
-}
-
-function isStruggling(card: CardState): boolean {
-  return card.easeFactor <= 1.5 || card.timesIncorrect >= 2;
 }
 
 function recommendedDailyGoal(cards: Record<string, CardState>, testDate: string | null): number {
@@ -76,6 +72,7 @@ interface AppStore extends AppState {
   reviewWord: (wordId: string, rating: ReviewRating, responseTimeMs: number) => void;
   toggleBookmark: (wordId: string) => void;
   toggleFavorite: (wordId: string) => void;
+  toggleMastered: (wordId: string) => void;
   setPersonalNotes: (wordId: string, notes: string) => void;
   setDailyGoal: (goal: number) => void;
   setTestDate: (date: string) => void;
@@ -95,12 +92,19 @@ export const useAppStore = create<AppStore>((set, get) => ({
   hydrate: async () => {
     const saved = await storage.get<AppState>(STORAGE_KEY);
     if (saved) {
+      const cards: Record<string, CardState> = {};
+      for (const [id, c] of Object.entries(saved.cards || {})) {
+        cards[id] = {
+          ...c,
+          mastered: checkMastery(c),
+        };
+      }
       const progress: UserProgress = {
         ...defaultProgress,
         ...saved.progress,
         testDate: saved.progress.testDate ?? defaultTestDate(),
       };
-      set({ cards: saved.cards, progress, dailyStats: saved.dailyStats, hydrated: true });
+      set({ cards, progress, dailyStats: saved.dailyStats, hydrated: true });
     } else {
       set({ hydrated: true });
     }
@@ -207,6 +211,23 @@ export const useAppStore = create<AppStore>((set, get) => ({
     set((state) => {
       const card = state.cards[wordId] ?? createInitialCardState(wordId);
       return { cards: { ...state.cards, [wordId]: { ...card, favorite: !card.favorite } } };
+    });
+    get().persist();
+  },
+
+  toggleMastered: (wordId) => {
+    set((state) => {
+      const card = state.cards[wordId] ?? createInitialCardState(wordId);
+      const isCurrentlyMastered = checkMastery(card);
+      const willBeMastered = !isCurrentlyMastered;
+      const updatedCard: CardState = {
+        ...card,
+        mastered: willBeMastered,
+        repetitions: willBeMastered ? Math.max(card.repetitions, 4) : 1,
+        easeFactor: willBeMastered ? Math.max(card.easeFactor, 2.5) : card.easeFactor,
+        intervalDays: willBeMastered ? Math.max(card.intervalDays, 14) : card.intervalDays,
+      };
+      return { cards: { ...state.cards, [wordId]: updatedCard } };
     });
     get().persist();
   },

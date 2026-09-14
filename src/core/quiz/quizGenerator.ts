@@ -40,13 +40,13 @@ export function buildQuestion(word: Word, pool: Word[], type: QuizQuestionType):
       (w) => w.synonyms[Math.floor(Math.random() * w.synonyms.length)],
     );
     const uniqueDistractors = Array.from(new Set(distractors)).filter((d) => d !== correctText);
-    while (uniqueDistractors.length < 3 && distractorPool.length > 0) {
+    let attempts = 0;
+    while (uniqueDistractors.length < 3 && attempts < 30 && distractorPool.length > 0) {
+      attempts += 1;
       const extra = distractorPool[Math.floor(Math.random() * distractorPool.length)];
       const candidate = extra.synonyms[Math.floor(Math.random() * extra.synonyms.length)];
-      if (candidate !== correctText && !uniqueDistractors.includes(candidate)) {
+      if (candidate && candidate !== correctText && !uniqueDistractors.includes(candidate)) {
         uniqueDistractors.push(candidate);
-      } else {
-        break;
       }
     }
     const options = shuffle([correctText, ...uniqueDistractors.slice(0, 3)]).map((text, i) => ({

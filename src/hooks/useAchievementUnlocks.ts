@@ -19,12 +19,12 @@ export function useAchievementUnlocks() {
   const initialized = useRef(false);
 
   useEffect(() => {
-    if (!hydrated) return;
+    if (!hydrated || initialized.current) return;
     knownRef.current = new Set(progress.achievements);
     // First run after hydration just seeds the known set — no toast spam for
     // achievements the user already earned in a previous session.
     initialized.current = true;
-  }, [hydrated]);
+  }, [hydrated, progress.achievements]);
 
   useEffect(() => {
     if (!hydrated || !initialized.current) return;

@@ -3,7 +3,15 @@ import { useAppStore, words } from '@/store/useAppStore';
 import { checkMastery, isLearned, isStruggling } from '@/core/srs/sm2';
 import type { CardState, Word } from '@/core/types';
 
-export type WordBankFilter = 'all' | 'learned' | 'mastered' | 'due' | 'struggling' | 'not-started';
+export type WordBankFilter =
+  | 'all'
+  | 'learned'
+  | 'mastered'
+  | 'due'
+  | 'struggling'
+  | 'bookmarked'
+  | 'favorites'
+  | 'not-started';
 export type WordBankSort = 'alpha' | 'recent' | 'ease-asc' | 'frequency';
 
 export interface WordBankEntry {
@@ -24,6 +32,10 @@ function matchesFilter(entry: WordBankEntry, filter: WordBankFilter, now: number
       return !!card && card.nextReview <= now;
     case 'struggling':
       return !!card && isStruggling(card);
+    case 'bookmarked':
+      return !!card && card.bookmarked;
+    case 'favorites':
+      return !!card && card.favorite;
     case 'not-started':
       return !card;
     default:
@@ -52,9 +64,9 @@ export function useWordBank() {
   const [filter, setFilter] = useState<WordBankFilter>('learned');
   const [sort, setSort] = useState<WordBankSort>('alpha');
   const [search, setSearch] = useState('');
+  const [mountedAt] = useState(() => Date.now());
 
   const entries = useMemo(() => {
-    const now = Date.now();
     const q = search.trim().toLowerCase();
 
     const all: WordBankEntry[] = words.map((word) => ({
@@ -63,7 +75,7 @@ export function useWordBank() {
     }));
 
     const filtered = all.filter((entry) => {
-      if (!matchesFilter(entry, filter, now)) return false;
+      if (!matchesFilter(entry, filter, mountedAt)) return false;
       if (!q) return true;
       return (
         entry.word.word.toLowerCase().includes(q) ||
@@ -73,20 +85,21 @@ export function useWordBank() {
     });
 
     return sortEntries(filtered, sort);
-  }, [cards, filter, sort, search]);
+  }, [cards, filter, sort, search, mountedAt]);
 
   const counts = useMemo(() => {
-    const now = Date.now();
     const all = words.map((word) => ({ word, card: cards[word.id] }));
     return {
       all: all.length,
       learned: all.filter((e) => e.card && isLearned(e.card)).length,
       mastered: all.filter((e) => e.card && checkMastery(e.card)).length,
-      due: all.filter((e) => e.card && e.card.nextReview <= now).length,
+      due: all.filter((e) => e.card && e.card.nextReview <= mountedAt).length,
       struggling: all.filter((e) => e.card && isStruggling(e.card)).length,
+      bookmarked: all.filter((e) => e.card && e.card.bookmarked).length,
+      favorites: all.filter((e) => e.card && e.card.favorite).length,
       notStarted: all.filter((e) => !e.card).length,
     };
-  }, [cards]);
+  }, [cards, mountedAt]);
 
   return { entries, filter, setFilter, sort, setSort, search, setSearch, counts };
 }

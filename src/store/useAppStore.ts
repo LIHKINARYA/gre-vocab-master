@@ -81,6 +81,8 @@ interface AppStore extends AppState {
   recordQuizCompleted: () => void;
   unlockAchievements: (ids: string[]) => void;
   resetProgress: () => void;
+  exportData: () => string;
+  importData: (jsonStr: string) => { success: boolean; message: string };
 }
 
 export const useAppStore = create<AppStore>((set, get) => ({
@@ -289,6 +291,42 @@ export const useAppStore = create<AppStore>((set, get) => ({
   resetProgress: () => {
     set({ cards: {}, progress: defaultProgress, dailyStats: {} });
     get().persist();
+  },
+
+  exportData: () => {
+    const { cards, progress, dailyStats } = get();
+    return JSON.stringify({ cards, progress, dailyStats, exportedAt: new Date().toISOString() }, null, 2);
+  },
+
+  importData: (jsonStr: string) => {
+    try {
+      const parsed = JSON.parse(jsonStr.trim());
+      // Support either raw app-state wrapper or direct state
+      const cardsSource = parsed.cards || (typeof parsed === 'object' && !parsed.progress ? parsed : null);
+      if (!cardsSource || typeof cardsSource !== 'object') {
+        return { success: false, message: 'Invalid data format. Expected card data.' };
+      }
+      const cards: Record<string, CardState> = {};
+      for (const [id, c] of Object.entries(cardsSource as Record<string, CardState>)) {
+        if (c && typeof c === 'object') {
+          cards[id] = {
+            ...c,
+            mastered: checkMastery(c),
+          };
+        }
+      }
+      const progress: UserProgress = {
+        ...defaultProgress,
+        ...(parsed.progress || {}),
+        testDate: parsed.progress?.testDate ?? defaultTestDate(),
+      };
+      const dailyStats = parsed.dailyStats || {};
+      set({ cards, progress, dailyStats });
+      get().persist();
+      return { success: true, message: `Successfully restored ${Object.keys(cards).length} words and progress!` };
+    } catch {
+      return { success: false, message: 'Could not parse JSON. Please check the format.' };
+    }
   },
 }));
 

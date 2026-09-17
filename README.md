@@ -256,6 +256,21 @@ The project includes native routing configuration (`vercel.json`) for seamless d
 
 Production link: **[https://gre-vocab-master-sigma.vercel.app/](https://gre-vocab-master-sigma.vercel.app/)**
 
+### 📈 Web Analytics Configuration
+
+The application is instrumented to support both **Vercel Analytics** and **Google Analytics 4 (GA4)**:
+
+1. **Vercel Analytics**:
+   - Pre-integrated via `@vercel/analytics`.
+   - Go to your Vercel project dashboard &rarr; click **Analytics** &rarr; click **Enable Analytics**.
+2. **Google Analytics 4 (GA4)**:
+   - Create a Web Data Stream on [Google Analytics](https://analytics.google.com/) for your site.
+   - Copy your Measurement ID (e.g. `G-XXXXXXXXXX`).
+   - In Vercel, go to **Settings** &rarr; **Environment Variables**, add:
+     - **Key**: `VITE_GA_MEASUREMENT_ID`
+     - **Value**: `G-XXXXXXXXXX`
+   - Trigger a redeployment. GA4 will automatically start collecting visitor sessions, engagement times, and DAU/WAU/MAU metrics.
+
 ---
 
 ## 📄 Contributing & License

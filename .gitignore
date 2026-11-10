@@ -1,3 +1,11 @@
 node_modules
 dist
 node_modules/.tmp
+
+# Environment variables & local secrets
+.env
+.env.local
+.env.*.local
+
+# Firebase runtime config (ignored to satisfy GitHub secret scanning)
+firebase-applet-config.json

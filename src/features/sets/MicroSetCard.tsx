@@ -43,7 +43,7 @@ export function MicroSetCard({ set, onSelect, onQuiz, onViewWords }: MicroSetCar
         <div className="flex items-center justify-between mb-2">
           <span className="text-[11px] font-semibold uppercase tracking-wider text-(--color-gold) flex items-center gap-1.5">
             <BookOpen className="w-3.5 h-3.5" />
-            25 Words
+            {total} Words
           </span>
           {isCompleted ? (
             <span className="inline-flex items-center gap-1 text-xs font-semibold text-(--color-verdigris) bg-(--color-verdigris)/10 px-2 py-0.5 rounded-full">
@@ -80,11 +80,11 @@ export function MicroSetCard({ set, onSelect, onQuiz, onViewWords }: MicroSetCar
                   e.stopPropagation();
                   onQuiz(set);
                 }}
-                title="Quiz this set"
-                className="flex items-center gap-1 text-[11px] font-semibold text-(--color-slate) hover:text-(--color-ink) dark:hover:text-(--color-paper) px-2 py-1 rounded-md border border-transparent hover:border-gray-200 dark:hover:border-gray-700 transition"
+                title="Take Test for this group"
+                className="flex items-center gap-1 text-[11px] font-semibold text-(--color-gold) hover:bg-(--color-gold)/10 px-2.5 py-1 rounded-md border border-(--color-gold)/30 transition"
               >
                 <HelpCircle className="w-3 h-3 text-(--color-gold)" />
-                <span>Quiz</span>
+                <span>Take Test</span>
               </button>
             )}
             {onViewWords && (

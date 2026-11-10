@@ -88,13 +88,13 @@ export function CurriculumView({ onSelectSet, onQuizSet, onViewWords }: Curricul
       >
         <div className="flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-(--color-gold) font-semibold mb-1">
           <Layers className="w-4 h-4" />
-          <span>Curriculum Track</span>
+          <span>Structured Curriculum</span>
         </div>
         <h1 className="font-display text-3xl font-semibold text-(--color-ink) dark:text-(--color-paper)">
-          GRE 34 Groups & Curriculum
+          Structured Curriculum: GRE Groups (1–34)
         </h1>
         <p className="text-sm text-(--color-slate) mt-1 max-w-2xl">
-          Complete high-yield 34-group syllabus (30 words per group) plus supplementary sets. Study flashcards, test recall with Group Tests, and track mastery.
+          Complete high-yield 34-group syllabus (30 words per group) plus supplementary sets. Study flashcards, test recall with Take Test group quizzes, and track mastery.
         </p>
 
         {/* Global Curriculum Progress Banner */}

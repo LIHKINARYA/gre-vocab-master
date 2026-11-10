@@ -6,15 +6,14 @@ import { useDashboardStats } from '@/hooks/useDashboardStats';
 import { useSessionRecap } from '@/hooks/useSessionRecap';
 import { AchievementsPanel } from '@/features/gamification/AchievementsPanel';
 import { RegisterCallout } from '@/features/auth/RegisterCallout';
-import { MicroSetExplorer } from '@/features/sets/MicroSetExplorer';
-import { Zap, ArrowRight } from 'lucide-react';
+import { Zap, ArrowRight, Layers } from 'lucide-react';
 import type { MicroSet } from '@/core/types';
 import type { User } from 'firebase/auth';
 
 interface DashboardProps {
   onStartLearning: () => void;
   onStartCram: () => void;
-  onSelectMicroSet: (set: MicroSet) => void;
+  onSelectMicroSet?: (set: MicroSet) => void;
   onQuizMicroSet?: (set: MicroSet) => void;
   onViewMicroSetWords?: (set: MicroSet) => void;
   onViewAllSets?: () => void;
@@ -26,9 +25,6 @@ interface DashboardProps {
 export function Dashboard({
   onStartLearning,
   onStartCram,
-  onSelectMicroSet,
-  onQuizMicroSet,
-  onViewMicroSetWords,
   onViewAllSets,
   onOpenRecap,
   user,
@@ -47,11 +43,12 @@ export function Dashboard({
         />
       )}
 
+      {/* Main Header */}
       <motion.header
         initial={{ opacity: 0, y: -8 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
-        className="mb-8 flex items-center justify-between flex-wrap gap-4"
+        className="mb-6 flex items-center justify-between flex-wrap gap-4"
       >
         <div>
           <p className="text-xs uppercase tracking-[0.2em] text-(--color-gold) font-semibold">
@@ -87,7 +84,7 @@ export function Dashboard({
         <motion.div
           initial={{ opacity: 0, y: 6 }}
           animate={{ opacity: 1, y: 0 }}
-          className="rounded-2xl border border-(--color-gold)/30 bg-gradient-to-r from-(--color-gold-soft)/40 via-white/40 to-(--color-gold-soft)/20 dark:from-(--color-gold)/15 dark:via-white/5 dark:to-transparent p-5 mb-8 shadow-xs"
+          className="rounded-2xl border border-(--color-gold)/30 bg-gradient-to-r from-(--color-gold-soft)/40 via-white/40 to-(--color-gold-soft)/20 dark:from-(--color-gold)/15 dark:via-white/5 dark:to-transparent p-5 mb-6 shadow-xs"
         >
           <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
             <div className="flex items-center gap-2.5">
@@ -135,32 +132,12 @@ export function Dashboard({
         </motion.div>
       )}
 
-      {/* Prepelly-Style 25-Word Micro-Sets Explorer */}
-      <div>
-        <div className="flex items-center justify-between mb-1">
-          <span />
-          {onViewAllSets && (
-            <button
-              type="button"
-              onClick={onViewAllSets}
-              className="text-xs font-semibold text-(--color-gold) hover:underline cursor-pointer flex items-center gap-1"
-            >
-              Curriculum tab →
-            </button>
-          )}
-        </div>
-        <MicroSetExplorer
-          onSelectSet={onSelectMicroSet}
-          onQuizSet={onQuizMicroSet}
-          onViewWords={onViewMicroSetWords}
-        />
-      </div>
-
+      {/* TOP SECTION: GRE Pacing, 8 Stat Cards, Today's Goal */}
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.2, duration: 0.4 }}
-        className="rounded-xl border border-(--color-gold)/30 bg-(--color-gold-soft)/30 dark:bg-(--color-gold)/10 p-5 mb-6"
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1, duration: 0.4 }}
+        className="rounded-xl border border-(--color-gold)/30 bg-(--color-gold-soft)/30 dark:bg-(--color-gold)/10 p-5 mb-5 shadow-xs"
       >
         {s.studyPlan ? (
           <>
@@ -192,7 +169,8 @@ export function Dashboard({
         )}
       </motion.div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+      {/* 8 Stat Cards Grid */}
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
         <StatCard index={0} label="Total Words" value={s.totalWords} accent="var(--color-ink)" />
         <StatCard index={1} label="Words Learned" value={s.wordsLearned} accent="var(--color-verdigris)" />
         <StatCard index={2} label="Due Today" value={s.dueToday} accent="var(--color-rust)" />
@@ -203,11 +181,12 @@ export function Dashboard({
         <StatCard index={7} label="Mastered" value={s.wordsMastered} accent="var(--color-verdigris)" />
       </div>
 
+      {/* Today's Goal Card */}
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.3, duration: 0.4 }}
-        className="rounded-xl border border-(--color-ink)/10 dark:border-(--color-paper)/10 bg-white/60 dark:bg-white/5 p-5"
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.2, duration: 0.4 }}
+        className="rounded-xl border border-(--color-ink)/10 dark:border-(--color-paper)/10 bg-white/60 dark:bg-white/5 p-5 mb-8"
       >
         <div className="flex justify-between items-center mb-2">
           <p className="font-display text-lg font-semibold">Today's Goal</p>
@@ -221,7 +200,36 @@ export function Dashboard({
         />
       </motion.div>
 
-      <div className="mt-6">
+      {/* Structured Curriculum Callout inside Dashboard linking directly to Groups */}
+      <motion.div
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.25, duration: 0.4 }}
+        className="rounded-2xl border border-(--color-gold)/30 bg-gradient-to-r from-(--color-gold-soft)/40 via-white/40 to-transparent dark:from-(--color-gold)/15 dark:via-white/5 dark:to-transparent p-6 mb-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-xs"
+      >
+        <div>
+          <div className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-(--color-gold) mb-1">
+            <Layers className="w-4 h-4" />
+            <span>Structured Curriculum</span>
+          </div>
+          <h2 className="font-display text-xl font-bold text-(--color-ink) dark:text-(--color-paper)">
+            GRE Vocabulary Groups (1–34)
+          </h2>
+          <p className="text-xs sm:text-sm text-(--color-slate) mt-1 max-w-xl">
+            Explore all 34 syllabus groups in the Groups section. Practice flashcards, take timed group tests, and master 1,000+ words systematically.
+          </p>
+        </div>
+
+        {onViewAllSets && (
+          <Button onClick={onViewAllSets} className="shrink-0 flex items-center gap-2">
+            <span>Explore Groups Curriculum</span>
+            <ArrowRight className="w-4 h-4" />
+          </Button>
+        )}
+      </motion.div>
+
+      {/* Achievements Section */}
+      <div>
         <AchievementsPanel />
       </div>
     </div>

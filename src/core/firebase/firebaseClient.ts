@@ -15,10 +15,40 @@ import {
   setDoc, 
   getDocFromServer 
 } from 'firebase/firestore';
-import firebaseConfig from '../../../firebase-applet-config.json';
 import type { AppState } from '@/core/types';
 
-const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
+// Load config dynamically so a gitignored local file doesn't break builds in fresh clones
+const localConfigFiles = import.meta.glob<{ default: Record<string, string> }>('/firebase-applet-config.json', { eager: true });
+const localConfig = localConfigFiles['/firebase-applet-config.json']?.default || {};
+const env = import.meta.env;
+
+export const firebaseConfig = {
+  projectId: (env.VITE_FIREBASE_PROJECT_ID as string) || localConfig.projectId || '',
+  appId: (env.VITE_FIREBASE_APP_ID as string) || localConfig.appId || '',
+  apiKey: (env.VITE_FIREBASE_API_KEY as string) || localConfig.apiKey || '',
+  authDomain: (env.VITE_FIREBASE_AUTH_DOMAIN as string) || localConfig.authDomain || '',
+  firestoreDatabaseId: (env.VITE_FIREBASE_DATABASE_ID as string) || localConfig.firestoreDatabaseId || '',
+  storageBucket: (env.VITE_FIREBASE_STORAGE_BUCKET as string) || localConfig.storageBucket || '',
+  messagingSenderId: (env.VITE_FIREBASE_MESSAGING_SENDER_ID as string) || localConfig.messagingSenderId || '',
+};
+
+export const isFirebaseConfigured = Boolean(
+  firebaseConfig.apiKey && 
+  firebaseConfig.projectId && 
+  !firebaseConfig.apiKey.includes('Placeholder')
+);
+
+const app = !getApps().length
+  ? initializeApp(
+      isFirebaseConfigured
+        ? firebaseConfig
+        : {
+            apiKey: 'AIzaPlaceholderForDevelopmentOnly',
+            projectId: 'placeholder-project',
+            appId: '1:000000000000:web:0000000000000000000000',
+          }
+    )
+  : getApp();
 
 export const auth = getAuth(app);
 export const db = firebaseConfig.firestoreDatabaseId
@@ -28,6 +58,9 @@ export const googleProvider = new GoogleAuthProvider();
 
 // Test connection on boot per guidelines
 export async function testFirestoreConnection(): Promise<boolean> {
+  if (!isFirebaseConfigured) {
+    return false;
+  }
   try {
     await getDocFromServer(doc(db, 'test', 'connection'));
     return true;

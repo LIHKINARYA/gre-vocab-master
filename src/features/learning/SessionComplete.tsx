@@ -6,9 +6,10 @@ interface SessionCompleteProps {
   correct: number;
   total: number;
   onDone: () => void;
+  onReviewRecap?: () => void;
 }
 
-export function SessionComplete({ xpEarned, correct, total, onDone }: SessionCompleteProps) {
+export function SessionComplete({ xpEarned, correct, total, onDone, onReviewRecap }: SessionCompleteProps) {
   const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
 
   return (
@@ -51,9 +52,16 @@ export function SessionComplete({ xpEarned, correct, total, onDone }: SessionCom
         </p>
       )}
 
-      <Button className="mt-6" onClick={onDone}>
-        Back to dashboard
-      </Button>
+      <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+        {total > 0 && onReviewRecap && (
+          <Button onClick={onReviewRecap}>
+            Review Session Words (Recap) →
+          </Button>
+        )}
+        <Button variant={total > 0 && onReviewRecap ? 'ghost' : 'primary'} onClick={onDone}>
+          Back to dashboard
+        </Button>
+      </div>
     </div>
   );
 }

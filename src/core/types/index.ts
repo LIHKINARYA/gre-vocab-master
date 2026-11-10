@@ -19,6 +19,15 @@ export interface Word {
   relatedWords: string[];
   greFrequency: number; // 1 (rare) – 5 (very common)
   tags: string[];
+  group?: number;
+}
+
+export interface MicroSet {
+  id: number;
+  title: string;
+  subtitle: string;
+  wordIds: string[];
+  theme: string;
 }
 
 // ── Spaced repetition (SM-2 style) ──────────────────────────────────

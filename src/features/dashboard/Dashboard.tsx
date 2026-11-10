@@ -3,18 +3,50 @@ import { StatCard } from './StatCard';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { Button } from '@/components/ui/Button';
 import { useDashboardStats } from '@/hooks/useDashboardStats';
+import { useSessionRecap } from '@/hooks/useSessionRecap';
 import { AchievementsPanel } from '@/features/gamification/AchievementsPanel';
+import { RegisterCallout } from '@/features/auth/RegisterCallout';
+import { MicroSetExplorer } from '@/features/sets/MicroSetExplorer';
+import { Zap, ArrowRight } from 'lucide-react';
+import type { MicroSet } from '@/core/types';
+import type { User } from 'firebase/auth';
 
 interface DashboardProps {
   onStartLearning: () => void;
   onStartCram: () => void;
+  onSelectMicroSet: (set: MicroSet) => void;
+  onQuizMicroSet?: (set: MicroSet) => void;
+  onViewMicroSetWords?: (set: MicroSet) => void;
+  onViewAllSets?: () => void;
+  onOpenRecap?: () => void;
+  user: User | null;
+  onOpenAuth: () => void;
 }
 
-export function Dashboard({ onStartLearning, onStartCram }: DashboardProps) {
+export function Dashboard({
+  onStartLearning,
+  onStartCram,
+  onSelectMicroSet,
+  onQuizMicroSet,
+  onViewMicroSetWords,
+  onViewAllSets,
+  onOpenRecap,
+  user,
+  onOpenAuth,
+}: DashboardProps) {
   const s = useDashboardStats();
+  const { sessionSummaries, todaySummaries, stats: recapStats } = useSessionRecap('session');
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
+      {!user && (
+        <RegisterCallout
+          onOpenAuth={onOpenAuth}
+          streak={s.currentStreak}
+          wordCount={s.wordsLearned}
+        />
+      )}
+
       <motion.header
         initial={{ opacity: 0, y: -8 }}
         animate={{ opacity: 1, y: 0 }}
@@ -49,6 +81,80 @@ export function Dashboard({ onStartLearning, onStartCram }: DashboardProps) {
           <Button onClick={onStartLearning}>Start Learning →</Button>
         </div>
       </motion.header>
+
+      {/* Today's Study & Session Recap Card */}
+      {(todaySummaries.length > 0 || sessionSummaries.length > 0) && (
+        <motion.div
+          initial={{ opacity: 0, y: 6 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="rounded-2xl border border-(--color-gold)/30 bg-gradient-to-r from-(--color-gold-soft)/40 via-white/40 to-(--color-gold-soft)/20 dark:from-(--color-gold)/15 dark:via-white/5 dark:to-transparent p-5 mb-8 shadow-xs"
+        >
+          <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
+            <div className="flex items-center gap-2.5">
+              <div className="p-2 rounded-xl bg-(--color-gold)/20 text-(--color-gold)">
+                <Zap className="w-4 h-4" />
+              </div>
+              <div>
+                <p className="font-display text-base font-semibold text-(--color-ink) dark:text-(--color-paper)">
+                  Today's Words & Session Recap
+                </p>
+                <p className="text-xs text-(--color-slate)">
+                  {todaySummaries.length} word{todaySummaries.length === 1 ? '' : 's'} studied today
+                  {sessionSummaries.length > 0 ? ` (${sessionSummaries.length} in this session)` : ''} · {recapStats.accuracy}% recall accuracy
+                </p>
+              </div>
+            </div>
+
+            {onOpenRecap && (
+              <Button onClick={onOpenRecap} className="text-xs px-3 py-1.5 flex items-center gap-1.5">
+                <span>Review Recap ({todaySummaries.length})</span>
+                <ArrowRight className="w-3.5 h-3.5" />
+              </Button>
+            )}
+          </div>
+
+          <div className="flex flex-wrap items-center gap-1.5">
+            {todaySummaries.slice(0, 10).map((item) => (
+              <span
+                key={item.word.id}
+                className={`text-xs px-2.5 py-1 rounded-lg border font-medium ${
+                  item.lastRating === 'again'
+                    ? 'border-rose-400/40 bg-rose-50/50 dark:bg-rose-950/20 text-(--color-rust)'
+                    : 'border-(--color-ink)/10 dark:border-(--color-paper)/10 bg-white/60 dark:bg-white/5 text-(--color-ink) dark:text-(--color-paper)'
+                }`}
+              >
+                {item.word.word}
+              </span>
+            ))}
+            {todaySummaries.length > 10 && (
+              <span className="text-xs text-(--color-slate) pl-1">
+                +{todaySummaries.length - 10} more
+              </span>
+            )}
+          </div>
+        </motion.div>
+      )}
+
+      {/* Prepelly-Style 25-Word Micro-Sets Explorer */}
+      <div>
+        <div className="flex items-center justify-between mb-1">
+          <span />
+          {onViewAllSets && (
+            <button
+              type="button"
+              onClick={onViewAllSets}
+              className="text-xs font-semibold text-(--color-gold) hover:underline cursor-pointer flex items-center gap-1"
+            >
+              Curriculum tab →
+            </button>
+          )}
+        </div>
+        <MicroSetExplorer
+          onSelectSet={onSelectMicroSet}
+          onQuizSet={onQuizMicroSet}
+          onViewWords={onViewMicroSetWords}
+        />
+      </div>
 
       <motion.div
         initial={{ opacity: 0 }}

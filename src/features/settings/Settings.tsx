@@ -2,9 +2,18 @@ import { useState, useRef } from 'react';
 import { useAppStore } from '@/store/useAppStore';
 import { useDashboardStats } from '@/hooks/useDashboardStats';
 import { Button } from '@/components/ui/Button';
-import { Download, Upload, Copy, Check, Database, AlertCircle, CheckCircle2, Terminal } from 'lucide-react';
+import { Download, Upload, Copy, Check, Database, AlertCircle, CheckCircle2, Terminal, Cloud, User as UserIcon, LogOut, RefreshCw } from 'lucide-react';
+import type { User } from 'firebase/auth';
 
-export function Settings() {
+interface SettingsProps {
+  user?: User | null;
+  syncing?: boolean;
+  onOpenAuth?: () => void;
+  onLogout?: () => void;
+  onSyncNow?: () => void;
+}
+
+export function Settings({ user, syncing, onOpenAuth, onLogout, onSyncNow }: SettingsProps) {
   const progress = useAppStore((s) => s.progress);
   const setTestDate = useAppStore((s) => s.setTestDate);
   const setDailyGoal = useAppStore((s) => s.setDailyGoal);
@@ -80,6 +89,66 @@ export function Settings() {
       </header>
 
       <div className="space-y-6">
+        {/* Firebase Cloud Sync & Account */}
+        <section className="rounded-xl border border-(--color-gold)/30 bg-(--color-gold-soft)/20 dark:bg-(--color-gold)/10 p-5">
+          <div className="flex items-center justify-between mb-3">
+            <div className="flex items-center gap-2">
+              <Cloud className="w-5 h-5 text-(--color-gold)" />
+              <h2 className="text-sm font-semibold">Cloud Account & Sync</h2>
+            </div>
+            {user ? (
+              <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-(--color-verdigris) bg-(--color-verdigris)/15 px-2 py-0.5 rounded-md">
+                Connected
+              </span>
+            ) : (
+              <span className="text-[11px] text-(--color-slate)">
+                Local Guest
+              </span>
+            )}
+          </div>
+
+          {user ? (
+            <div className="space-y-3">
+              <p className="text-xs text-(--color-slate)">
+                Logged in as <strong className="text-(--color-ink) dark:text-(--color-paper)">{user.email}</strong>. Your vocabulary flashcards and review intervals sync automatically to Google Cloud Firestore.
+              </p>
+              <div className="flex items-center gap-2 pt-1">
+                <Button
+                  variant="secondary"
+                  disabled={syncing}
+                  onClick={onSyncNow}
+                  className="flex items-center gap-1.5 text-xs py-1.5"
+                >
+                  <RefreshCw className={`w-3.5 h-3.5 ${syncing ? 'animate-spin' : ''}`} />
+                  {syncing ? 'Syncing...' : 'Sync to Cloud Now'}
+                </Button>
+                <Button
+                  variant="ghost"
+                  onClick={onLogout}
+                  className="flex items-center gap-1.5 text-xs py-1.5 text-(--color-rust)"
+                >
+                  <LogOut className="w-3.5 h-3.5" />
+                  Sign Out
+                </Button>
+              </div>
+            </div>
+          ) : (
+            <div className="space-y-3">
+              <p className="text-xs text-(--color-slate)">
+                Sign in to back up your study streaks, mastery statistics, and SM-2 flashcard schedules to the cloud.
+              </p>
+              <Button
+                variant="primary"
+                onClick={onOpenAuth}
+                className="flex items-center gap-2 text-xs py-1.5"
+              >
+                <UserIcon className="w-3.5 h-3.5" />
+                Sign In / Register with Google or Email
+              </Button>
+            </div>
+          )}
+        </section>
+
         <section className="rounded-xl border border-(--color-ink)/10 dark:border-(--color-paper)/10 bg-white/60 dark:bg-white/5 p-5">
           <label className="block text-sm font-semibold mb-2">GRE Test Date</label>
           <input

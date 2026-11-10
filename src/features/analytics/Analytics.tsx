@@ -18,6 +18,7 @@ import { useAnalyticsData } from '@/hooks/useAnalyticsData';
 import { useDashboardStats } from '@/hooks/useDashboardStats';
 import { useAppStore } from '@/store/useAppStore';
 import { StatCard } from '@/features/dashboard/StatCard';
+import { getMicroSets } from '@/core/sets/microSets';
 
 const inkSoft = '#5b6478';
 
@@ -25,6 +26,8 @@ export function Analytics() {
   const data = useAnalyticsData(14);
   const dashboard = useDashboardStats();
   const quizzesCompleted = useAppStore((s) => s.progress.quizzesCompleted);
+  const cards = useAppStore((s) => s.cards);
+  const microSets = getMicroSets();
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -152,6 +155,46 @@ export function Analytics() {
           </div>
         </motion.div>
       </div>
+
+      {/* Curriculum Micro-Sets Mastery Breakdown */}
+      <motion.div
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3 }}
+        className="rounded-xl border border-(--color-ink)/10 dark:border-(--color-paper)/10 bg-white/60 dark:bg-white/5 p-5 mt-6"
+      >
+        <p className="font-display text-lg font-semibold mb-3">GRE 34 Groups Mastery Matrix</p>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
+          {microSets.map((s) => {
+            const mastered = s.wordIds.filter((id) => cards[id]?.mastered).length;
+            const learning = s.wordIds.filter((id) => cards[id] && cards[id]!.repetitions > 0).length;
+            const pct = Math.round((mastered / s.wordIds.length) * 100);
+            return (
+              <div
+                key={s.id}
+                className="p-3 rounded-lg border border-(--color-ink)/5 dark:border-(--color-paper)/5 bg-white/40 dark:bg-white/5"
+              >
+                <div className="flex justify-between items-center text-xs mb-1 font-medium">
+                  <span className="text-(--color-ink) dark:text-(--color-paper) truncate max-w-[170px]">{s.title}</span>
+                  <span className="font-mono text-(--color-gold)">{pct}%</span>
+                </div>
+                <div className="w-full bg-gray-200 dark:bg-gray-800 rounded-full h-1.5 overflow-hidden">
+                  <div
+                    className="bg-(--color-gold) h-1.5 rounded-full transition-all"
+                    style={{ width: `${pct}%` }}
+                  />
+                </div>
+                <div className="flex justify-between text-[10px] text-(--color-slate) mt-1.5">
+                  <span>{mastered}/{s.wordIds.length} mastered</span>
+                  <span>{learning} in review</span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </motion.div>
     </div>
   );
 }
+
+

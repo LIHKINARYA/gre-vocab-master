@@ -57,8 +57,19 @@ export function xpForLevel(level: number): number {
   return 50 * level * level;
 }
 
+export interface SessionReviewItem {
+  wordId: string;
+  rating: ReviewRating;
+  responseTimeMs: number;
+  timestamp: number;
+  isNewCard: boolean;
+}
+
 interface AppStore extends AppState {
   hydrated: boolean;
+  sessionStartedAt: number;
+  sessionReviews: SessionReviewItem[];
+  resetSession: () => void;
   hydrate: () => Promise<void>;
   persist: () => Promise<void>;
 
@@ -90,6 +101,9 @@ export const useAppStore = create<AppStore>((set, get) => ({
   progress: defaultProgress,
   dailyStats: {},
   hydrated: false,
+  sessionStartedAt: Date.now(),
+  sessionReviews: [],
+  resetSession: () => set({ sessionStartedAt: Date.now(), sessionReviews: [] }),
 
   hydrate: async () => {
     const saved = await storage.get<AppState>(STORAGE_KEY);
@@ -182,8 +196,17 @@ export const useAppStore = create<AppStore>((set, get) => ({
         },
       };
 
+      const sessionItem: SessionReviewItem = {
+        wordId,
+        rating,
+        responseTimeMs,
+        timestamp: now,
+        isNewCard,
+      };
+
       return {
         cards: { ...state.cards, [wordId]: nextCard },
+        sessionReviews: [...state.sessionReviews, sessionItem],
         progress: {
           ...state.progress,
           xp,
@@ -289,7 +312,13 @@ export const useAppStore = create<AppStore>((set, get) => ({
   },
 
   resetProgress: () => {
-    set({ cards: {}, progress: defaultProgress, dailyStats: {} });
+    set({
+      cards: {},
+      progress: defaultProgress,
+      dailyStats: {},
+      sessionReviews: [],
+      sessionStartedAt: Date.now(),
+    });
     get().persist();
   },
 

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Volume2, Bookmark, Heart, Edit3, Check } from 'lucide-react';
+import { Volume2, Bookmark, Heart, Edit3, Check, Eye, Film } from 'lucide-react';
 import type { Word } from '@/core/types';
 import { useAppStore } from '@/store/useAppStore';
 
@@ -149,10 +149,17 @@ export function WordCard({ word, revealed }: WordCardProps) {
               </div>
 
               <div className="rounded-lg bg-(--color-gold-soft)/40 dark:bg-(--color-gold)/10 p-3 text-sm">
-                <p className="text-[11px] uppercase tracking-wide text-(--color-gold) font-semibold mb-1">
-                  Memory trick
-                </p>
-                <p className="text-(--color-ink) dark:text-(--color-paper)">{word.mnemonic}</p>
+                <div className="flex items-center gap-1.5 text-[11px] uppercase tracking-wide text-(--color-gold) font-semibold mb-1">
+                  <Eye className="w-3.5 h-3.5" />
+                  <span>Dual-Coding Visual Anchor</span>
+                </div>
+                <p className="text-(--color-ink) dark:text-(--color-paper) font-medium">{word.mnemonic}</p>
+                {word.commonGreUsage && (
+                  <p className="text-xs text-(--color-slate) mt-1.5 pt-1.5 border-t border-(--color-gold)/20 flex items-center gap-1">
+                    <Film className="w-3 h-3 text-(--color-gold) shrink-0" />
+                    <span><strong>GRE Context:</strong> {word.commonGreUsage}</span>
+                  </p>
+                )}
               </div>
 
               <div className="text-sm space-y-1">

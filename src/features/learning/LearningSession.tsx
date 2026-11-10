@@ -5,15 +5,18 @@ import { useLearningSession } from './useLearningSession';
 import { useKeyboardShortcuts } from '@/hooks/useKeyboardShortcuts';
 import { ProgressBar } from '@/components/ui/ProgressBar';
 import { Button } from '@/components/ui/Button';
-import type { ReviewRating } from '@/core/types';
+import type { ReviewRating, Word } from '@/core/types';
 
 interface LearningSessionProps {
   onExit: () => void;
+  words?: Word[];
+  title?: string;
+  onReviewRecap?: () => void;
 }
 
-export function LearningSession({ onExit }: LearningSessionProps) {
+export function LearningSession({ onExit, words, title, onReviewRecap }: LearningSessionProps) {
   const { currentWord, phase, index, total, progressFraction, sessionXp, sessionCorrect, reveal, rate } =
-    useLearningSession();
+    useLearningSession(words);
 
   useKeyboardShortcuts(
     {
@@ -33,6 +36,11 @@ export function LearningSession({ onExit }: LearningSessionProps) {
         <Button variant="ghost" onClick={onExit}>
           ← Exit (Esc)
         </Button>
+        {title && (
+          <span className="text-xs font-semibold uppercase tracking-wider text-(--color-gold) truncate max-w-[200px] sm:max-w-none">
+            {title}
+          </span>
+        )}
         {phase !== 'complete' && (
           <span className="text-sm text-(--color-slate) font-mono">
             {index + 1} / {total}
@@ -47,7 +55,13 @@ export function LearningSession({ onExit }: LearningSessionProps) {
       )}
 
       {phase === 'complete' || !currentWord ? (
-        <SessionComplete xpEarned={sessionXp} correct={sessionCorrect} total={total} onDone={onExit} />
+        <SessionComplete
+          xpEarned={sessionXp}
+          correct={sessionCorrect}
+          total={total}
+          onDone={onExit}
+          onReviewRecap={onReviewRecap}
+        />
       ) : (
         <>
           <WordCard word={currentWord} revealed={phase === 'revealed'} />

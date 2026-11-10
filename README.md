@@ -48,11 +48,15 @@ Preparing for GRE Verbal Reasoning requires committing hundreds of high-frequenc
 
 ## ✨ Key Features
 
-### 🗂️ 1. Active Recall Learning Mode
-- **Prompt & Reveal Workflow**: Test your recall first, then flip to examine full dictionary definitions, secondary meanings, mnemonics, roots/etymology, and real GRE-style sentence examples.
-- **Natural Speech Synthesis**: Hear proper English audio pronunciation out loud using the browser's native Web Speech API.
-- **Mnemonic & Note Editor**: Add your own custom personal notes or memory hooks directly to any word card while reviewing.
-- **One-Tap Bookmarking & Favorites**: Mark words for special attention or rapid revision.
+### 📚 3. Prepelly-Inspired Micro-Sets & Dual Coding
+- **25-Word Micro-Curriculum**: Words are structured into bite-sized 25-word thematic micro-sets (e.g., *Essential Core, Intellectual Nuance, Rhetorical Edge, Arcane Masters*) to eliminate cognitive fatigue and maintain high daily momentum.
+- **Dual Coding Visual Anchors**: Every card back features a cognitive dual-coding anchor pairing high-yield GRE context with vivid mnemonic associations.
+- **Micro-Set Progress Tracking**: Each set displays individualized mastery meters and progress indicators directly on the study board.
+
+### ☁️ 4. Google & Email Cloud Sync (Firebase)
+- **Cross-Device Sync**: Sign in with Google or Email/Password to store your SM-2 flashcard intervals, study streaks, and level XP in Google Cloud Firestore.
+- **Offline-First & Graceful Merge**: Study uninterrupted offline; upon authentication, local progress is seamlessly backed up and merged with your cloud account.
+- **User-Level Security Isolation**: Cloud Firestore rules strictly isolate individual student ledgers (`request.auth.uid == userId`).
 
 ### 🧠 2. Diagnostic Quiz Engine
 - **4 Flexible Quiz Modes**:

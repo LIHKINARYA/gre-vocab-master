@@ -2,9 +2,11 @@ import { useMemo, useState } from 'react';
 import { useAppStore, words } from '@/store/useAppStore';
 import { checkMastery, isLearned, isStruggling } from '@/core/srs/sm2';
 import type { CardState, Word } from '@/core/types';
+import { isSameCalendarDay } from '@/hooks/useSessionRecap';
 
 export type WordBankFilter =
   | 'all'
+  | 'today'
   | 'learned'
   | 'mastered'
   | 'due'
@@ -24,6 +26,12 @@ function matchesFilter(entry: WordBankEntry, filter: WordBankFilter, now: number
   switch (filter) {
     case 'all':
       return true;
+    case 'today':
+      return (
+        !!card &&
+        ((card.lastReviewed && isSameCalendarDay(card.lastReviewed, now)) ||
+          card.history?.some((h) => isSameCalendarDay(h.timestamp, now)))
+      );
     case 'learned':
       return !!card && isLearned(card);
     case 'mastered':
@@ -59,11 +67,12 @@ function sortEntries(entries: WordBankEntry[], sort: WordBankSort): WordBankEntr
   }
 }
 
-export function useWordBank() {
+export function useWordBank(initialSetId?: number | null) {
   const cards = useAppStore((s) => s.cards);
-  const [filter, setFilter] = useState<WordBankFilter>('learned');
+  const [filter, setFilter] = useState<WordBankFilter>('all');
   const [sort, setSort] = useState<WordBankSort>('alpha');
   const [search, setSearch] = useState('');
+  const [selectedSetId, setSelectedSetId] = useState<number | null>(initialSetId ?? null);
   const [mountedAt] = useState(() => Date.now());
 
   const entries = useMemo(() => {
@@ -75,6 +84,11 @@ export function useWordBank() {
     }));
 
     const filtered = all.filter((entry) => {
+      // Filter by group if selected
+      if (selectedSetId !== null) {
+        if (entry.word.group !== selectedSetId) return false;
+      }
+
       if (!matchesFilter(entry, filter, mountedAt)) return false;
       if (!q) return true;
       return (
@@ -85,12 +99,21 @@ export function useWordBank() {
     });
 
     return sortEntries(filtered, sort);
-  }, [cards, filter, sort, search, mountedAt]);
+  }, [cards, filter, sort, search, selectedSetId, mountedAt]);
 
   const counts = useMemo(() => {
-    const all = words.map((word) => ({ word, card: cards[word.id] }));
+    const pool = selectedSetId !== null
+      ? words.filter((w) => w.group === selectedSetId)
+      : words;
+    const all = pool.map((word) => ({ word, card: cards[word.id] }));
     return {
       all: all.length,
+      today: all.filter(
+        (e) =>
+          e.card &&
+          ((e.card.lastReviewed && isSameCalendarDay(e.card.lastReviewed, mountedAt)) ||
+            e.card.history?.some((h) => isSameCalendarDay(h.timestamp, mountedAt))),
+      ).length,
       learned: all.filter((e) => e.card && isLearned(e.card)).length,
       mastered: all.filter((e) => e.card && checkMastery(e.card)).length,
       due: all.filter((e) => e.card && e.card.nextReview <= mountedAt).length,
@@ -99,7 +122,19 @@ export function useWordBank() {
       favorites: all.filter((e) => e.card && e.card.favorite).length,
       notStarted: all.filter((e) => !e.card).length,
     };
-  }, [cards, mountedAt]);
+  }, [cards, selectedSetId, mountedAt]);
 
-  return { entries, filter, setFilter, sort, setSort, search, setSearch, counts };
+  return {
+    entries,
+    filter,
+    setFilter,
+    sort,
+    setSort,
+    search,
+    setSearch,
+    counts,
+    selectedSetId,
+    setSelectedSetId,
+  };
 }
+

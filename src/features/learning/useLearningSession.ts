@@ -6,7 +6,7 @@ type Phase = 'prompt' | 'revealed' | 'complete';
 
 const MAX_DUE_PER_SESSION = 50;
 
-export function useLearningSession() {
+export function useLearningSession(initialWords?: Word[]) {
   const dueWords = useAppStore((s) => s.dueWords);
   const newWords = useAppStore((s) => s.newWords);
   const progress = useAppStore((s) => s.progress);
@@ -14,6 +14,9 @@ export function useLearningSession() {
 
   // Snapshot the queue once, at session start, so it doesn't shift mid-session.
   const [queue] = useState<Word[]>(() => {
+    if (initialWords && initialWords.length > 0) {
+      return initialWords;
+    }
     const due = dueWords().slice(0, MAX_DUE_PER_SESSION);
     const dueIds = new Set(due.map((w) => w.id));
     const remainingGoal = Math.max(0, progress.dailyGoal - progress.newWordsToday);

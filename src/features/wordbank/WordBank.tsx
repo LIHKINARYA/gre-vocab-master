@@ -1,12 +1,16 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useWordBank, type WordBankFilter, type WordBankSort } from '@/hooks/useWordBank';
 import { checkMastery, isLearned, isStruggling } from '@/core/srs/sm2';
 import type { WordBankEntry } from '@/hooks/useWordBank';
 import { WordCard } from '@/features/learning/WordCard';
 import { useAppStore, words } from '@/store/useAppStore';
+import { getMicroSets } from '@/core/sets/microSets';
+import { Layers, X } from 'lucide-react';
 
 const filters: { id: WordBankFilter; label: string }[] = [
+  { id: 'all', label: 'All' },
+  { id: 'today', label: 'Reviewed Today' },
   { id: 'learned', label: 'Learned' },
   { id: 'mastered', label: 'Mastered' },
   { id: 'due', label: 'Due' },
@@ -14,7 +18,6 @@ const filters: { id: WordBankFilter; label: string }[] = [
   { id: 'bookmarked', label: 'Bookmarked' },
   { id: 'favorites', label: 'Favorites' },
   { id: 'not-started', label: 'Not Started' },
-  { id: 'all', label: 'All' },
 ];
 
 function statusBadge(entry: WordBankEntry) {
@@ -36,31 +39,80 @@ function formatNextReview(ts: number): string {
   return `${Math.round(days / 7)}w`;
 }
 
-export function WordBank() {
-  const { entries, filter, setFilter, sort, setSort, search, setSearch, counts } = useWordBank();
+interface WordBankProps {
+  initialSetId?: number | null;
+  onClearSetFilter?: () => void;
+}
+
+export function WordBank({ initialSetId = null, onClearSetFilter }: WordBankProps) {
+  const {
+    entries,
+    filter,
+    setFilter,
+    sort,
+    setSort,
+    search,
+    setSearch,
+    counts,
+    selectedSetId,
+    setSelectedSetId,
+  } = useWordBank(initialSetId);
+
   const [selectedWordId, setSelectedWordId] = useState<string | null>(null);
   const cards = useAppStore((s) => s.cards);
   const toggleMastered = useAppStore((s) => s.toggleMastered);
+  const microSets = getMicroSets();
+
+  useEffect(() => {
+    if (initialSetId !== undefined) {
+      setSelectedSetId(initialSetId);
+    }
+  }, [initialSetId, setSelectedSetId]);
 
   const selectedWord = selectedWordId ? words.find((w) => w.id === selectedWordId) : null;
   const selectedCard = selectedWordId ? cards[selectedWordId] : undefined;
   const selected: WordBankEntry | null = selectedWord ? { word: selectedWord, card: selectedCard } : null;
+
+  const currentSet = selectedSetId ? microSets.find((s) => s.id === selectedSetId) : null;
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
       <motion.header
         initial={{ opacity: 0, y: -8 }}
         animate={{ opacity: 1, y: 0 }}
-        className="mb-6"
+        className="mb-6 flex flex-wrap items-center justify-between gap-4"
       >
-        <p className="text-xs uppercase tracking-[0.2em] text-(--color-gold) font-semibold">Word Bank</p>
-        <h1 className="font-display text-3xl font-semibold text-(--color-ink) dark:text-(--color-paper)">
-          Your Vocabulary
-        </h1>
-        <p className="text-sm text-(--color-slate) mt-1">
-          {counts.learned} learned · {counts.mastered} mastered · {counts.due} due · {counts.struggling}{' '}
-          struggling
-        </p>
+        <div>
+          <p className="text-xs uppercase tracking-[0.2em] text-(--color-gold) font-semibold">Word Bank</p>
+          <h1 className="font-display text-3xl font-semibold text-(--color-ink) dark:text-(--color-paper)">
+            Your Vocabulary
+          </h1>
+          <p className="text-sm text-(--color-slate) mt-1">
+            {counts.learned} learned · {counts.mastered} mastered · {counts.due} due · {counts.struggling}{' '}
+            struggling
+          </p>
+        </div>
+
+        {/* Micro-set filter indicator pill */}
+        {currentSet && (
+          <div className="flex items-center gap-2 bg-(--color-gold-soft)/40 dark:bg-(--color-gold)/10 border border-(--color-gold)/30 rounded-xl px-3.5 py-1.5 text-xs">
+            <Layers className="w-3.5 h-3.5 text-(--color-gold)" />
+            <span className="font-semibold text-(--color-ink) dark:text-(--color-paper)">
+              {currentSet.title}
+            </span>
+            <button
+              type="button"
+              onClick={() => {
+                setSelectedSetId(null);
+                onClearSetFilter?.();
+              }}
+              title="Show all sets"
+              className="ml-1 text-(--color-slate) hover:text-(--color-ink) dark:hover:text-(--color-paper)"
+            >
+              <X className="w-3.5 h-3.5" />
+            </button>
+          </div>
+        )}
       </motion.header>
 
       <div className="flex flex-col sm:flex-row gap-3 mb-4">
@@ -71,6 +123,24 @@ export function WordBank() {
           onChange={(e) => setSearch(e.target.value)}
           className="flex-1 rounded-lg border border-(--color-ink)/15 dark:border-(--color-paper)/15 bg-white/60 dark:bg-white/5 px-3 py-2 text-sm"
         />
+
+        {/* Micro-set dropdown selector */}
+        <select
+          value={selectedSetId ?? ''}
+          onChange={(e) => {
+            const val = e.target.value ? Number(e.target.value) : null;
+            setSelectedSetId(val);
+          }}
+          className="rounded-lg border border-(--color-ink)/15 dark:border-(--color-paper)/15 bg-white/60 dark:bg-white/5 px-3 py-2 text-sm font-medium"
+        >
+          <option value="">All Curriculum Sets (Whole Bank)</option>
+          {microSets.map((s) => (
+            <option key={s.id} value={s.id}>
+              {s.title} ({s.wordIds.length} words)
+            </option>
+          ))}
+        </select>
+
         <select
           value={sort}
           onChange={(e) => setSort(e.target.value as WordBankSort)}
@@ -99,6 +169,7 @@ export function WordBank() {
           </button>
         ))}
       </div>
+
 
       <div className="grid lg:grid-cols-2 gap-6">
         <div className="space-y-2 max-h-[60vh] overflow-y-auto pr-1">

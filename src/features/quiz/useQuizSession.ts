@@ -3,8 +3,9 @@ import { useAppStore, words } from '@/store/useAppStore';
 import { buildQuiz, type QuizQuestion, type QuizQuestionType } from '@/core/quiz/quizGenerator';
 import { isDue, isLearned, isStruggling } from '@/core/srs/sm2';
 import type { CardState, ReviewRating, Word } from '@/core/types';
+import { isSameCalendarDay } from '@/hooks/useSessionRecap';
 
-export type QuizSource = 'due' | 'struggling' | 'learned' | 'new' | 'all';
+export type QuizSource = 'due' | 'struggling' | 'learned' | 'new' | 'all' | 'session' | 'today' | `set-${number}`;
 
 export interface QuizConfig {
   source: QuizSource;
@@ -15,6 +16,25 @@ export interface QuizConfig {
 type Phase = 'setup' | 'question' | 'answered' | 'complete';
 
 export function sourceWordCount(source: QuizSource, cards: Record<string, CardState>, now = Date.now()): number {
+  if (source.startsWith('set-')) {
+    const setId = Number(source.replace('set-', ''));
+    return words.filter((w) => w.group === setId).length;
+  }
+  if (source === 'session') {
+    const sessionReviews = useAppStore.getState().sessionReviews;
+    const set = new Set(sessionReviews.map((r) => r.wordId));
+    return words.filter((w) => set.has(w.id)).length;
+  }
+  if (source === 'today') {
+    return words.filter((w) => {
+      const card = cards[w.id];
+      if (!card) return false;
+      return (
+        (card.lastReviewed && isSameCalendarDay(card.lastReviewed, now)) ||
+        card.history?.some((h) => isSameCalendarDay(h.timestamp, now))
+      );
+    }).length;
+  }
   switch (source) {
     case 'due':
       return words.filter((w) => cards[w.id] && isDue(cards[w.id], now)).length;
@@ -32,6 +52,25 @@ export function sourceWordCount(source: QuizSource, cards: Record<string, CardSt
 }
 
 function wordsForSource(source: QuizSource, cards: Record<string, CardState>, now = Date.now()): Word[] {
+  if (source.startsWith('set-')) {
+    const setId = Number(source.replace('set-', ''));
+    return words.filter((w) => w.group === setId);
+  }
+  if (source === 'session') {
+    const sessionReviews = useAppStore.getState().sessionReviews;
+    const set = new Set(sessionReviews.map((r) => r.wordId));
+    return words.filter((w) => set.has(w.id));
+  }
+  if (source === 'today') {
+    return words.filter((w) => {
+      const card = cards[w.id];
+      if (!card) return false;
+      return (
+        (card.lastReviewed && isSameCalendarDay(card.lastReviewed, now)) ||
+        card.history?.some((h) => isSameCalendarDay(h.timestamp, now))
+      );
+    });
+  }
   switch (source) {
     case 'due':
       return words.filter((w) => cards[w.id] && isDue(cards[w.id], now));
@@ -47,6 +86,7 @@ function wordsForSource(source: QuizSource, cards: Record<string, CardState>, no
       return [];
   }
 }
+
 
 export interface MissedItem {
   word: Word;
